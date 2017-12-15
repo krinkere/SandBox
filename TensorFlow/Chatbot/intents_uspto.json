@@ -1,0 +1,35 @@
+{"intents": [
+        {"tag": "intellectual_property",
+         "patterns": ["INTELLECTUAL PROPERTY"],
+         "responses": ["Intellectual property (IP) refers to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce."]
+        },
+        {"tag": "101",
+         "patterns": ["101"],
+         "responses": ["It is type of rejection based on whether or not the claimed subject matter is subject matter eligible. 35 U.S.C. $101 'Whoever invents or discovers any new and useful process, machine, manufacture, composition of matter, or any new and useful improvement thereof, may obtain a patent therefor,...'"]
+        },
+        {"tag": "101_significantly_more",
+         "patterns": ["101 significantly more"],
+         "responses": ["Refer to this guide: https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/result/d0e197244.html?q=significantly%20more&ccb=on&ncb=off&icb=off&fcb=off&ver=current&syn=adj&results=compact&sort=relevance&cnt=10&index=1"]
+        },
+        {"tag": "102",
+         "patterns": ["102"],
+         "responses": ["It is type of rejection based on whether or not the claimed subject matter is novel."]
+        },
+        {"tag": "102A1",
+         "patterns": ["102(A)(1)"],
+         "responses": ["$ 102. Conditions for patentability; novelty (a) NOVELTY; PRIOR ART— a person shall be entitled to a patent unless— (1) the claimed invention was patented, described in a printed publication, or in public use, on sale, or otherwise available to the public before the effective filing date of the claimed invention. An essential part of the overall patent examination process is to determine whether those conditions are met for claims in an application. This determination is made after a complete search for the claimed invention is done. Conditions met: the claims lack 'novelty'(unless an exception applies) and are therefore unpatentable (Result: Reject claims under 35 U.S.C. $102(a)(1)). Conditions not met: no rejection is made under 35 U.S.C. $102(a)(1) (Patent is not necessarily issued because rejections under other statutes may still apply 35 U.S.C. $101, 35 U.S.C. $102(a)(2), 35 U.S.C. $103, 35 U.S.C. $112)"]
+        },
+        {"tag": "102A2",
+         "patterns": ["102(A)(2)"],
+         "responses": ["$ 102. Conditions for patentability; novelty (a) NOVELTY; PRIOR ART.—A person shall be entitled to a patent unless— . . . . (2) the claimed invention was described in a patent issued under section 151, or in an application for patent published or deemed published under section 122(b), in which the patent or application, as the case may be, names another inventor and was effectively filed before the effective filing date of the claimed invention."]
+        },
+        {"tag": "otherwise_available_to_the_public",
+         "patterns": ["OTHERWISE AVAILABLE TO THE PUBLIC"],
+         "responses": ["'Otherwise available to the public' is a catch-all provision of $102(a)(1) that has no counterpart in pre-AIA law. Examples: an oral presentation at a scientific meeting, a demonstration at a trade show, a lecture or speech, a statement made on a radio talk show, a YouTube video, Web site, or other on-line material (may also qualify as a 'printed publication'). Relevant Date for otherwise available to the public disclosure being used as prior art under 102(a)(1). The date the actual disclosure took place."]
+        },
+        {"tag": "in_public_use",
+         "patterns": ["IN PUBLIC USE" ],
+         "responses": ["Any 'use' or 'on sale' must be 'public'. This is different from pre-AIA law where 'sales' did not have to be 'public'. The 'use' or 'on sale' does not have to enable someone to make and use the invention under 35 U.S.C. $112(a). The 'use' or 'on sale' can occur anywhere, i.e., they can occur outside the United States. This is different from pre-AIA law where the 'use' or 'on sale' could only be in the United States. Relevant date for public use or on sale activity being used as prior art under 102(a)(1) - the date the actual 'use' or 'on sale' activity took place."]
+        }
+   ]
+}

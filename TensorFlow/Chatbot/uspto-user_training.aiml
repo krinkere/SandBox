@@ -1,0 +1,3216 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Elman V. Krinker"/>
+<meta name="language" content="en"/>
+
+<category>
+    <pattern>REASONS FOR ALLOWANCE</pattern>
+    <template>
+        Reasons for allowance. If the examiner believes that the record of the prosecution as a whole does not make clear his or her reasons for allowing a claim or claims, the examiner may set forth such reasoning. The reasons shall be incorporated into an Office action rejecting other claims of the application or patent under reexamination or be the subject of a separate communication to the applicant or patent owner. The applicant or patent owner may file a statement commenting on the reasons for allowance within such time as may be specified by the examiner. Failure by the examiner to respond to any statement commenting on reasons for allowance does not give rise to any implication.
+        <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s1302.html#d0e132661">More information</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ REASONS FOR ALLOWANCE</pattern>
+<template>
+<srai>REASONS FOR ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ REASONS FOR ALLOWANCE *</pattern>
+<template>
+<srai>REASONS FOR ALLOWANCE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MPEP LINK</pattern>
+    <template>
+        Here you go: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current">MPEP</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ MPEP LINK</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+<category>
+<pattern>_ MPEP LINK *</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+<category>
+<pattern>LINK TO MPEP</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+<category>
+<pattern>_ LINK TO MPEP</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+<category>
+<pattern>_ LINK TO MPEP *</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+<category>
+<pattern>MANUAL OF PATENT EXAMINING PROCEDURE LINK</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE LINK</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE LINK *</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+
+<category>
+    <pattern>WOLCOTT</pattern>
+    <template>
+        MPEP has a heritage dating back to 1920 to what became known as "Wolcott's Manual". "One of the most fruitful endeavors of the [Patent and Trademark Office] Society in the area of education was the publication of the first Manual of Patent Office Procedure. The first Manual was written by two employees of the Office and was published in 1920 by the Society. This Manual, with its eight revisions, often referred to as Wolcott's Manual, was the only procedural manual available until 1949 when the Patent Office assumed the publication of the Manual of Patent Examining Procedure."
+        Since 1920 the Manual and predecessor publication known as "Wolcott's Manual" have been the primary guidance for the Patent Examiner as to everything procedural going on at the Patent Office. In fact, the Manual was not a brand new endeavor but, rather, the continuation of the work of Clinton Leroy Wolcott who was the author of the major procedural work of the then Patent Office Society (later restyled as the Patent and Trademark Office Society), a voluntary professional organization comprised of Commerce Department employees.
+    </template>
+</category>
+<category>
+<pattern>_ WOLCOTT</pattern>
+<template>
+<srai>WOLCOTT</srai>
+</template>
+</category>
+<category>
+<pattern>_ WOLCOTT *</pattern>
+<template>
+<srai>WOLCOTT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>NON FINAL REJECTION</pattern>
+    <template>
+        Please refer to <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s2266.html#d0e231548">NON FINAL REJECTION</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ NON FINAL REJECTION</pattern>
+<template>
+<srai>NON FINAL REJECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ NON FINAL REJECTION *</pattern>
+<template>
+<srai>NON FINAL REJECTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>HOW MANY PAGES IN THE MPEP</pattern>
+    <template>
+        Over 3000 pages.
+    </template>
+</category>
+<category>
+<pattern>HOW LONG IS MPEP</pattern>
+<template>
+<srai>HOW MANY PAGES IN THE MPEP</srai>
+</template>
+</category>
+
+<category>
+    <pattern>HOW DO I EXAMINE A PATENT</pattern>
+    <template>
+        This seems like a good write up: <![CDATA[<a target="_new" href="http://www.coconutheadphones.com/googles-patent-applications-how-to-examine-them-yourself/">Googles Patent Applications and How to Examine them yourself</a>]]>
+    </template>
+</category>
+<category>
+<pattern>WHAT IS EXAMINATION OF A PATENT</pattern>
+<template>
+<srai>HOW DO I EXAMINE A PATENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ALLOWANCE</pattern>
+    <template>
+        You can find more information here <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s1303.html">ALLOWANCE</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ ALLOWANCE</pattern>
+<template>
+<srai>ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ALLOWANCE *</pattern>
+<template>
+<srai>ALLOWANCE</srai>
+</template>
+</category>
+<category>
+    <pattern>ISSUE</pattern>
+    <template>
+        <srai>ALLOWANCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ISSUE</pattern>
+<template>
+<srai>ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ISSUE *</pattern>
+<template>
+<srai>ALLOWANCE</srai>
+</template>
+</category>
+
+
+<category>
+    <pattern>CAN I DO A 2ND ACTION NON FINAL</pattern>
+    <template>
+        Not to my knowledge.
+    </template>
+</category>
+
+<category>
+    <pattern>REQUIREMENT FOR INFORMATION</pattern>
+    <template>
+        Refer to this article: <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s704.html">37 CFR 1.105  Requirements for information</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ REQUIREMENT FOR INFORMATION</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REQUIREMENT FOR INFORMATION *</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ 105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ 105 *</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>RULE 105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ RULE 105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ RULE 105 *</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>RULE 1.105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ RULE 1.105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ RULE 1.105 *</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FIRST TO FILE</pattern>
+    <template>
+        In a first-to-file system, the right to the grant of a patent for a given invention lies with the first person to file a patent application for protection of that invention, regardless of the date of actual invention.
+    </template>
+</category>
+<category>
+<pattern>_ FIRST TO FILE</pattern>
+<template>
+<srai>FIRST TO FILE</srai>
+</template>
+</category>
+<category>
+<pattern>_ FIRST TO FILE *</pattern>
+<template>
+<srai>FIRST TO FILE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FIRST TO DISCLOSE</pattern>
+    <template>
+        The concept of a "grace" period, under which early disclosure does not prevent the discloser from later filing and obtaining a patent, must be distinguished here from the FTI system. Germany and the UK formerly had a concept of grace period. Both FTI and grace period systems afforded the early discloser protection against later filers. The FTI system allowed non-disclosers to overturn established parties, whereas the grace system only protects early disclosers. The US moved to a grace system on 16 March 2013, which has been termed "first-to-disclose" by some writers
+    </template>
+</category>
+<category>
+<pattern>_ FIRST TO DISCLOSE</pattern>
+<template>
+<srai>FIRST TO DISCLOSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ FIRST TO DISCLOSE *</pattern>
+<template>
+<srai>FIRST TO DISCLOSE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FIRST TO INVENT</pattern>
+    <template>
+        Canada, the Philippines, and the United States had been among the only countries to use first-to-invent systems, but each switched to first-to-file in 1989, 1998, and 2013 respectively.
+
+        Invention in the U.S. is generally defined to comprise two steps: (1) conception of the invention and (2) reduction to practice of the invention. When an inventor conceives of an invention and diligently reduces the invention to practice (by filing a patent application, by practicing the invention, etc.), the inventor's date of invention will be the date of conception. Thus, provided an inventor is diligent in actually reducing an application to practice, he or she will be the first inventor and the inventor entitled to a patent, even if another files a patent application, constructively reducing the invention to practice, before the inventor.
+
+        However, the first applicant to file has the prima facie right to the grant of a patent. Under the first-to-invent system, when two people claim the same invention, the USPTO would conduct an interference proceeding between them to review evidence of conception, reduction to practice and diligence. Interference can be an expensive and time-consuming process.
+    </template>
+</category>
+<category>
+<pattern>_ FIRST TO INVENT</pattern>
+<template>
+<srai>FIRST TO INVENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ FIRST TO INVENT *</pattern>
+<template>
+<srai>FIRST TO INVENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PLACEHOLDER</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/result/d0e219279.html?q=placeholder&ccb=on&ncb=off&icb=off&fcb=off&ver=current&syn=adj&results=compact&sort=relevance&cnt=10&index=3">Placeholder reference</a>]]>
+    </template>
+</category>
+<category>
+<pattern>* * PLACEHOLDER</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> PLACEHOLDER</srai>
+</template>
+</category>
+<category>
+    <pattern>* PLACEHOLDER</pattern>
+    <template>
+        <srai>PLACEHOLDER</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>FILTER AS PLACEHOLDER TERM</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/result/d0e219279.html?q=112(f)&ccb=on&ncb=off&icb=off&fcb=off&ver=current&syn=adj&results=compact&sort=relevance&cnt=10&index=3">Filter as placeholder term</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ FILTER AS PLACEHOLDER TERM</pattern>
+<template>
+<srai>FILTER AS PLACEHOLDER TERM</srai>
+</template>
+</category>
+<category>
+<pattern>_ FILTER AS PLACEHOLDER TERM *</pattern>
+<template>
+<srai>FILTER AS PLACEHOLDER TERM</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PLACEHOLDER TERM SUGGEST INVOCATION OF 112F</pattern>
+    <template>
+        MPEP 2181 also Refer to this guide: <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/result/d0e219279.html?q=generic%20placeholder&ccb=on&ncb=off&icb=off&fcb=off&ver=current&syn=adj&results=compact&sort=relevance&cnt=10&index=2">Reference</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PLACEHOLDER TERM SUGGEST INVOCATION OF 112F</pattern>
+<template>
+<srai>PLACEHOLDER TERM SUGGEST INVOCATION OF 112F</srai>
+</template>
+</category>
+<category>
+<pattern>_ PLACEHOLDER TERM SUGGEST INVOCATION OF 112F *</pattern>
+<template>
+<srai>PLACEHOLDER TERM SUGGEST INVOCATION OF 112F</srai>
+</template>
+</category>
+<category>
+    <pattern>PLACEHOLDER TERMS SUGGEST INVOCATION OF 112F</pattern>
+    <template>
+        <srai>PLACEHOLDER TERM SUGGEST INVOCATION OF 112F</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PLACEHOLDER TERMS SUGGEST INVOCATION OF 112F</pattern>
+<template>
+<srai>PLACEHOLDER TERM SUGGEST INVOCATION OF 112F</srai>
+</template>
+</category>
+<category>
+<pattern>_ PLACEHOLDER TERMS SUGGEST INVOCATION OF 112F *</pattern>
+<template>
+<srai>PLACEHOLDER TERM SUGGEST INVOCATION OF 112F</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DUTY TO DISCLOSURE</pattern>
+    <template>
+        MPEP 2181 also Refer to this guide: <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s2001.html">Duty to disclosure</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ DUTY TO DISCLOSURE</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DUTY TO DISCLOSURE *</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+    <pattern>CANDOR</pattern>
+    <template>
+        <srai>DUTY TO DISCLOSURE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CANDOR</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CANDOR *</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+    <pattern>GOOD FAITH</pattern>
+    <template>
+        <srai>DUTY TO DISCLOSURE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ GOOD FAITH</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ GOOD FAITH *</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>QUAYLE</pattern>
+    <template>
+        A Quayle action closes prosecution and is done when an application is in condition for allowance save for minor, typically typographical type, errors
+    </template>
+</category>
+<category>
+<pattern>* * QUAYLE</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> QUAYLE</srai>
+</template>
+</category>
+<category>
+    <pattern>* QUAYLE</pattern>
+    <template>
+        <srai>QUAYLE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>FINAL ACTION</pattern>
+    <template>
+        MPEP 2181 also Refer to this guide: <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s2271.html">Final Action</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ FINAL ACTION</pattern>
+<template>
+<srai>FINAL ACTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ FINAL ACTION *</pattern>
+<template>
+<srai>FINAL ACTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PERIOD FOR RESPONSE</pattern>
+    <template>
+        MPEP 2181 also Refer to this guide: <![CDATA[<a target="_new" href="https://www.uspto.gov/trademarks-getting-started/process-overview/response-time-period">Response Time Period</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PERIOD FOR RESPONSE</pattern>
+<template>
+<srai>PERIOD FOR RESPONSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PERIOD FOR RESPONSE *</pattern>
+<template>
+<srai>PERIOD FOR RESPONSE</srai>
+</template>
+</category>
+<category>
+    <pattern>RESPONSE TIME PERIOD</pattern>
+    <template>
+        <srai>PERIOD FOR RESPONSE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ RESPONSE TIME PERIOD</pattern>
+<template>
+<srai>PERIOD FOR RESPONSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ RESPONSE TIME PERIOD *</pattern>
+<template>
+<srai>PERIOD FOR RESPONSE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENTABLE</pattern>
+    <template>
+        Section 101 of title 35, United States Code, provides: "Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title." <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e197004.html">MPEP 2103</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PATENTABLE</pattern>
+<template>
+<srai>PATENTABLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENTABLE *</pattern>
+<template>
+<srai>PATENTABLE</srai>
+</template>
+</category>
+<category>
+    <pattern>PATENTABILITY</pattern>
+    <template>
+        <srai>PATENTABLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PATENTABILITY</pattern>
+<template>
+<srai>PATENTABLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENTABILITY *</pattern>
+<template>
+<srai>PATENTABLE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TYPES OF PATENTS</pattern>
+    <template>
+        Patent applications can be directed to three broad types of subject matter: 
+
+        (A) applications for patents as provided for by 35 U.S.C. 101  relating to a "new and useful process, machine, manufacture, or composition of matter," etc.;
+        (B) applications for plant patents as provided for by 35 U.S.C. 161; and
+        (C) applications for design patents as provided for by 35 U.S.C. 171.
+        The first type of patent application is sometimes referred to as a "utility" patent applications when being contrasted with a plant or design patent application. The specialized procedure which pertains to the examination of applications for design and plant patents are treated in detail in Chapters 1500 and 1600, respectively. <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/current/d0e4510.html">MPEP 201</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ TYPES OF PATENTS</pattern>
+<template>
+<srai>TYPES OF PATENTS</srai>
+</template>
+</category>
+<category>
+<pattern>_ TYPES OF PATENTS *</pattern>
+<template>
+<srai>TYPES OF PATENTS</srai>
+</template>
+</category>
+<category>
+    <pattern>PATENT TYPES</pattern>
+    <template>
+        <srai>TYPES OF PATENTS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT TYPES</pattern>
+<template>
+<srai>TYPES OF PATENTS</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT TYPES *</pattern>
+<template>
+<srai>TYPES OF PATENTS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INFORMATION REASONABLY REQUIRED</pattern>
+    <template>
+        37 CFR 1.105(a)(1)(i)-(viii)  list specific examples of information that may be reasonably required. Other examples, not meant to be exhaustive, of information that may be reasonably required for examination of an application include:
+
+        (A) The name and citation of any particularly relevant indexed journal, or treatise.
+        (B) The trade name of any goods or services the claimed subject matter is embodied in.
+        (C) The citation for, the dates initially published and copies of any advertising and promotional literature prepared for any goods or services the claimed subject matter has been embodied in.
+        (D) The citation for and copies of any journal articles describing any goods or services the claimed subject matter has been embodied in.
+        (E) The trade names and providers of any goods or services in competition with the goods or services the claimed subject matter has been embodied in.
+        (F) Any written descriptions or analyses, prepared by any of the inventors or assignees, of goods or services in competition with the goods or services the claimed subject matter has been embodied in.
+        (G) Identification of pending or abandoned applications filed by at least one of the inventors or assigned to the same assignee as the current application that disclose similar subject matter that are not otherwise identified in the current application. Regarding the identification of applications filed before June 8, 1995, 35 U.S.C. 122(a)  requires the identified applications to be kept in confidence by the Office and no information concerning the same is to be given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director. See MPEP § 103 and Hyatt v. United States Patent and Trademark Office, No. 1:13-cv-1535 (E.D. Va., May 29, 2014) (2014 WL 2446176).
+        (H) A reply to a matter raised in a protest under 37 CFR 1.291.
+        (I) An explanation of technical material in a publication, such as one of the inventor’s publications.
+        (J) The identification of changes made in a reformatted continuing application filed under 37 CFR 1.53(b).
+        (K) A mark-up for a continuation-in-part application showing the subject matter added where there is an intervening reference.
+        (L) Comments on a new decision by the Federal Circuit that appears on point.
+        (M) The publication date of an undated document mentioned by applicant that may qualify as printed publication prior art (35 U.S.C. 102(a)  or pre-AIA 35 U.S.C. 102(a)  or (b) ).
+        (N) Comments on information of record which raises a question of whether applicant derived the invention from another under 35 U.S.C. 101  and 115, and pre-AIA 35 U.S.C. 102(f).
+        (O) Art related to applicant’s invention, applicant’s disclosure, or the claimed subject matter.
+        (P) Other factual information pertinent to patentability.
+        (Q) The accuracy of the examiner’s stated analysis of such items.
+        (R) Clarification of the correlation and identification of what structure, material, or acts set forth in the specification would be capable of carrying out a function recited in a means or steps plus function claim limitation. If it is not apparent to the examiner where in the specification and drawings there is support for a particular claim limitation reciting a means to accomplish a function, and if an inquiry by the examiner for such support is met by a stated lack of knowledge thereof by the applicant, the examiner could very well conclude that there is no such support and make appropriate rejections under, for example, 35 U.S.C. 112(a)  or pre-AIA 35 U.S.C. 112, first paragraph (written description) and 35 U.S.C. 112(b)  or pre-AIA 35 U.S.C. 112, second paragraph.
+        (S) Interrogatories or Stipulations.
+            (1) Of the common technical features shared among all claims, or admission that certain groups of claims do not share any common technical features,
+            (2) About the support found in the disclosure for means or steps plus function claims (35 U.S.C. 112(f)  or pre-AIA 35 U.S.C. 112, paragraph 6),
+            (3) Of precisely which portion(s) of the disclosure provide the written description and enablement support for specific claim element(s),
+            (4) Of the meaning of claim limitations or terms used in the claims, such as what teachings in the prior art would be covered by particular limitations or terms in a claim and which dictionary definitions would define a particular claim term, particularly where those terms are not used per se in the specification,
+            (5) Of which portions of each claim correspond to any admitted prior art in the specification,
+            (6) Of the specific utility provided by the claimed subject matter on a claim-by-claim basis,
+            (7) As to whether a dependent claim element is known in the prior art based on the examiner having a reasonable basis for believing so,
+            (8) Of support for added limitations in an amended claim,
+            (9) Of facts related to public use or sale situations.
+        (T) Information from the applicant regarding a third party submission under 37 CFR 1.290. In no circumstance may an examiner direct a requirement for information to the third party that submitted the paper under 37 CFR 1.290. See MPEP § 1134.
+        (U) Information from the applicant regarding rescission of a statement under 37 CFR 1.55  or 1.78. See MPEP § 704.14(a) for form paragraph 7.104.02.
+    </template>
+</category>
+<category>
+<pattern>_ INFORMATION REASONABLY REQUIRED</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+<pattern>_ INFORMATION REASONABLY REQUIRED *</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+    <pattern>REASONABLE REQUEST</pattern>
+    <template>
+        <srai>INFORMATION REASONABLY REQUIRED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REASONABLE REQUEST</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+<pattern>_ REASONABLE REQUEST *</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+    <pattern>INFORMATION REQUEST</pattern>
+    <template>
+        <srai>INFORMATION REASONABLY REQUIRED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INFORMATION REQUEST</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+<pattern>_ INFORMATION REQUEST *</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+    <pattern>REQUEST EXAMPLE</pattern>
+    <template>
+        <srai>INFORMATION REASONABLY REQUIRED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REQUEST EXAMPLE</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+<pattern>_ REQUEST EXAMPLE *</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PROCESS</pattern>
+    <template>
+        Section 100 of Title 35 U.S.C. - Definitions
+        (b) The term "process" means process, art, or method, and includes a new use of a known process, machine, manufacture, composition of matter, or material.
+    </template>
+</category>
+<category>
+<pattern>_ PROCESS</pattern>
+<template>
+<srai>PROCESS</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROCESS *</pattern>
+<template>
+<srai>PROCESS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EFFECTIVE FILING DATE</pattern>
+    <template>
+         Section 100 of Title 35 U.S.C. - Definitions:
+        (i)
+            (1) The term "effective filing date" for a claimed invention in a patent or application for patent means—
+                (A) if subparagraph (B) does not apply, the actual filing date of the patent or the application for the patent containing a claim to the invention; or
+                (B) the filing date of the earliest application for which the patent or application is entitled, as to such invention, to a right of priority under section 119, 365(a), or 365(b)  or to the benefit of an earlier filing date under section 120, 121, 365(c), or 386(c).
+            (2) The effective filing date for a claimed invention in an application for reissue or reissued patent shall be determined by deeming the claim to the invention to have been contained in the patent for which reissue was sought.
+    </template>
+</category>
+<category>
+<pattern>_ EFFECTIVE FILING DATE</pattern>
+<template>
+<srai>EFFECTIVE FILING DATE</srai>
+</template>
+</category>
+<category>
+<pattern>_ EFFECTIVE FILING DATE *</pattern>
+<template>
+<srai>EFFECTIVE FILING DATE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INFORMAL</pattern>
+    <template>
+        Section 702.01 of the MPEP - Obviously Informal Cases:
+        When an application is taken up for examination and it is then discovered to be impractical to give a complete action on the merits because of an informal or insufficient disclosure, the following procedure may be followed:
+
+            (A) A reasonable search should be made of the invention so far as it can be understood from the disclosure, objects of invention and claims and any apparently pertinent art cited. In the rare case in which the disclosure is so incomprehensible as to preclude a reasonable search, the Office action should clearly inform applicant that no search was made;
+            (B) Any form that lists informalities and any additional formal requirements to be made should be included in the first Office action (see MPEP § 707.07(a));
+            (C) A requirement should be made that the specification be revised to conform to idiomatic English and United States patent practice;
+            (D) The claims should be rejected as failing to define the invention in the manner required by 35 U.S.C. 112  if they are informal. A blanket rejection is usually sufficient.
+
+        The examiner should attempt to point out the points of informality in the specification and claims. The burden is on the applicant to revise the application to render it in proper form for a complete examination.
+    </template>
+</category>
+<category>
+<pattern>_ INFORMAL</pattern>
+<template>
+<srai>INFORMAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ INFORMAL *</pattern>
+<template>
+<srai>INFORMAL</srai>
+</template>
+</category>
+<category>
+    <pattern>INSUFFICIENT</pattern>
+    <template>
+        <srai>INFORMAL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INSUFFICIENT</pattern>
+<template>
+<srai>INFORMAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ INSUFFICIENT *</pattern>
+<template>
+<srai>INFORMAL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TERMINOLOGY</pattern>
+    <template>
+        Section 702.01 of the MPEP - Use of Unconventional Terminology, Cannot Be Examined: 
+        A preliminary examination of this application reveals that it includes terminology which is so different from that which is generally accepted in the art to which this invention pertains that a proper search of the prior art cannot be made. 
+
+        Applicant is required to provide a clarification of these matters or correlation with art-accepted terminology so that a proper comparison with the prior art can be made. Applicant should be careful not to introduce any new matter into the disclosure (i.e., matter which is not supported by the disclosure as originally filed).
+        A shortened statutory period for reply to this action is set to expire TWO MONTHS from the mailing date of this letter.
+
+        Use form paragraph 7.02 where the application is so incomprehensible that a reasonable search cannot be made.
+    </template>
+</category>
+<category>
+<pattern>_ TERMINOLOGY</pattern>
+<template>
+<srai>TERMINOLOGY</srai>
+</template>
+</category>
+<category>
+<pattern>_ TERMINOLOGY *</pattern>
+<template>
+<srai>TERMINOLOGY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INCOMPREHENSIBLE</pattern>
+    <template>
+        Section 702.01 of the MPEP - Disclosure Is Incomprehensible: 
+        The disclosure is objected to under 37 CFR 1.71, as being so incomprehensible as to preclude a reasonable search of the prior art by the examiner. 
+
+        Applicant is required to submit an amendment which clarifies the disclosure so that the examiner may make a proper comparison of the invention with the prior art.
+        Applicant should be careful not to introduce any new matter into the disclosure (i.e., matter which is not supported by the disclosure as originally filed).
+        A shortened statutory period for reply to this action is set to expire TWO MONTHS from the mailing date of this letter.
+
+        For the procedure to be followed when the drawing is not acceptable, see MPEP §§ 608.02(a) and 608.02(b).
+    </template>
+</category>
+<category>
+<pattern>_ INCOMPREHENSIBLE</pattern>
+<template>
+<srai>INCOMPREHENSIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ INCOMPREHENSIBLE *</pattern>
+<template>
+<srai>INCOMPREHENSIBLE</srai>
+</template>
+</category>
+<category>
+    <pattern>CONFUSING</pattern>
+    <template>
+        <srai>INCOMPREHENSIBLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CONFUSING</pattern>
+<template>
+<srai>INCOMPREHENSIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONFUSING *</pattern>
+<template>
+<srai>INCOMPREHENSIBLE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENTABILITY REPORT</pattern>
+    <template>
+        Section 705 of the MPEP - Patentability Reports: 
+        Where an application, properly assigned to one Technology Center (TC), is found to contain one or more claims, per se, classifiable in one or more other TCs, which claims are not divisible inter se or from the claims which govern classification of the application in the first TC, the application may be referred to the other TC(s) concerned for a report as to the patentability of certain designated claims. This report is known as a Patentability Report (P.R.) and is signed by the primary examiner in the reporting TC.
+        Note that the Patentability Report practice is only to be used in extraordinary circumstances. See MPEP § 705.01(e).
+    </template>
+</category>
+<category>
+<pattern>_ PATENTABILITY REPORT</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENTABILITY REPORT *</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+<category>
+    <pattern>P.R.</pattern>
+    <template>
+        <srai>PATENTABILITY REPORT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ P.R.</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+<category>
+<pattern>_ P.R. *</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PROVISIONAL REJECTION</pattern>
+    <template>
+        Section 715 of the MPEP - Provisional Rejection:
+        Claim(s) is/are provisionally rejected under 35 U.S.C. 102(a)(2)  as being anticipated by copending Application No. which has a common with the instant application.
+
+        Based upon the earlier effective filing date of the copending application, it would constitute prior art under 35 U.S.C. 102(a)(2), if published under 35 U.S.C. 122(b)  or patented under 35 U.S.C. 151. This provisional rejection under 35 U.S.C. 102(a)(2)  is based upon a presumption of future publication or patenting of the copending application. [4].
+    </template>
+</category>
+<category>
+<pattern>_ PROVISIONAL REJECTION</pattern>
+<template>
+<srai>PROVISIONAL REJECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROVISIONAL REJECTION *</pattern>
+<template>
+<srai>PROVISIONAL REJECTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COMMON OWNER</pattern>
+    <template>
+        Section 706.02(l)(2) of the MPEP - Establishing Common Ownership or Joint Research:
+        The term "commonly owned" is intended to mean that the subject matter which would otherwise be prior art to the claimed invention and the claimed invention are entirely or wholly owned by, or under an obligation to assign to, the same person(s) or organization(s)/business entity(ies)
+
+        As long as principal ownership rights to either the subject matter or the claimed invention under examination reside in different persons or organizations common ownership does not exist. A license of the claimed invention under examination to another by the owner where basic ownership rights are retained would not defeat ownership
+    </template>
+</category>
+<category>
+<pattern>_ COMMON OWNER</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+<pattern>_ COMMON OWNER *</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+    <pattern>JOINT OWNER</pattern>
+    <template>
+        <srai>COMMON OWNER</srai>
+    </template>
+</category>
+<category>
+<pattern>_ JOINT OWNER</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+<pattern>_ JOINT OWNER *</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+    <pattern>JOINT RESEARCH</pattern>
+    <template>
+        <srai>COMMON OWNER</srai>
+    </template>
+</category>
+<category>
+<pattern>_ JOINT RESEARCH</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+<pattern>_ JOINT RESEARCH *</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>OBVIOUSNESS</pattern>
+    <template>
+        The factual inquiries set forth in Graham v. John Deere Co., 383 U.S. 1, 148 USPQ 459 (1966), that are applied for establishing a background for determining obviousness under 35 U.S.C. 103  are summarized as follows:
+            1. Determining the scope and contents of the prior art. 
+            2. Ascertaining the differences between the prior art and the claims at issue.
+            3. Resolving the level of ordinary skill in the pertinent art.
+            4. Considering objective evidence present in the application indicating obviousness or nonobviousness.
+    </template>
+</category>
+<category>
+<pattern>_ OBVIOUSNESS</pattern>
+<template>
+<srai>OBVIOUSNESS</srai>
+</template>
+</category>
+<category>
+<pattern>_ OBVIOUSNESS *</pattern>
+<template>
+<srai>OBVIOUSNESS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>HUMAN</pattern>
+    <template>
+        Section 33(a) of the America Invents Act reads as follows:
+            Notwithstanding any other provision of law, no patent may issue on a claim directed to or encompassing a human organism.
+        Claim rejected under 35 U.S.C. 101  and section 33(a) of the America Invents Act as being directed to or encompassing a human organism. See also Animals - Patentability, 1077 Off. Gaz. Pat. Office 24 (April 21, 1987) (indicating that human organisms are excluded from the scope of patentable subject matter under 35 U.S.C. 101 ).
+    </template>
+</category>
+<category>
+<pattern>_ HUMAN</pattern>
+<template>
+<srai>HUMAN</srai>
+</template>
+</category>
+<category>
+<pattern>_ HUMAN *</pattern>
+<template>
+<srai>HUMAN</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ATOMIC</pattern>
+    <template>
+        Section 706.03(b) of the MPEP - Barred by Atomic Energy Act:
+        A limitation on what can be patented is imposed by the Atomic Energy Act of 1954. Section 151(a) (42 U.S.C. 2181(a)) thereof reads in part as follows:
+            No patent shall hereafter be granted for any invention or discovery which is useful solely in the utilization of special nuclear material or atomic energy in an atomic weapon.
+        All rejections based upon sections 151(a)(42 U.S.C. 2181(a)), 152 (42 U.S.C. 2182), and 155 (42 U.S.C. 2185) of the Atomic Energy Act must be made only by TC work group 3640 personnel.
+    </template>
+</category>
+<category>
+<pattern>_ ATOMIC</pattern>
+<template>
+<srai>ATOMIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ ATOMIC *</pattern>
+<template>
+<srai>ATOMIC</srai>
+</template>
+</category>
+<category>
+    <pattern>NUCLEAR</pattern>
+    <template>
+        <srai>ATOMIC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ NUCLEAR</pattern>
+<template>
+<srai>ATOMIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ NUCLEAR *</pattern>
+<template>
+<srai>ATOMIC</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INDEFINITE</pattern>
+    <template>
+        Form Paragraph 7.34.01 in the MPEP: Failure To Particularly Point out and Distinctly Claim (Indefinite)
+        Claim rejected under 35 U.S.C. 112(b)  or pre-AIA 35 U.S.C. 112, second paragraph, as being indefinite for failing to particularly point out and distinctly claim the subject matter which the inventor or a joint inventor, or for pre-AIA the applicant regards as the invention.
+
+        This can include direct foreign language translations, terminology inconsistent with accepted meaning, broad and narrow range/limitation in the same claim, or language including "for example," "or the like," or "such as."
+    </template>
+</category>
+<category>
+<pattern>_ INDEFINITE</pattern>
+<template>
+<srai>INDEFINITE</srai>
+</template>
+</category>
+<category>
+<pattern>_ INDEFINITE *</pattern>
+<template>
+<srai>INDEFINITE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ORDER</pattern>
+    <template>
+        Section 708 in the MPEP - Order of Examination:
+        Each examiner will give priority to that application in his or her docket, whether amended or new, which has the oldest effective U.S. filing date. This basic policy applies to all applications; rare circumstances may justify TC Directors granting individual exceptions.
+
+        Applications which have been acted upon by the examiner, and which have been placed by the applicant in condition for further action by the examiner (amended applications) shall be taken up for action in such order as shall be determined by the Director of the USPTO.
+
+        All amendments before final rejection should be responded to within two months of receipt.
+    </template>
+</category>
+<category>
+<pattern>_ ORDER</pattern>
+<template>
+<srai>ORDER</srai>
+</template>
+</category>
+<category>
+<pattern>_ ORDER *</pattern>
+<template>
+<srai>ORDER</srai>
+</template>
+</category>
+<category>
+    <pattern>PRIORITY</pattern>
+    <template>
+        <srai>ORDER</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PRIORITY</pattern>
+<template>
+<srai>ORDER</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRIORITY *</pattern>
+<template>
+<srai>ORDER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SUSPENSION</pattern>
+    <template>
+        Section 709 in the MPEP - Sespension of Examination:
+        On request of the applicant, the Office may grant a suspension of action by the Office under this paragraph for good and sufficient cause. Suspension of action (37 CFR 1.103 ) should not be confused with extension of time for reply (37 CFR 1.136 ).
+
+        A request that action in an application be delayed will be granted only under the provisions of 37 CFR 1.103, which provides for "Suspension of Action." A petition for suspension of action under 37 CFR 1.103(a)  must:
+			(A) be presented as a separate paper;
+			(B) be accompanied by the petition fee set forth in 37 CFR 1.17(g);
+			(C) request a specific and reasonable period of suspension not greater than 6 months; and
+			(D) present good and sufficient reasons why the suspension is necessary.  
+    </template>
+</category>
+<category>
+<pattern>_ SUSPENSION</pattern>
+<template>
+<srai>SUSPENSION</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUSPENSION *</pattern>
+<template>
+<srai>SUSPENSION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DEFERRAL</pattern>
+    <template>
+        Section 709 C in the MPEP - Request for Deferral of Examination: 
+        In new applications, applicants may request a deferral of examination under 37 CFR 1.103(d)  for a period not extending beyond three years from the earliest filing date for which a benefit is claimed under 35 U.S.C. 119(a)-(d), (e), (f), 120, 121, 365, or 386. The request must be filed before the Office issues an Office action under 35 U.S.C. 132  or a notice of allowance in the application
+    </template>
+</category>
+<category>
+<pattern>_ DEFERRAL</pattern>
+<template>
+<srai>DEFERRAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEFERRAL *</pattern>
+<template>
+<srai>DEFERRAL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REPLY</pattern>
+    <template>
+        Section 710 in the MPEP - Period for Reply:
+        The maximum statutory period for reply to an Office action is 6 months. 35 U.S.C. 133. Shortened periods are currently used in practically all cases. See MPEP § 710.02(b).
+		37 CFR 1.135  provides that if no reply is filed within the time set in the Office action under 37 CFR 1.134  or as it may be extended under 37 CFR 1.136, the application will be abandoned unless an Office action indicates otherwise.
+		37 CFR 1.136  implements 35 U.S.C. 41(a)(8)  which directs the Director of the USPTO to charge fees for extensions of time to take action in patent applications.
+    </template>
+</category>
+<category>
+<pattern>_ REPLY</pattern>
+<template>
+<srai>REPLY</srai>
+</template>
+</category>
+<category>
+<pattern>_ REPLY *</pattern>
+<template>
+<srai>REPLY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ABANDONMENT</pattern>
+    <template>
+        Section 711 in the MPEP - Abandonment of Patent Application:
+        ThAbandonment may be either of the invention or of an application. This discussion is concerned with abandonment of the application for patent.
+		An abandoned application, in accordance with 37 CFR 1.135  and 1.138, is one which is removed from the Office docket of pending applications through:
+			(A) formal abandonment
+			(B) failure of applicant to take appropriate action within a specified time at some stage in the prosecution of the application.
+		The procedure available for reviving an application that has become abandoned due to a failure to reply to an Office Action is a petition under 37 CFR 1.137(a)  based on unintentional delay.
+		
+		37 CFR 1.137  provides for the revival of abandoned applications, or terminated or limited reexamination prosecution on the basis of unintentional delay for the failure:
+			(A) to timely reply to an Office requirement in a provisional application;
+			(B) to timely prosecute in a nonprovisional application;
+			(C) to timely pay the issue fee for a design application;
+			(D) to timely pay the issue fee for a utility or plant application; and
+			(E) to provide copendency between the abandoned application and a subsequently filed application.
+    </template>
+</category>
+<category>
+<pattern>_ ABANDONMENT</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ ABANDONMENT *</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+    <pattern>FAILURE</pattern>
+    <template>
+        <srai>ABANDONMENT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FAILURE</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ FAILURE *</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+    <pattern>TERMINATION</pattern>
+    <template>
+        <srai>ABANDONMENT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TERMINATION</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ TERMINATION *</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+    <pattern>TERMINATE</pattern>
+    <template>
+        <srai>ABANDONMENT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TERMINATE</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ TERMINATE *</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INTERVIEW</pattern>
+    <template>
+        Section 713 in the MPEP - Interview:
+        An interview should be granted when the nature of the case is such that the interview serves to develop or clarify outstanding issues in an application. 
+
+        All discussions between the applicant/practitioner and the examiner regarding the merits of a pending application will be considered an interview and are to be made of record. This includes any and all records or communications received in connection with the interview, whether the interview was conducted in-person or through a telephone conversation, video conference, electronic mail, or electronic message system. This policy and other interview tips are detailed in the Interview Best Practices document which is available at <![CDATA[<a target="_new" href="www.uspto.gov/patents/law/exam/interview_ best_ practices.pdf">www.uspto.gov/patents/law/exam/interview_ best_ practices.pdf</a>]]>
+
+        Interviews that are solely for the purpose of "sounding out" the examiner, as by a local attorney acting for an out-of-town attorney, should not be permitted when it is apparent that any agreement that would be reached is conditional upon being satisfactory to the principal attorney.
+        Normally, one interview after final rejection is permitted in order to place the application in condition for allowance or to resolve issues prior to appeal. 
+    </template>
+</category>
+<category>
+<pattern>_ INTERVIEW</pattern>
+<template>
+<srai>INTERVIEW</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTERVIEW *</pattern>
+<template>
+<srai>INTERVIEW</srai>
+</template>
+</category>
+<category>
+    <pattern>MEET</pattern>
+    <template>
+        <srai>INTERVIEW</srai>
+    </template>
+</category>
+<category>
+<pattern>_ MEET</pattern>
+<template>
+<srai>INTERVIEW</srai>
+</template>
+</category>
+<category>
+<pattern>_ MEET *</pattern>
+<template>
+<srai>INTERVIEW</srai>
+</template>
+</category>
+<category>
+    <pattern>AMEND</pattern>
+    <template>
+        Section 714 in the MPEP - Amendments, Applicant’s Action:
+        The applicant may amend:
+			(A) ) before or after the first Office action and also after the second Office actions as specified in 37 CFR 1.112;
+			(B) after final rejection, if the amendment meets the criteria of 37 CFR 1.116;  
+			(C) after the date of filing a notice of appeal pursuant to 37 CFR 41.31(a), if the amendment meets the criteria of 37 CFR 41.33; and
+			(D) when and as specifically required by the examiner. 
+		Amendments in provisional applications are not normally made. If an amendment is made to a provisional application, however, it must comply with the provisions of 37 CFR 1.121. 
+		An amendment must be signed by a person having authority to prosecute the application. An unsigned or improperly signed amendment will not be entered. See MPEP § 714.01(a).
+		Actions by applicant, especially those filed near the end of the period for reply, should be reviewed as soon as possible upon becoming available to the examiner to determine whether they are completely responsive to the preceding Office action so as to prevent abandonment of the application
+    </template>
+</category>
+<category>
+<pattern>_ AMEND</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+<pattern>_ AMEND *</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+    <pattern>CHANGE</pattern>
+    <template>
+        <srai>AMEND</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CHANGE</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+<pattern>_ CHANGE *</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+    <pattern>MODIFY</pattern>
+    <template>
+        <srai>AMEND</srai>
+    </template>
+</category>
+<category>
+<pattern>_ MODIFY</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+<pattern>_ MODIFY *</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+    <pattern>SWEAR</pattern>
+    <template>
+        Section 715 in the MPEP - Swearing Behind a Reference — Affidavit or Declaration Under 37 CFR 1.131(a):
+        When any claim of an application or a patent under reexamination is rejected, the inventor of the subject matter of the rejected claim, the owner of the patent under reexamination, or the party qualified under § 1.42  or § 1.46, may submit an appropriate oath or declaration to establish invention of the subject matter of the rejected claim prior to the effective date of the reference or activity on which the rejection is based.
+
+        Section 716 in the MPEP: Affidavits or Declarations Traversing Rejections, 37 CFR 1.132
+
+        Section 717.01 in the MPEP: Affidavit or Declaration Under 37 CFR 1.130
+
+        Section 718 in the MPEP:  Affidavit or Declaration to Disqualify Commonly Owned Patent as Prior Art, 37 CFR 1.131(c)
+    </template>
+</category>
+<category>
+<pattern>_ SWEAR</pattern>
+<template>
+<srai>SWEAR</srai>
+</template>
+</category>
+<category>
+<pattern>_ SWEAR *</pattern>
+<template>
+<srai>SWEAR</srai>
+</template>
+</category>
+<category>
+    <pattern>OATH</pattern>
+    <template>
+        <srai>SWEAR</srai>
+    </template>
+</category>
+<category>
+<pattern>_ OATH</pattern>
+<template>
+<srai>SWEAR</srai>
+</template>
+</category>
+<category>
+<pattern>_ OATH *</pattern>
+<template>
+<srai>SWEAR</srai>
+</template>
+</category>
+
+<category>
+    <pattern>WRAPPER</pattern>
+    <template>
+        Section 719 in the MPEP - File Wrapper:
+        The electronic file record in which the U.S. Patent and Trademark Office maintains the application papers is referred to as an image file wrapper. The electronic file record is the official record of the application.
+
+		See MPEP § 202 for appropriate notations to be made in the file history with regard to claims for priority to, or the benefit of, earlier filed applications under 35 U.S.C. 119, 120, 121, 365, and 386.
+    </template>
+</category>
+<category>
+<pattern>_ WRAPPER</pattern>
+<template>
+<srai>WRAPPER</srai>
+</template>
+</category>
+<category>
+<pattern>_ WRAPPER *</pattern>
+<template>
+<srai>WRAPPER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PUBLIC USE</pattern>
+    <template>
+        Section 720 in the MPEP - Public Use Proceedings:
+        Effective September 16, 2012, former 37 CFR. 1.292 authorizing petitions seeking institution of public use proceedings was removed from title 37. For information necessary regarding the former process, the August 2012 revision of the MPEP (www.uspto.gov/web/offices/pac/mpep/old/mpep_E8R9.htm ) may be consulted.
+    </template>
+</category>
+<category>
+<pattern>_ PUBLIC USE</pattern>
+<template>
+<srai>PUBLIC USE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PUBLIC USE *</pattern>
+<template>
+<srai>PUBLIC USE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SECRET</pattern>
+    <template>
+        Section 724 in the MPEP: Trade Secret, Proprietary, and Protective Order Materials [R-08.2012]
+        Parties bringing information to the attention of the Office for use in the examination of applications and reexaminations are frequently faced with the prospect of having legitimate trade secret, proprietary, or protective order material disclosed to the public.
+
+        It is incumbent upon patent applicants, therefore, to bring "material" information to the attention of the Office. It matters not whether the "material" information can be classified as a trade secret, or as proprietary material, or whether it is subject to a protective order. The obligation is the same; it must be disclosed if "material to patentability" as defined in 37 CFR 1.56(b). The same duty rests upon a patent owner under 37 CFR 1.555  whose patent is undergoing reexamination.
+
+		Somewhat the same problem faces a protestor under 37 CFR 1.291(a)  who believes that trade secret, proprietary, or protective order material should be considered by the Office during the examination of an application.
+		In some circumstances, it may be possible to submit the information in such a manner that legitimate trade secrets, etc., will not be disclosed, e.g., by appropriate deletions of nonmaterial portions of the information. This should be done only where there will be no loss of information material to patentability under 37 CFR 1.56  or 1.555.
+    </template>
+</category>
+<category>
+<pattern>_ SECRET</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+<pattern>_ SECRET *</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+    <pattern>PROPRIETARY</pattern>
+    <template>
+        <srai>SECRET</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PROPRIETARY</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROPRIETARY *</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+    <pattern>PROTECT</pattern>
+    <template>
+        <srai>SECRET</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PROTECT</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROTECT *</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INDEPENDENT</pattern>
+    <template>
+        Section 802.01 in the MPEP - Meaning of "Independent" and "Distinct:"
+        The term "independent" (i.e., unrelated) means that there is no disclosed relationship between the two or more inventions claimed, that is, they are unconnected in design, operation, and effect. For example, a process and an apparatus incapable of being used in practicing the process are independent inventions. See also MPEP § 806.06 and § 808.01.
+
+        It is further noted that the terms "independent" and "distinct" are used in decisions with varying meanings. All decisions should be read carefully to determine the meaning intended.
+    </template>
+</category>
+<category>
+<pattern>_ INDEPENDENT</pattern>
+<template>
+<srai>INDEPENDENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ INDEPENDENT *</pattern>
+<template>
+<srai>INDEPENDENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DISTINCT</pattern>
+    <template>
+        Section 802.01 in the MPEP - Meaning of "Independent" and "Distinct:"
+        Related inventions are distinct if the inventions as claimed are not connected in at least one of design, operation, or effect (e.g., can be made by, or used in, a materially different process) and wherein at least one invention is PATENTABLE (novel and nonobvious) OVER THE OTHER (though they may each be unpatentable over the prior art).
+
+        It is further noted that the terms "independent" and "distinct" are used in decisions with varying meanings. All decisions should be read carefully to determine the meaning intended.
+    </template>
+</category>
+<category>
+<pattern>_ DISTINCT</pattern>
+<template>
+<srai>DISTINCT</srai>
+</template>
+</category>
+<category>
+<pattern>_ DISTINCT *</pattern>
+<template>
+<srai>DISTINCT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MARKUSH</pattern>
+    <template>
+        A Markush-type claim recites alternatives in a format such as "selected from the group consisting of A, B and C." See Ex parte Markush, 1925 C.D. 126 (Comm’r Pat. 1925). The members of the Markush group (A, B, and C in the example above) ordinarily must belong to a recognized physical or chemical class or to an art-recognized class.However, when the Markush group occurs in a claim reciting a process or a combination (not a single compound), it is sufficient if the members of the group are disclosed in the specification to possess at least one property in common which is mainly responsible for their function in the claimed relationship.
+
+        Inventions in metallurgy, refractories, ceramics, pharmacy, pharmacology and biology are most frequently claimed under the Markush formula but purely mechanical features or process steps may also be claimed by using the Markush style of claiming. See MPEP § 2173.05(h)
+    </template>
+</category>
+<category>
+<pattern>_ MARKUSH</pattern>
+<template>
+<srai>MARKUSH</srai>
+</template>
+</category>
+<category>
+<pattern>_ MARKUSH *</pattern>
+<template>
+<srai>MARKUSH</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COMMON OWNERSHIP</pattern>
+    <template>
+        Section 804.03 in the MPEP - Commonly Owned Inventions of Different Inventive Entities; Non-Commonly Owned Inventions Subject to a Joint Research Agreement:"
+        Applications or patents are "commonly owned" pursuant to 35 U.S.C. 102(b)(2)(C)  or pre-AIA 35 U.S.C. 103(c)(1)  if they were wholly or entirely owned by the same person(s), or organization(s)/business entity(ies), at the time the claimed invention was filed or made, respectively. If the person(s) or organization(s) owned less than 100 percent of the subject matter which would otherwise be prior art to the claimed invention, or less than 100 percent of the claimed invention, then common ownership would not exist
+    </template>
+</category>
+<category>
+<pattern>_ COMMON OWNERSHIP</pattern>
+<template>
+<srai>COMMON OWNERSHIP</srai>
+</template>
+</category>
+<category>
+<pattern>_ COMMON OWNERSHIP *</pattern>
+<template>
+<srai>COMMON OWNERSHIP</srai>
+</template>
+</category>
+<category>
+    <pattern>COMMONLY OWNED</pattern>
+    <template>
+        <srai>COMMON OWNERSHIP</srai>
+    </template>
+</category>
+<category>
+<pattern>_ COMMONLY OWNED</pattern>
+<template>
+<srai>COMMON OWNERSHIP</srai>
+</template>
+</category>
+<category>
+<pattern>_ COMMONLY OWNED *</pattern>
+<template>
+<srai>COMMON OWNERSHIP</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COMBINATION</pattern>
+    <template>
+        Section 806.05 in the MPEP - Criteria of Distinctness Between Combination and Subcombination:
+        To support a requirement for restriction between combination and subcombination inventions, both two-way distinctness and reasons for insisting on restriction are necessary, i.e., there would be a serious search burden if restriction were not required as evidenced by separate classification, status, or field of search. See MPEP § 808.02.
+        The inventions are distinct if it can be shown that a combination as claimed:
+            (A) does not require the particulars of the subcombination as claimed for patentability (to show novelty and unobviousness), and
+            (B) the subcombination can be shown to have utility either by itself or in another materially different combination.
+        When these factors cannot be shown, such inventions are not distinct.
+    </template>
+</category>
+<category>
+<pattern>_ COMBINATION</pattern>
+<template>
+<srai>COMBINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ COMBINATION *</pattern>
+<template>
+<srai>COMBINATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>WIPO</pattern>
+    <template>
+        Section 901.04(a) in the MPEP - Kind Codes:
+        On January 2, 2001, the United States Patent and Trademark Office (USPTO) began printing the World Intellectual Property Organization (WIPO) Standard ST.16 code on each of its published patent documents. WIPO Standard ST.16 codes (kind codes) include a letter, and in many cases a number, used to distinguish the kind of patent document (e.g., publication of an application for a utility patent (patent application publication), utility patent, plant patent application publication, plant patent, or design patent) and the level of publication (e.g., first publication, second publication, or corrected publication). Detailed information on Standard ST.16 and the use of kind codes by patent offices throughout the world is available on the WIPO website at www.wipo.int/scit/en  under the links for WIPO standards and other documentation
+    </template>
+</category>
+<category>
+<pattern>_ WIPO</pattern>
+<template>
+<srai>WIPO</srai>
+</template>
+</category>
+<category>
+<pattern>_ WIPO *</pattern>
+<template>
+<srai>WIPO</srai>
+</template>
+</category>
+<category>
+    <pattern>KIND</pattern>
+    <template>
+        <srai>WIPO</srai>
+    </template>
+</category>
+<category>
+<pattern>_ KIND</pattern>
+<template>
+<srai>WIPO</srai>
+</template>
+</category>
+<category>
+<pattern>_ KIND *</pattern>
+<template>
+<srai>WIPO</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FOREIGN</pattern>
+    <template>
+        Section 901.05 in the MPEP - Foreign Patent Documents:
+        All foreign patents, published applications, and any other published derivative material containing portions or summaries of the contents of published or unpublished patents (e.g., abstracts) which have been disseminated to the public are available to U.S. examiners. See MPEP § 901.06(a), paragraphs I.C. and IV.C. 
+
+        In general, a foreign patent, the contents of its application, or segments of its content should not be cited as a reference until its date of patenting or its public availability date (e.g., publication date) can be confirmed by an examiner’s review of a copy of the document. Examiners should remember that in some countries, there is a delay between the date of the patent grant and the date of publication.
+        
+        Additional information can be obtained from the Scientific and Technical Information Center (STIC)
+    </template>
+</category>
+<category>
+<pattern>_ FOREIGN</pattern>
+<template>
+<srai>FOREIGN</srai>
+</template>
+</category>
+<category>
+<pattern>_ FOREIGN *</pattern>
+<template>
+<srai>FOREIGN</srai>
+</template>
+</category>
+<category>
+    <pattern>INTERNATIONAL</pattern>
+    <template>
+        <srai>FOREIGN</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL</pattern>
+<template>
+<srai>FOREIGN</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL *</pattern>
+<template>
+<srai>FOREIGN</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ADMINISTRATIVE</pattern>
+    <template>
+        Section 901.05(d) in the MPEP - Foreign Patent Documents:
+        Patent law administration varies from country to country. In some countries, all that is undertaken is an inspection of the papers to determine if they are in proper form. Other countries perform an examination of the merits on the basis of an extensive search of the prior art, as is done in the U.S. The former are referred to as nonexamining or registration countries, although some systems allow for a rejection on matters apparent on the face of the papers, such as matters of form or statutory subject matter.
+    </template>
+</category>
+<category>
+<pattern>_ ADMINISTRATIVE</pattern>
+<template>
+<srai>ADMINISTRATIVE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ADMINISTRATIVE *</pattern>
+<template>
+<srai>ADMINISTRATIVE</srai>
+</template>
+</category>
+<category>
+    <pattern>ADMINISTRATION</pattern>
+    <template>
+        <srai>ADMINISTRATIVE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ADMINISTRATION</pattern>
+<template>
+<srai>ADMINISTRATIVE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ADMINISTRATION *</pattern>
+<template>
+<srai>ADMINISTRATIVE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>OPPOSITION</pattern>
+    <template>
+        Section 901.05(e) in the MPEP - Oposition:
+        Some examining countries consider participation by the public an inherent feature of their examining system. When an application is found to be allowable by the examiner, it is "published" for opposition. Then there is a period, usually 3 or 4 months, within which members of the public can oppose the grant of the patent. In some countries, the opposing party can be any person or company. In other countries, only those parties who are affected by the outcome can participate in the opposition. The opposition is an inter partes proceeding and the opposing party can ordinarily raise any ground on the basis of which a patent would be refused or held invalid, including any applicable referencesmatter.
+    </template>
+</category>
+<category>
+<pattern>_ OPPOSITION</pattern>
+<template>
+<srai>OPPOSITION</srai>
+</template>
+</category>
+<category>
+<pattern>_ OPPOSITION *</pattern>
+<template>
+<srai>OPPOSITION</srai>
+</template>
+</category>
+<category>
+    <pattern>INTER PARTES</pattern>
+    <template>
+        <srai>OPPOSITION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INTER PARTES</pattern>
+<template>
+<srai>OPPOSITION</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTER PARTES *</pattern>
+<template>
+<srai>OPPOSITION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FAMILY</pattern>
+    <template>
+        Section 901.05(g) in the MPEP - CORRESPONDING SPECIFICATIONS IN A FAMILY OF PATENTS:
+        Since a separate patent must be obtained in each country in which patent rights are desired there may be a large number of patents issued in different countries for the same invention. This group of patents is referred to as a family of patents.
+
+        All of the countries listed in paragraph V of Section 901.05 are parties to the Paris Convention for the Protection of Industrial Property and provide for the right of priority. If an application is filed in one of these countries, an application for the same invention thereafter filed in another country, within 1 year of the filing of the first application, will be entitled to the benefit of the filing date of the first application on fulfilling various conditions. See MPEP § 213. The patents or published specifications of the countries of later filing are required to specify that priority has been claimed and to give the country, date, and number of the priority application. This data serves the purpose, among others, of enabling any patent based on the priority application to be easily located
+    </template>
+</category>
+<category>
+<pattern>_ FAMILY</pattern>
+<template>
+<srai>FAMILY</srai>
+</template>
+</category>
+<category>
+<pattern>_ FAMILY *</pattern>
+<template>
+<srai>FAMILY</srai>
+</template>
+</category>
+<category>
+    <pattern>CORRESPOND</pattern>
+    <template>
+        <srai>FAMILY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CORRESPOND</pattern>
+<template>
+<srai>FAMILY</srai>
+</template>
+</category>
+<category>
+<pattern>_ CORRESPOND *</pattern>
+<template>
+<srai>FAMILY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INID</pattern>
+    <template>
+        Section 901.05(b) in the MPEP - Other Significant Data:
+        The purpose of INID Codes ("INID" is an acronym for "Internationally agreed Numbers for the Identification of (bibliographic) Data") is to provide a means whereby the various data appearing on the first page of patent and like documents or in patent gazettes can be identified without knowledge of the language used and the laws applied. They are now used by most patent offices and have been applied to U.S. patents since August 4, 1970. Some of the codes are not pertinent to the documents of a particular country and some which are pertinent may, in fact, not be used. INID codes for industrial designs are similar to, but not identical to, those used for patents and like documents. INID codes for industrial designs are provided separately in the remainder of this section.
+
+        INID codes for industrial designs are similar to, but not identical to, those used for patents and like documents. INID codes for industrial designs may be of most interest to design patent examiners.
+    </template>
+</category>
+<category>
+<pattern>_ INID</pattern>
+<template>
+<srai>INID</srai>
+</template>
+</category>
+<category>
+<pattern>_ INID *</pattern>
+<template>
+<srai>INID</srai>
+</template>
+</category>
+<category>
+    <pattern>BIBLIO</pattern>
+    <template>
+        <srai>INID</srai>
+    </template>
+</category>
+<category>
+<pattern>_ BIBLIO</pattern>
+<template>
+<srai>INID</srai>
+</template>
+</category>
+<category>
+<pattern>_ BIBLIO *</pattern>
+<template>
+<srai>INID</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COPY</pattern>
+    <template>
+        Section 901.05(c) in the MPEP - Obtaining Copies:
+        Until October 1, 1995, the U.S. Patent and Trademark Office (Office) received copies of the published specifications of patents and patent applications from nearly all the countries which issue them in printed form. The Office now receives most foreign patents in the form of CD-ROM and other electronic media. The foreign patents so obtained are available to examiners from the USPTO’s automated search tools such as the Examiner’s Automated Search Tool (EAST), the Web-based Examiner's Search Tool (WEST), the Foreign Patent Access System (FPAS), and from the Foreign Patents Service Center in STIC.
+
+        Examiners can request copies of any foreign patent documents by submitting an online request using the Foreign Patent Request Form available through STIC’s NPL website on the USPTO intranet. Examiners may also request copies directly from the Foreign Patents Service Center of STIC. If examiners so choose, they can make copies themselves.
+    </template>
+</category>
+<category>
+<pattern>_ COPY</pattern>
+<template>
+<srai>COPY</srai>
+</template>
+</category>
+<category>
+<pattern>_ COPY *</pattern>
+<template>
+<srai>COPY</srai>
+</template>
+</category>
+<category>
+    <pattern>COPIES</pattern>
+    <template>
+        <srai>COPY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ COPIES</pattern>
+<template>
+<srai>COPY</srai>
+</template>
+</category>
+<category>
+<pattern>_ COPIES *</pattern>
+<template>
+<srai>COPY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TRANSLATION</pattern>
+    <template>
+        Section 901.05(d) in the MPEP - Translation:
+        Examiners may consult the translators in the Translations Service Center of the Scientific and Technical Information Center (STIC) for oral assistance in translating foreign patents or literature that are possible references for an application being examined. Examiners may also request human (written) translations of pertinent portions of references being considered for citation or already cited in applications
+
+        Examiners may request human (written) translations at any point in the examination process, at the discretion of the individual examiner, but are encouraged to use oral assistance, language reference resources, and machine translations where possible in the early phases of examination. See MPEP § 706.02. Examiners can request human (written) translations, or machine translations, by submitting an online request using the Translations Request Form available through STIC’s NPL website on the USPTO intranet.
+    </template>
+</category>
+<category>
+<pattern>_ TRANSLATION</pattern>
+<template>
+<srai>TRANSLATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ TRANSLATION *</pattern>
+<template>
+<srai>TRANSLATION</srai>
+</template>
+</category>
+<category>
+    <pattern>TRANSLATE</pattern>
+    <template>
+        <srai>TRANSLATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TRANSLATE</pattern>
+<template>
+<srai>TRANSLATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ TRANSLATE *</pattern>
+<template>
+<srai>TRANSLATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>STIC</pattern>
+    <template>
+        Section 901.06(a) in the MPEP - Scientific and Technical Information Center (STIC):
+        The main Scientific and Technical Information Center (STIC) is located at the Remsen Building, Room 1D58, 400 Dulany Street, Alexandria, VA 22314. STIC maintains Electronic Information Centers (EICs) in each Technology Center (TC) whose mission is to assist patent examiners in the patent process by providing fast, accurate, prior art searches, document deliver services, the provision of foreign patent copies, translations of foreign documents, and access to non-patent literature in electronic format and in print.
+
+        Technical literature, foreign patent documents, and reference and online search services available in STIC are all important resources for the patent examiner to utilize. These resources provide material which must be known or searched to determine whether claims of applications are directly anticipated and, therefore, unpatentable under the provisions of 35 U.S.C. 102. STIC handbooks, textbooks, periodicals, reports, and other materials assist examiners in deciding the question of patentable invention in cases in which the primary search indicates that there is some novelty as compared to any single reference in the art
+    </template>
+</category>
+<category>
+<pattern>_ STIC</pattern>
+<template>
+<srai>STIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ STIC *</pattern>
+<template>
+<srai>STIC</srai>
+</template>
+</category>
+<category>
+    <pattern>INFORMATION CENTER</pattern>
+    <template>
+        <srai>STIC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INFORMATION CENTER</pattern>
+<template>
+<srai>STIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ INFORMATION CENTER *</pattern>
+<template>
+<srai>STIC</srai>
+</template>
+</category>
+<category>
+    <pattern>LIBRARY</pattern>
+    <template>
+        <srai>STIC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ LIBRARY</pattern>
+<template>
+<srai>STIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ LIBRARY *</pattern>
+<template>
+<srai>STIC</srai>
+</template>
+</category>
+<category>
+    <pattern>COLLECTION</pattern>
+    <template>
+        <srai>STIC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ COLLECTION</pattern>
+<template>
+<srai>STIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ COLLECTION *</pattern>
+<template>
+<srai>STIC</srai>
+</template>
+</category>
+
+<category>
+    <pattern>BOOKS</pattern>
+    <template>
+        Based on recommendations by patent examiners and subject area experts, STIC reviews, selects and purchases primarily English-language publications in all fields of applied technology. Collections of e-books, books in print, and trade catalogs are also purchased by STIC for permanent location in specific Technology Centers (TCs). For instance, the Design Patent Art Units have a great many manufacturers’ catalogs. Books in print, and e-books may be ordered by examiners by contacting the STIC EIC in each TC. A request for a publication can be submitted by using the NPL Purchase Request Form which is available on the STIC NPL website. 
+    </template>
+</category>
+<category>
+<pattern>_ BOOKS</pattern>
+<template>
+<srai>BOOK</srai>
+</template>
+</category>
+<category>
+<pattern>_ BOOKS *</pattern>
+<template>
+<srai>BOOK</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CLASS</pattern>
+    <template>
+        Section 902 of the MPEP - Search Tools and Classification Information:
+        There are multiple classification systems used throughout the international patent system. These include the Cooperative Patent Classification System (CPC), U.S. Patent Classification System (USPC), the International Patent Classification System (IPC), and the Locarno International Classification (Locarno). All U.S. patents and U.S. Patent Application Publications published after December 31, 2014 will no longer receive classifications within the USPC. The USPC will, at that time, become a static searchable database. 
+    </template>
+</category>
+<category>
+<pattern>_ CLASS</pattern>
+<template>
+<srai>CLASS</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASS *</pattern>
+<template>
+<srai>CLASS</srai>
+</template>
+</category>
+<category>
+    <pattern>CLASSIFICATION</pattern>
+    <template>
+        <srai>CLASS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION</pattern>
+<template>
+<srai>CLASS</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION *</pattern>
+<template>
+<srai>CLASS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CLASSIFICATION SYSTEMS</pattern>
+    <template>
+        Section 902 of the MPEP - Search Tools and Classification Information:
+        There are multiple classification systems used throughout the international patent system. These include the Cooperative Patent Classification System (CPC), U.S. Patent Classification System (USPC), the International Patent Classification System (IPC), and the Locarno International Classification (Locarno). All U.S. patents and U.S. Patent Application Publications published after December 31, 2014 will no longer receive classifications within the USPC. The USPC will, at that time, become a static searchable database.
+
+        In using any classification system, it is necessary to analyze the organization of the class or classes to be included in the search.
+        The initial analysis should determine which one or ones of the several types of subject matter (manufacture, art, apparatus, or stock material) are contained in the class being considered. 
+    </template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION SYSTEMS</pattern>
+<template>
+<srai>CLASSIFICATION SYSTEMS</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION SYSTEMS *</pattern>
+<template>
+<srai>CLASSIFICATION SYSTEMS</srai>
+</template>
+</category>
+<category>
+    <pattern>CLASSIFICATION</pattern>
+    <template>
+        <srai>CLASSIFICATION SYSTEMS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION</pattern>
+<template>
+<srai>CLASSIFICATION SYSTEMS</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION *</pattern>
+<template>
+<srai>CLASSIFICATION SYSTEMS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DEFINITION</pattern>
+    <template>
+        Section 902.02  of the MPEP - Search Tools and Classification Information:
+        All of the utility classes (i.e., classes devoted to technology), and the plant class have definitions. All design classes will eventually have definitions.
+        Definitions state the subject matter of the classes and subclasses in much more detail than it is possible to state in the brief class and subclass titles. A study of the definitions is essential to determine the proper classification of subject matter within the U.S. Patent Classification System (USPC).
+        All classes and subclasses (class definitions) in the USPC are available online to USPTO personnel from the Classification Home Page under the heading Search Classification Data. The Classification Home Page (http://ptoweb:8081/ ) is accessible from the desktop via the Patent Examiner’s Toolkit. The class definitions are archived in portable document formats (PDFs) to CD-ROM every June and December.
+        It should be noted that classification orders frequently affect existing definitions. Personal sets of definitions used by examiners should be periodically revised to reflect these changes. Classification Orders are available online to USPTO personnel from the Classification Home Page under the heading Classification Reports. The Classification Home Page is accessible from the desktop via the Patent Examiner’s Toolkit.
+    </template>
+</category>
+<category>
+<pattern>_ DEFINITION</pattern>
+<template>
+<srai>DEFINITION</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEFINITION *</pattern>
+<template>
+<srai>DEFINITION</srai>
+</template>
+</category>
+<category>
+    <pattern>DEFINITIONS</pattern>
+    <template>
+        <srai>DEFINITION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DEFINITIONS</pattern>
+<template>
+<srai>DEFINITION</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEFINITIONS *</pattern>
+<template>
+<srai>DEFINITION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EAST</pattern>
+    <template>
+        The automated search tools on examiners’ desktop computers include the Examiner’s Automated Search Tool (EAST), the Web-Based Examiner Search Tool (WEST), and the Foreign Patent Access System (FPAS). EAST and WEST provide examiners with access to the: (A) full text of U.S. published applications since 2001; (B) full text of U.S. patents granted since 1970; and (C) optically scanned full text of U.S. patents granted 1920-1970.Specific instructions for gaining access to the various documents available using the automated search tools can be found in the "Patent Automation" folder in Microsoft Outlook and on the EAST, WEST, and BRS Search Strategy webpages on the Intranet, available on the examiners’ desktop computers.
+    </template>
+</category>
+<category>
+<pattern>_ EAST </pattern>
+<template>
+<srai>EAST</srai>
+</template>
+</category>
+<category>
+<pattern>_ EAST  *</pattern>
+<template>
+<srai>EAST</srai>
+</template>
+</category>
+<category>
+    <pattern>WEST</pattern>
+    <template>
+        <srai>EAST</srai>
+    </template>
+</category>
+<category>
+<pattern>_ WEST</pattern>
+<template>
+<srai>EAST </srai>
+</template>
+</category>
+<category>
+<pattern>_ WEST *</pattern>
+<template>
+<srai>EAST</srai>
+</template>
+</category>
+
+
+<category>
+    <pattern>CLASSIFICATION</pattern>
+    <template>
+        Section 903.04 of the MPEP - Classifying Applications for Publication:
+        Patent application publications are given a primary classification (equivalent to an original classification), and may also be given a secondary classification (equivalent to a cross reference). While there may be only one primary classification for a single patent application publication, there may be any number of secondary classifications. The selection of a primary classification of a patent application publication is based on the application’s main inventive concept using the claims as a guide. A primary classification could be any U.S. class/subclass (except cross reference art collections, digests and foreign art collection subclasses). A secondary classification is based on other inventive concepts (mandatory) or valuable disclosure (discretionary), and may be any U.S. class/subclass (including cross reference collections and digests, but excluding foreign art collection subclasses). The classification of a patent application publication is printed on the front page of the publication.
+
+        At least 9 weeks prior to the projected publication date, applications are classified using programs designed to enable entry of certain data required for publication of patent applications. Applications are classified by giving each application at least a primary classification and an international classification. The suggested international classification(s) corresponding to each assigned U.S. classification is provided. In addition, if a figure is to be published, the figure is selected at the time of classification.
+    </template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION</pattern>
+<template>
+<srai>CLASSIFICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION *</pattern>
+<template>
+<srai>CLASSIFICATION</srai>
+</template>
+</category>
+<category>
+    <pattern>CLASS</pattern>
+    <template>
+        <srai>CLASSIFICATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CLASS</pattern>
+<template>
+<srai>CLASSIFICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASS *</pattern>
+<template>
+<srai>CLASSIFICATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CLASSIFICATION ALLOWANCE</pattern>
+    <template>
+        Section 903.07 of the MPEP - Classifying and Cross-Referencing at Allowance:
+        An application, properly classified at the start of examination, may be classified differently when it is ready for allowance. The allowed claims should be reviewed in order to determine the subject matter covered thereby. It is the disclosed subject matter covered by the allowed claims that determines the original and any mandatory cross-reference classification of U.S. patents.
+
+        The procedure for determining the classification of an issuing application is as follows: every claim, whether independent or dependent, must be considered separately for classification. A separate mandatory classification is required for each claim which is classifiable in a different class or subclass; some claims, particularly in chemical areas, may require plural classifications. After all mandatory classifications have been determined, the classification to be designated as the original (OR) is determined.
+    </template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION ALLOWANCE</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION ALLOWANCE *</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+<category>
+    <pattern>CLASSIFICATION AT ALLOWANCE</pattern>
+    <template>
+        <srai>CLASSIFICATION ALLOWANCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION AT ALLOWANCE</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION AT ALLOWANCE *</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+<category>
+    <pattern>CLASSIFICATION AT ACCEPTANCE</pattern>
+    <template>
+        <srai>CLASSIFICATION ALLOWANCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION AT ACCEPTANCE</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION AT ACCEPTANCE *</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+<category>
+    <pattern>ALLOWANCE CLASSIFICATION</pattern>
+    <template>
+        <srai>CLASSIFICATION ALLOWANCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ALLOWANCE CLASSIFICATION</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ALLOWANCE CLASSIFICATION *</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+<category>
+    <pattern>ACCEPTANCE CLASSIFICATION</pattern>
+    <template>
+        <srai>CLASSIFICATION ALLOWANCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ACCEPTANCE CLASSIFICATION</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ACCEPTANCE CLASSIFICATION *</pattern>
+<template>
+<srai>CLASSIFICATION ALLOWANCE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CROSS-REFERENCE</pattern>
+    <template>
+        Section 903.07(a) of the MPEP - Cross-Referencing — Keep Systematic Notes During Prosecution:
+        Throughout the examination of an application, systematic notes should be kept as to cross-references needed either due to claimed or unclaimed disclosure. Examiners handling related subject matter should be consulted during prosecution (whether they handle larger unclaimed combinations or claimed or unclaimed, but disclosed, subcombinations), and asked if cross-references are needed.
+
+        Each consultation involving a question of the propriety of the classification of subject matter and/or the need for a cross-reference must be recorded in the SEARCH NOTES box on the file wrapper and must include: the name of each examiner consulted, the date that the consultation took place, and the results of the consultation including the consulted examiners’ or examiner’s indication of where claimed subject matter is properly classified and where subject matter disclosed but unclaimed is properly classified and whether or not a cross-reference is needed.mined.
+    </template>
+</category>
+<category>
+<pattern>_ CROSS-REFERENCE</pattern>
+<template>
+<srai>CROSS-REFERENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CROSS-REFERENCE *</pattern>
+<template>
+<srai>CROSS-REFERENCE</srai>
+</template>
+</category>
+<category>
+    <pattern>CROSS REFERENCE</pattern>
+    <template>
+        <srai>CROSS-REFERENCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CROSS REFERENCE</pattern>
+<template>
+<srai>CROSS-REFERENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CROSS REFERENCE *</pattern>
+<template>
+<srai>CROSS-REFERENCE</srai>
+</template>
+</category>
+<category>
+    <pattern>CROSS REFERENCING</pattern>
+    <template>
+        <srai>CROSS-REFERENCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CROSS REFERENCING</pattern>
+<template>
+<srai>CROSS-REFERENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CROSS REFERENCING *</pattern>
+<template>
+<srai>CROSS-REFERENCE</srai>
+</template>
+</category>
+<category>
+    <pattern>CROSS-REFERENCING</pattern>
+    <template>
+        <srai>CROSS-REFERENCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CROSS-REFERENCING</pattern>
+<template>
+<srai>CROSS-REFERENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CROSS-REFERENCING *</pattern>
+<template>
+<srai>CROSS-REFERENCE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ASSIGNMENT</pattern>
+    <template>
+        Section 903.08(b) of the MPEP - Classification and Assignment to Examiner:
+        Every nonprovisional application, new or amended, and including the drawings, if any, when first assigned to a Technology Center (TC) must be classified and assigned to an examiner for examination. The supervisory patent examiner normally assigns the application to an examiner. Provisional applications are not classified or assigned since they are not examined.
+
+        If an examiner other than the supervisory patent examiner is given the responsibility of assigning applications, time so spent may, at the TC Director’s discretion, be charged to "Assisting SPE."
+    </template>
+</category>
+<category>
+<pattern>_ ASSIGNMENT</pattern>
+<template>
+<srai>ASSIGNMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ ASSIGNMENT *</pattern>
+<template>
+<srai>ASSIGNMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TRANSFER</pattern>
+    <template>
+        Section 903.08(d) of the MPEP - Transfer Procedure:
+        I.   TRANSFER BETWEEN ART UNITS WITHIN THE SAME TECHNOLOGY CENTER
+            Each Technology Center (TC) has developed internal procedures for transferring application between art units and resolving application assignment disputes.
+
+        II.   TRANSFERS BETWEEN DIFFERENT TECHNOLOGY CENTERS
+            Where a supervisory patent examiner (SPE) believes an application, either new or amended, does not belong in his or her art unit, he or she may request transfer of the application from his or her art unit (the "originating" art unit) to another art unit of a different TC (the "receiving" art unit).
+            The decision as to the classification resolution and assignment of an application is made by agreement between the SPEs involved in the transfer. If no agreement can be reached between the SPEs, the application may be forwarded to the classification dispute TC representative panel of the TC where the application was originally assigned for a final decision. The classification dispute TC representative panel consists of designated representatives from each TCupervisory patent examiner is given the responsibility of assigning applications, time so spent may, at the TC Director’s discretion, be charged to "Assisting SPE."
+    </template>
+</category>
+<category>
+<pattern>_ TRANSFER</pattern>
+<template>
+<srai>TRANSFER</srai>
+</template>
+</category>
+<category>
+<pattern>_ TRANSFER *</pattern>
+<template>
+<srai>TRANSFER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TRANSFER PROCESS</pattern>
+    <template>
+        Section 903.08(d) of the MPEP - Transfer Procedure:
+        When the SPE or primary examiner of the originating art unit determines that a transfer is appropriate, he or she must complete the Application Transfer Request form in Patent File Wrapper (PFW) and provide a full explanation of the reasons for classification in the receiving art unit. At least one of the following should be included in the form in the space provided:
+            (A) Identification of the controlling claim;
+            (B) Identification of any existing informal transfer agreement; or
+            (C) Other reasons – with full explanation.
+        If the SPE or examiner of the originating art unit believes an application has been improperly assigned to their art unit, but is unable to determine an appropriate place to send the application, a "gatekeeper" or search assistant should be consulted. A listing of examiners who function in this role may be found at http://ptoweb/patents/tsa/. It is noted that "gatekeepers" or search assistants exist in all of the TCs except the TC that examines design applications (TC 2900).on was originally assigned for a final decision. The classification dispute TC representative panel consists of designated representatives from each TCupervisory patent examiner is given the responsibility of assigning applications, time so spent may, at the TC Director’s discretion, be charged to "Assisting SPE."
+    </template>
+</category>
+<category>
+<pattern>_ TRANSFER PROCESS</pattern>
+<template>
+<srai>TRANSFER PROCESS</srai>
+</template>
+</category>
+<category>
+<pattern>_ TRANSFER PROCESS *</pattern>
+<template>
+<srai>TRANSFER PROCESS</srai>
+</template>
+</category>
+<category>
+    <pattern>PROCESS FOR TRANSFER</pattern>
+    <template>
+        <srai>TRANSFER PROCESS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PROCESS FOR TRANSFER</pattern>
+<template>
+<srai>TRANSFER PROCESS</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROCESS FOR TRANSFER *</pattern>
+<template>
+<srai>TRANSFER PROCESS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SEARCH</pattern>
+    <template>
+        Section 904 of the MPEP - How to Search:
+        The examiner, after having obtained a thorough understanding of the invention disclosed and claimed in the nonprovisional application, then searches the prior art as disclosed in patents and other published documents, i.e., nonpatent literature (NPL). Any document used in the rejection of a claim is called a reference. An inventor name search should be made to identify other applications and/or patents which may be applicable as references for double patenting rejections. See MPEP § 804
+
+        Following the first Office action, the examiner need not ordinarily make a second search of the prior art, unless necessitated by amendments to the claims by the applicant in a reply to the first Office action, except to check to determine whether any reference which would appear to be substantially more pertinent than the prior art cited in the first Office action has become available subsequent to the initial prior art search.
+
+        In subsequent actions, where the search is brought up-to-date and/or where a further search is made, the examiner must indicate on the IFW search notes form that the search has been updated and/or identify the additional field(s) of search. See MPEP § 719.05. Any search updates should include all of the relevant or pertinent databases and the search queries and classifications employed in the original search.
+    </template>
+</category>
+<category>
+<pattern>_ SEARCH</pattern>
+<template>
+<srai>SEARCH</srai>
+</template>
+</category>
+<category>
+<pattern>_ SEARCH *</pattern>
+<template>
+<srai>SEARCH</srai>
+</template>
+</category>
+<category>
+    <pattern>SEARCHING</pattern>
+    <template>
+        <srai>SEARCH</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SEARCHING</pattern>
+<template>
+<srai>SEARCH</srai>
+</template>
+</category>
+<category>
+<pattern>_ SEARCHING *</pattern>
+<template>
+<srai>SEARCH</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INTERNET</pattern>
+    <template>
+        Section 904.02(c) of the MPEP - Internet Searching:
+        The Internet is an Office-approved search tool that may be considered when planning and conducting a search for an application. The Internet provides the Office the opportunity to enhance operations by enabling patent examiners to efficiently locate and retrieve additional sources of information relating to a patent application. 
+
+        The Internet is generally a public forum and most communications made over the Internet are neither confidential nor secure. All use of the Internet by examiners must be conducted in a manner that ensures compliance with confidentiality requirements in the statutes, including 35 U.S.C. § 122, and regulations. Additionally, any Internet searching that is conducted is to be limited to searching for the information necessary for examination of the application or proceeding, such as the state of the art or the presence or absence of technical features in the prior art.
+    </template>
+</category>
+<category>
+<pattern>_ INTERNET</pattern>
+<template>
+<srai>INTERNET</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTERNET *</pattern>
+<template>
+<srai>INTERNET</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CPC</pattern>
+    <template>
+        Section 905 of the MPEP - How to Cooperative Patent Classification:
+        Cooperative Patent Classification (CPC) is a bilateral classification system jointly developed by the United States Patent and Trademark Office (USPTO) and the European Patent Office (EPO). CPC is jointly managed and maintained by both offices and is available for public search for classification.
+
+        The CPC classification system arranges subject matter into hierarchical arrays.
+            (A) The highest array or level is the Section.
+            (B) Each section is subdivided into Classes.
+            (C) Each class is subdivided into one or more subclasses.
+            (D) Each subclass is broken down into Groups (main groups and subgroups). 
+    </template>
+</category>
+<category>
+<pattern>_ CPC</pattern>
+<template>
+<srai>CPC</srai>
+</template>
+</category>
+<category>
+<pattern>_ CPC *</pattern>
+<template>
+<srai>CPC</srai>
+</template>
+</category>
+<category>
+    <pattern>COOPERATIVE PATENT CLASSIFICATION</pattern>
+    <template>
+        <srai>CPC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ COOPERATIVE PATENT CLASSIFICATION</pattern>
+<template>
+<srai>CPC</srai>
+</template>
+</category>
+<category>
+<pattern>_ COOPERATIVE PATENT CLASSIFICATION *</pattern>
+<template>
+<srai>CPC</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INTERNATIONAL CLASSIFICATION</pattern>
+    <template>
+        Section 906 of the MPEP - International Classification of Patents for Inventions
+        In accordance with the Strasbourg Agreement Concerning the International Patent Classification, the United States is required to indicate on its issuing documents the classification symbols of the International Patent Classification 2006 (Eighth Edition), hereinafter referred to as "Int. Cl."
+        The complete Int. Cl. symbols must be placed in the indicated space on the Image File Wrapper (IFW) issue classification form when an application is issued. 
+    </template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL CLASSIFICATION</pattern>
+<template>
+<srai>INTERNATIONAL CLASSIFICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL CLASSIFICATION *</pattern>
+<template>
+<srai>INTERNATIONAL CLASSIFICATION</srai>
+</template>
+</category>
+<category>
+    <pattern>INT. Cl.</pattern>
+    <template>
+        <srai>INTERNATIONAL CLASSIFICATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INT. Cl.</pattern>
+<template>
+<srai>INTERNATIONAL CLASSIFICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ INT. Cl. *</pattern>
+<template>
+<srai>INTERNATIONAL CLASSIFICATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>LOCARNO</pattern>
+    <template>
+        Section 907 of the MPEP - Locarno Classification Designations
+        U.S. design patents prepared for issue after June 30, 1996 and international design applications include a Locarno International Classification designation as part of the bibliographic data. The purpose of the international design classification designation is to enhance accessibility of design patents in foreign design search files as well as commercial databases.
+
+        A Locarno International Classification designation consists of two pairs of numbers separated by a hyphen. The first pair of numbers designates a design class; the second pair of numbers indicates a particular subclass within the design class. The Locarno Classification manual, available from WIPO, delineates the individual classes and subclasses and includes: (1) a general list of classes of industrial designs divided into broad subclasses; and (2) an alphabetical list of specific industrial designs with an indication of the classes and subclasses into which they should be classified. 
+    </template>
+</category>
+<category>
+<pattern>_ LOCARNO</pattern>
+<template>
+<srai>LOCARNO</srai>
+</template>
+</category>
+<category>
+<pattern>_ LOCARNO *</pattern>
+<template>
+<srai>LOCARNO</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DIRECTOR</pattern>
+    <template>
+        Section 1001.01 of the MPEP - Modes of Exercising Authority:
+        The authority of the Director of the USPTO to review and supervise the work of the Office is exercised by the promulgation of the Rules of Practice; issuance of orders, notices and memoranda stating Office policies and modes for effectuating these policies; decisions on petitions by applicants; and by the designation of particular cases which must be submitted to the Director of the USPTO or other officials authorized by the Director of the USPTO. 
+    </template>
+</category>
+<category>
+<pattern>_ DIRECTOR</pattern>
+<template>
+<srai>DIRECTOR</srai>
+</template>
+</category>
+<category>
+<pattern>_ DIRECTOR *</pattern>
+<template>
+<srai>DIRECTOR</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PETITION</pattern>
+    <template>
+        Section 1002 of the MPEP - Petitions to the Director of the USPTO:
+        (a) Petition may be taken to the Director:
+            (1) From any action or requirement of any examiner in the ex parte prosecution of an application, or in ex parte or inter partes prosecution of a reexamination proceeding which is not subject to appeal to the Patent Trial and Appeal Board or to the court;
+            (2) In cases in which a statute or the rules specify that the matter is to be determined directly by or reviewed by the Director; and
+            (3) To invoke the supervisory authority of the Director in appropriate circumstances. For petitions involving action of the Patent Trial and Appeal Board, see § 41.3 of this title.
+        A petition should include:
+            1. A statement of the type of relief requested and the authorizing provision of statute or rules, if applicable;
+            2. A statement of the relevant facts;
+            3. An identification of the points that are to be reviewed; and
+            4. The fee, where required.
+    </template>
+</category>
+<category>
+<pattern>_ PETITION</pattern>
+<template>
+<srai>PETITION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PETITION *</pattern>
+<template>
+<srai>PETITION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>AUTHORITY</pattern>
+    <template>
+        Section 1002.02 of the MPEP - Delegation of Authority To Decide Petitions:
+        Petitions to the Director of the USPTO are decided in accordance with the delegation of authority in section 1002.02. The delegation of specific petitions and/or matters to the Technology Center (TC) Directors is identified in the sections that follow. Unless specifically provided for in the letter of delegation of authority, further delegations are not permitted. Any petitions and/or matters so delegated by the TC Directors may be decided by the TC Directors.
+
+        Authority not herein delegated has been reserved to the Director of the USPTO and may be delegated to appropriate officials on an ad hoc basis.
+    </template>
+</category>
+<category>
+<pattern>_ AUTHORITY</pattern>
+<template>
+<srai>AUTHORITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ AUTHORITY *</pattern>
+<template>
+<srai>AUTHORITY</srai>
+</template>
+</category>
+<category>
+    <pattern>DELEGATION</pattern>
+    <template>
+        <srai>AUTHORITY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DELEGATION</pattern>
+<template>
+<srai>AUTHORITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ DELEGATION *</pattern>
+<template>
+<srai>AUTHORITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DEPUTY</pattern>
+    <template>
+        Section 1002.02(b) of the MPEP - Petitions and Requests Decided by the Office of the Deputy Commissioner for Patent Examination Policy:
+        All petitions decided by the Office of the Deputy Commissioner for Patent Examination Policy should be directed to "Mail Stop Petition, Commissioner for Patents, P.O. Box 1450, Alexandria, Virginia 22313-1450," except as otherwise provided. For example, applications for patent term extension under 35 U.S.C. 156  should be directed to Mail Stop Hatch-Waxman PTE and petitions for retroactive foreign filing license under 37 CFR 5.25  should be directed to Mail Stop L and R.
+    </template>
+</category>
+<category>
+<pattern>_ DEPUTY</pattern>
+<template>
+<srai>DEPUTY</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEPUTY *</pattern>
+<template>
+<srai>DEPUTY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TECHNOLOGY CENTER DIRECTOR</pattern>
+    <template>
+        Section 1002.02(c) of the MPEP - Petitions and Requests Decided by the Technology Center Directors
+        Section 1003 of the MPEP - Matters Submitted to Technology Center Directors
+    </template>
+</category>
+<category>
+<pattern>_ TECHNOLOGY CENTER DIRECTOR</pattern>
+<template>
+<srai>TECHNOLOGY CENTER DIRECTOR</srai>
+</template>
+</category>
+<category>
+<pattern>_ TECHNOLOGY CENTER DIRECTOR *</pattern>
+<template>
+<srai>TECHNOLOGY CENTER DIRECTOR</srai>
+</template>
+</category>
+<category>
+    <pattern>TECH CENTER DIRECTOR</pattern>
+    <template>
+        <srai>TECHNOLOGY CENTER DIRECTOR</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TECH CENTER DIRECTOR</pattern>
+<template>
+<srai>TECHNOLOGY CENTER DIRECTOR</srai>
+</template>
+</category>
+<category>
+<pattern>_ TECH CENTER DIRECTOR *</pattern>
+<template>
+<srai>TECHNOLOGY CENTER DIRECTOR</srai>
+</template>
+</category>
+
+<category>
+    <pattern>3640</pattern>
+    <template>
+        1002.02(c)(1) of the MPEP - Petitions Decided by the Director of Technology Center 3640
+    </template>
+</category>
+<category>
+<pattern>_ 3640</pattern>
+<template>
+<srai>3640</srai>
+</template>
+</category>
+<category>
+<pattern>_ 3640 *</pattern>
+<template>
+<srai>3640</srai>
+</template>
+</category>
+
+<category>
+    <pattern>1600</pattern>
+    <template>
+        1002.02(c)(2) of the MPEP - Petitions Decided by the Director of Technology Center 1600
+    </template>
+</category>
+<category>
+<pattern>_ 1600</pattern>
+<template>
+<srai>1600</srai>
+</template>
+</category>
+<category>
+<pattern>_ 1600 *</pattern>
+<template>
+<srai>1600</srai>
+</template>
+</category>
+
+<category>
+    <pattern>2900</pattern>
+    <template>
+        1002.02(c)(3) of the MPEP - Petitions and Requests Decided by the Director of Technology Center 2900
+    </template>
+</category>
+<category>
+<pattern>_ 2900</pattern>
+<template>
+<srai>2900</srai>
+</template>
+</category>
+<category>
+<pattern>_ 2900 *</pattern>
+<template>
+<srai>2900</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REEXAMINATION</pattern>
+    <template>
+        1002.02(c)(4) of the MPEP - Petitions Decided by the Director of the Central Reexamination Unit
+    </template>
+</category>
+<category>
+<pattern>_ REEXAMINATION</pattern>
+<template>
+<srai>REEXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REEXAMINATION *</pattern>
+<template>
+<srai>REEXAMINATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SUPERVISORY</pattern>
+    <template>
+        1002.02(d) of the MPEP - Petitions and Matters Decided by Supervisory Patent Examiners
+    </template>
+</category>
+<category>
+<pattern>_ SUPERVISORY</pattern>
+<template>
+<srai>SUPERVISORY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUPERVISORY *</pattern>
+<template>
+<srai>SUPERVISORY</srai>
+</template>
+</category>
+<category>
+    <pattern>SUPERVISOR</pattern>
+    <template>
+        <srai>SUPERVISORY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SUPERVISOR</pattern>
+<template>
+<srai>SUPERVISORY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUPERVISOR *</pattern>
+<template>
+<srai>SUPERVISORY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CHIEF</pattern>
+    <template>
+        1002.02(f) of the MPEP - Petitions and Matters Decided by the Chief Administrative Patent Judge of the Patent Trial and Appeal Boardrs
+    </template>
+</category>
+<category>
+<pattern>_ CHIEF</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+<pattern>_ CHIEF *</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+    <pattern>CHIEF PATENT JUDGE</pattern>
+    <template>
+        <srai>CHIEF</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CHIEF PATENT JUDGE</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+<pattern>_ CHIEF PATENT JUDGE *</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+    <pattern>CHIEF JUDGE</pattern>
+    <template>
+        <srai>CHIEF</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CHIEF JUDGE</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+<pattern>_ CHIEF JUDGE *</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT JUDGE</pattern>
+    <template>
+        1002.02(g) of the MPEPE - Petitions Decided by the Administrative Patent Judges
+    </template>
+</category>
+<category>
+<pattern>_ PATENT JUDGE</pattern>
+<template>
+<srai>PATENT JUDGE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT JUDGE *</pattern>
+<template>
+<srai>PATENT JUDGE</srai>
+</template>
+</category>
+<category>
+    <pattern>PATENT JUDGE</pattern>
+    <template>
+        <srai>PATENT JUDGE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT JUDGE</pattern>
+<template>
+<srai>PATENT JUDGE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT JUDGE *</pattern>
+<template>
+<srai>PATENT JUDGE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>APPEAL BOARD</pattern>
+    <template>
+        1002.02(j) of the MPEP - Petitions Decided by the Patent Trial and Appeal Board
+    </template>
+</category>
+<category>
+<pattern>_ APPEAL BOARD</pattern>
+<template>
+<srai>APPEAL BOARD</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPEAL BOARD *</pattern>
+<template>
+<srai>APPEAL BOARD</srai>
+</template>
+</category>
+<category>
+    <pattern>PATENT TRIAL BOARD</pattern>
+    <template>
+        <srai>APPEAL BOARD</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT TRIAL BOARD</pattern>
+<template>
+<srai>APPEAL BOARD</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT TRIAL BOARD *</pattern>
+<template>
+<srai>APPEAL BOARD</srai>
+</template>
+</category>
+
+<category>
+    <pattern>GENERAL COUNSEL</pattern>
+    <template>
+        1002.02(k)(1) of the MPEP - Petitions and Matters Decided by the General Counsel
+    </template>
+</category>
+<category>
+<pattern>_ GENERAL COUNSEL</pattern>
+<template>
+<srai>GENERAL COUNSEL</srai>
+</template>
+</category>
+<category>
+<pattern>_ GENERAL COUNSEL *</pattern>
+<template>
+<srai>GENERAL COUNSEL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SOLICITOR</pattern>
+    <template>
+        1002.02(k)(3) of the MPEP - Petitions and Matters Decided by the Solicitor
+    </template>
+</category>
+<category>
+<pattern>_ SOLICITOR</pattern>
+<template>
+<srai>SOLICITOR</srai>
+</template>
+</category>
+<category>
+<pattern>_ SOLICITOR *</pattern>
+<template>
+<srai>SOLICITOR</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DISCIPLINE</pattern>
+    <template>
+        1002.02(m) of the MPEP - Petitions Decided by the Director of the Office of Enrollment and Discipline
+    </template>
+</category>
+<category>
+<pattern>_ DISCIPLINE</pattern>
+<template>
+<srai>DISCIPLINE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DISCIPLINE *</pattern>
+<template>
+<srai>DISCIPLINE</srai>
+</template>
+</category>
+<category>
+    <pattern>ENROLLMENT</pattern>
+    <template>
+        <srai>DISCIPLINE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ENROLLMENT</pattern>
+<template>
+<srai>DISCIPLINE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ENROLLMENT *</pattern>
+<template>
+<srai>DISCIPLINE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PRIMARY EXAMINER</pattern>
+    <template>
+        Section 1004 of the MPEP - Actions Which Require the Attention of a Primary Examiner
+    </template>
+</category>
+<category>
+<pattern>_ PRIMARY EXAMINER</pattern>
+<template>
+<srai>PRIMARY EXAMINER</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRIMARY EXAMINER *</pattern>
+<template>
+<srai>PRIMARY EXAMINER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SIGNATORY</pattern>
+    <template>
+        Section 1005 of the MPEP - Exceptions to Partial Signatory Authority
+    </template>
+</category>
+<category>
+<pattern>_ SIGNATORY</pattern>
+<template>
+<srai>SIGNATORY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SIGNATORY *</pattern>
+<template>
+<srai>SIGNATORY</srai>
+</template>
+</category>
+
+</aiml>
+
+
