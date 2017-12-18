@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Elman V. Krinker"/>
+<meta name="language" content="en"/>
+
+<category>
+    <pattern>MAINTENANCE FEES</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e247906.html">Maintenance Fees</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ MAINTENANCE FEES</pattern>
+<template>
+<srai>MAINTENANCE FEES</srai>
+</template>
+</category>
+<category>
+<pattern>_ MAINTENANCE FEES *</pattern>
+<template>
+<srai>MAINTENANCE FEES</srai>
+</template>
+</category>
+
+<category>
+<pattern>FEES</pattern>
+<template>
+Refer to this guide: <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/current/eff_20130320_d0e315199.html">Fees</a>]]>
+</template>
+</category>
+<category>
+<pattern>* * FEES</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> FEES</srai>
+</template>
+</category>
+<category>
+    <pattern>* FEES</pattern>
+    <template>
+        <srai>FEES</srai>
+    </template>
+</category>
+<category>
+<pattern>FEE</pattern>
+<template>
+<srai>FEES</srai>
+</template>
+</category>
+<category>
+<pattern>* * FEE</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> FEES</srai>
+</template>
+</category>
+<category>
+    <pattern>* FEE</pattern>
+    <template>
+        <srai>FEES</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>DUTY OF DISCLOSURE</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e195418.html">Duty of Disclosure</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ DUTY OF DISCLOSURE</pattern>
+<template>
+<srai>DUTY OF DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DUTY OF DISCLOSURE *</pattern>
+<template>
+<srai>DUTY OF DISCLOSURE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SECRECY</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e405.html">SECRECY, ACCESS, NATIONAL SECURITY, AND FOREIGN FILING</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ SECRECY</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SECRECY *</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+    <pattern>ACCESS</pattern>
+    <template>
+        <srai>SECRECY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ACCESS</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+<pattern>_ ACCESS *</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+    <pattern>NATIONAL SECURITY</pattern>
+    <template>
+        <srai>SECRECY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ NATIONAL SECURITY</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+<pattern>_ NATIONAL SECURITY *</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+    <pattern>FOREIGN FILING</pattern>
+    <template>
+        <srai>SECRECY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FOREIGN FILING</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+<pattern>_ FOREIGN FILING *</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>STATUS OF APPLICATION</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e4510.html">TYPES, CROSS-NOTING, AND STATUS OF APPLICATION</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ STATUS OF APPLICATION</pattern>
+<template>
+<srai>STATUS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ STATUS OF APPLICATION *</pattern>
+<template>
+<srai>STATUS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+    <pattern>TYPES</pattern>
+    <template>
+        <srai>STATUS OF APPLICATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TYPES</pattern>
+<template>
+<srai>STATUS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ TYPES *</pattern>
+<template>
+<srai>STATUS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+    <pattern>CROSS NOTING</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e4510.html">TYPES, CROSS-NOTING, AND STATUS OF APPLICATION</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ CROSS NOTING</pattern>
+<template>
+<srai>STATUS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ CROSS NOTING *</pattern>
+<template>
+<srai>STATUS OF APPLICATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>OWNERSHIP</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e17683.html">OWNERSHIP AND ASSIGNMENT</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ OWNERSHIP</pattern>
+<template>
+<srai>OWNERSHIP</srai>
+</template>
+</category>
+<category>
+<pattern>_ OWNERSHIP *</pattern>
+<template>
+<srai>OWNERSHIP</srai>
+</template>
+</category>
+<category>
+    <pattern>ASSIGNMENT</pattern>
+    <template>
+        <srai>OWNERSHIP</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ASSIGNMENT</pattern>
+<template>
+<srai>OWNERSHIP</srai>
+</template>
+</category>
+<category>
+<pattern>_ ASSIGNMENT *</pattern>
+<template>
+<srai>OWNERSHIP</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REPRESENTATIVE OF APPLICANT</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e20478.html">REPRESENTATIVE OF APPLICANT OR OWNER</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ REPRESENTATIVE OF APPLICANT</pattern>
+<template>
+<srai>REPRESENTATIVE OF APPLICANT</srai>
+</template>
+</category>
+<category>
+<pattern>_ REPRESENTATIVE OF APPLICANT *</pattern>
+<template>
+<srai>REPRESENTATIVE OF APPLICANT</srai>
+</template>
+</category>
+<category>
+    <pattern>OWNER</pattern>
+    <template>
+        <srai>REPRESENTATIVE OF APPLICANT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ OWNER</pattern>
+<template>
+<srai>REPRESENTATIVE OF APPLICANT</srai>
+</template>
+</category>
+<category>
+<pattern>_ OWNER *</pattern>
+<template>
+<srai>REPRESENTATIVE OF APPLICANT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>RECEIPT HANDLING MAIL PAPERS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e24253.html">RECEIPT AND HANDLING OF MAIL AND PAPERS</a>]]>
+    </template>
+</category>
+<category>
+<pattern>RECEIPT * HANDLING * MAIL * PAPERS</pattern>
+<template>
+<srai>RECEIPT HANDLING MAIL PAPERS</srai>
+</template>
+</category>
+<category>
+<pattern>HANDLING * MAIL * PAPERS</pattern>
+<template>
+<srai>RECEIPT HANDLING MAIL PAPERS</srai>
+</template>
+</category>
+<category>
+<pattern>HANDLING * PAPERS</pattern>
+<template>
+<srai>RECEIPT HANDLING MAIL PAPERS</srai>
+</template>
+</category>
+<category>
+<pattern>HANDLING * MAIL</pattern>
+<template>
+<srai>RECEIPT HANDLING MAIL PAPERS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PARTS OF APPLICATION</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e34301.html">PARTS, FORM, AND CONTENT OF APPLICATION</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PARTS OF APPLICATION</pattern>
+<template>
+<srai>PARTS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PARTS OF APPLICATION *</pattern>
+<template>
+<srai>PARTS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+    <pattern>FORM OF APPLICATION</pattern>
+    <template>
+        <srai>PARTS OF APPLICATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FORM OF APPLICATION</pattern>
+<template>
+<srai>PARTS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ FORM OF APPLICATION *</pattern>
+<template>
+<srai>PARTS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+    <pattern>CONTENT OF APPLICATION</pattern>
+    <template>
+        <srai>PARTS OF APPLICATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CONTENT OF APPLICATION</pattern>
+<template>
+<srai>PARTS OF APPLICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONTENT OF APPLICATION *</pattern>
+<template>
+<srai>PARTS OF APPLICATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EXAMINATION OF APPLICATIONS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e55397.html">EXAMINATION OF APPLICATIONS</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ EXAMINATION OF APPLICATIONS</pattern>
+<template>
+<srai>EXAMINATION OF APPLICATIONS</srai>
+</template>
+</category>
+<category>
+<pattern>_ EXAMINATION OF APPLICATIONS *</pattern>
+<template>
+<srai>EXAMINATION OF APPLICATIONS</srai>
+</template>
+</category>
+<category>
+    <pattern>EXAMINATION OF APPLICATION</pattern>
+    <template>
+        <srai>EXAMINATION OF APPLICATIONS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ EXAMINATION OF APPLICATION</pattern>
+<template>
+<srai>EXAMINATION OF APPLICATIONS</srai>
+</template>
+</category>
+<category>
+<pattern>_ EXAMINATION OF APPLICATION *</pattern>
+<template>
+<srai>EXAMINATION OF APPLICATIONS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>RESTRICTION IN APPLICATIONS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e97826.html">RESTRICTION IN APPLICATIONS FILED UNDER 35 U.S.C. 111; DOUBLE PATENTING</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ RESTRICTION IN APPLICATIONS</pattern>
+<template>
+<srai>RESTRICTION IN APPLICATIONS</srai>
+</template>
+</category>
+<category>
+<pattern>_ RESTRICTION IN APPLICATIONS *</pattern>
+<template>
+<srai>RESTRICTION IN APPLICATIONS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CLASSIFICATION</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e110007.html">PRIOR ART, CLASSIFICATION, AND SEARCH</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION</pattern>
+<template>
+<srai>CLASSIFICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLASSIFICATION *</pattern>
+<template>
+<srai>CLASSIFICATION</srai>
+</template>
+</category>
+<category>
+    <pattern>SEARCH</pattern>
+    <template>
+        <srai>CLASSIFICATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SEARCH</pattern>
+<template>
+<srai>CLASSIFICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ SEARCH *</pattern>
+<template>
+<srai>CLASSIFICATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e115995.html">MATTERS DECIDED BY VARIOUS U.S. PATENT AND TRADEMARK OFFICE OFFICIALS</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</pattern>
+<template>
+<srai>MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</srai>
+</template>
+</category>
+<category>
+<pattern>_ MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS *</pattern>
+<template>
+<srai>MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</srai>
+</template>
+</category>
+<category>
+<pattern>MATTERS DECIDED OFFICIALS</pattern>
+<template>
+<srai>MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</srai>
+</template>
+</category>
+<category>
+<pattern>_ MATTERS DECIDED OFFICIALS</pattern>
+<template>
+<srai>MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</srai>
+</template>
+</category>
+<category>
+<pattern>_ MATTERS DECIDED OFFICIALS *</pattern>
+<template>
+<srai>MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</srai>
+</template>
+</category>
+<category>
+<pattern>MATTERS DECIDED</pattern>
+<template>
+<srai>MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</srai>
+</template>
+</category>
+<category>
+<pattern>_ MATTERS DECIDED</pattern>
+<template>
+<srai>MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</srai>
+</template>
+</category>
+<category>
+<pattern>_ MATTERS DECIDED *</pattern>
+<template>
+<srai>MATTERS DECIDED BY VARIOUS US PATENT AND TRADEMARK OFFICE OFFICIALS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>STATUTORY INVENTION REGISTRATION</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e4051.html">Statutory Invention Registration (SIR); Pre-Grant Publication (PGPub) and Preissuance Submissions</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ STATUTORY INVENTION REGISTRATION</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ STATUTORY INVENTION REGISTRATION *</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+<category>
+    <pattern>SIR</pattern>
+    <template>
+        <srai>STATUTORY INVENTION REGISTRATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SIR</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ SIR *</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+<category>
+    <pattern>PRE GRANT PUBLICATION</pattern>
+    <template>
+        <srai>STATUTORY INVENTION REGISTRATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PRE GRANT PUBLICATION</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRE GRANT PUBLICATION *</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+<category>
+    <pattern>PGPUB</pattern>
+    <template>
+        <srai>STATUTORY INVENTION REGISTRATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PGPUB</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PGPUB *</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+<category>
+    <pattern>PREISSUANCE SUBMISSIONS</pattern>
+    <template>
+        <srai>STATUTORY INVENTION REGISTRATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PREISSUANCE SUBMISSIONS</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PREISSUANCE SUBMISSIONS *</pattern>
+<template>
+<srai>STATUTORY INVENTION REGISTRATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>APPEAL</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e122292.html">Appeal</a>]]>
+    </template>wha
+</category>
+<category>
+<pattern>_ APPEAL</pattern>
+<template>
+<srai>APPEAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPEAL *</pattern>
+<template>
+<srai>APPEAL</srai>
+</template>
+</category>
+
+
+<category>
+    <pattern>CORRECTION OF PATENTS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e134581.html">Correction of Patents</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ CORRECTION OF PATENTS</pattern>
+<template>
+<srai>CORRECTION OF PATENTS</srai>
+</template>
+</category>
+<category>
+<pattern>_ CORRECTION OF PATENTS *</pattern>
+<template>
+<srai>CORRECTION OF PATENTS</srai>
+</template>
+</category>
+<category>
+    <pattern>CORRECTION</pattern>
+    <template>
+        <srai>CORRECTION OF PATENTS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CORRECTION</pattern>
+<template>
+<srai>CORRECTION OF PATENTS</srai>
+</template>
+</category>
+<category>
+<pattern>_ CORRECTION *</pattern>
+<template>
+<srai>CORRECTION OF PATENTS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MISCELLANEOUS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="link">Miscellaneous</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ MISCELLANEOUS</pattern>
+<template>
+<srai>MISCELLANEOUS</srai>
+</template>
+</category>
+<category>
+<pattern>_ MISCELLANEOUS *</pattern>
+<template>
+<srai>MISCELLANEOUS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT COOPERATION TREATY</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e163752.html">Patent Cooperation Treaty</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT COOPERATION TREATY</pattern>
+<template>
+<srai>PATENT COOPERATION TREATY</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT COOPERATION TREATY *</pattern>
+<template>
+<srai>PATENT COOPERATION TREATY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PROTEST</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e193631.html">Protest</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PROTEST</pattern>
+<template>
+<srai>PROTEST</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROTEST *</pattern>
+<template>
+<srai>PROTEST</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENTABILITY</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e197004.html">Patentability</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PATENTABILITY</pattern>
+<template>
+<srai>PATENTABILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENTABILITY *</pattern>
+<template>
+<srai>PATENTABILITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INTERFERENCE PROCEEDINGS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e237627.html">Interference Proceedings</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ INTERFERENCE PROCEEDINGS</pattern>
+<template>
+<srai>INTERFERENCE PROCEEDINGS</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTERFERENCE PROCEEDINGS *</pattern>
+<template>
+<srai>INTERFERENCE PROCEEDINGS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>BIOTECHNOLOGY</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e240552.html">Biotechnology</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ BIOTECHNOLOGY</pattern>
+<template>
+<srai>BIOTECHNOLOGY</srai>
+</template>
+</category>
+<category>
+<pattern>_ BIOTECHNOLOGY *</pattern>
+<template>
+<srai>BIOTECHNOLOGY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>OPTIONAL INTER PARTES REEXAMINATION</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e249708.html">Optional Inter Partes Reexamination</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ OPTIONAL INTER PARTES REEXAMINATION</pattern>
+<template>
+<srai>OPTIONAL INTER PARTES REEXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ OPTIONAL INTER PARTES REEXAMINATION *</pattern>
+<template>
+<srai>OPTIONAL INTER PARTES REEXAMINATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT TERMS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e271941.html">Patent Terms and Extensions</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT TERMS</pattern>
+<template>
+<srai>PATENT TERMS</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT TERMS *</pattern>
+<template>
+<srai>PATENT TERMS</srai>
+</template>
+</category>
+<category>
+    <pattern>EXTENSIONS</pattern>
+    <template>
+        <srai>PATENT TERMS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ EXTENSIONS</pattern>
+<template>
+<srai>PATENT TERMS</srai>
+</template>
+</category>
+<category>
+<pattern>_ EXTENSIONS *</pattern>
+<template>
+<srai>PATENT TERMS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SUPPLEMENTAL EXAMINATION</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/ch2800_d1fea8_279ab_9.html">Supplemental Examination</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ SUPPLEMENTAL EXAMINATION</pattern>
+<template>
+<srai>SUPPLEMENTAL EXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUPPLEMENTAL EXAMINATION *</pattern>
+<template>
+<srai>SUPPLEMENTAL EXAMINATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INTERNATIONAL DESIGN APPLICATIONS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="link">International Design Applications</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL DESIGN APPLICATIONS</pattern>
+<template>
+<srai>INTERNATIONAL DESIGN APPLICATIONS</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL DESIGN APPLICATIONS *</pattern>
+<template>
+<srai>INTERNATIONAL DESIGN APPLICATIONS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT LAWS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e300730.html">Patent Laws</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT LAWS</pattern>
+<template>
+<srai>PATENT LAWS</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT LAWS *</pattern>
+<template>
+<srai>PATENT LAWS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT RULES</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e312906.html">Patent Rules</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT RULES</pattern>
+<template>
+<srai>PATENT RULES</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT RULES *</pattern>
+<template>
+<srai>PATENT RULES</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PARIS CONVENTION</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e311120.html">Paris Convention</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PARIS CONVENTION</pattern>
+<template>
+<srai>PARIS CONVENTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PARIS CONVENTION *</pattern>
+<template>
+<srai>PARIS CONVENTION</srai>
+</template>
+</category>
+
+
+
+
+</aiml>

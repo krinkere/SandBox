@@ -1,108 +1,4 @@
-import nltk
-import numpy as np
-import pickle
-import json
-import sklearn
-import random
-from keras.models import load_model
 from TensorFlow.Chatbot.viaKeras_constants import *
-from nltk.stem.lancaster import LancasterStemmer
-stemmer = LancasterStemmer()
-
-ERROR_THRESHOLD = 0.25
-
-# import our chat-bot intents file
-with open(DATA_FILE) as json_data:
-    intents = json.load(json_data)
-
-# restore all of our data structures
-data = pickle.load(open(TRAINING_DATA_FILE, "rb"))
-words = data['words']
-classes = data['classes']
-train_x = data['train_x']
-train_y = data['train_y']
-
-# load our saved model
-model = load_model(MODEL_OUT_FILE)
-
-# create a data structure to hold user context
-context = {}
-
-
-def clean_up_sentence(sentence):
-    # tokenize the pattern
-    sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = preserve_special_words(sentence_words)
-    # stem each word
-    sentence_words = [stemmer.stem(word.lower()) for word in sentence_words]
-    return sentence_words
-
-
-# return bag of words array: 0 or 1 for each word in the bag that exists in the sentence
-def bow(sentence):
-    # tokenize the pattern
-    sentence_words = clean_up_sentence(sentence)
-    ''' For whatever reason this stopped working when trying to match 102(A)(1)... '''
-    # # bag of words
-    # cv = sklearn.feature_extraction.text.CountVectorizer(vocabulary=words)
-    # bag = cv.fit_transform([" ".join(str(x) for x in sentence_words)]).toarray()[0]
-    ''' END '''
-
-    # bag of words
-    bag = [0]*len(words)
-    for s in sentence_words:
-        for i, w in enumerate(words):
-            if w == s:
-                bag[i] = 1
-    bag = np.array(bag)
-
-    return bag
-
-
-def classify(sentence):
-    # generate probabilities from the model
-    ''' For whatever reason this stopped working when trying to match 102(A)(1)... '''
-    # sentence_vector = np.array([bow(sentence).tolist()])
-    # results = model.predict(sentence_vector)[0]
-    ''' END '''
-    sentence_vector = np.array([bow(sentence)])
-    results = model.predict(sentence_vector)[0]
-    # filter out predictions below a threshold
-    results = [[i, r] for i, r in enumerate(results) if r > ERROR_THRESHOLD]
-    # sort by strength of probability
-    results.sort(key=lambda x: x[1], reverse=True)
-    return_list = []
-    for r in results:
-        return_list.append((classes[r[0]], r[1]))
-    # return tuple of intent and probability
-    return return_list
-
-
-def response(sentence, userID='123', show_details=False):
-    results = classify(sentence)
-    # if we have a classification then find the matching intent tag
-    if results:
-        top_choice = results[0][0]
-        for i in intents['intents']:
-            # find a tag matching the first result
-            if i['tag'] == top_choice:
-                # set context for this intent if necessary
-                if 'context_set' in i:
-                    if show_details:
-                        print('context:', i['context_set'])
-                    context[userID] = i['context_set']
-
-                # check if this intent is contextual and applies to this user's conversation
-                if not 'context_filter' in i or \
-                        (userID in context and 'context_filter' in i and i['context_filter'] == context[userID]):
-                    if show_details:
-                        print('tag:', i['tag'])
-                    # a random response from the intent
-                    return print(random.choice(i['responses']))
-
-
-def get_context():
-    return context
 
 
 def preserve_special_words(tokens):
@@ -121,6 +17,79 @@ def preserve_special_words(tokens):
             tokens = left + joined + right
 
     return tokens
+
+
+def int2word(num2conv):
+    """
+    from https://www.daniweb.com/programming/software-development/code/216839/number-to-word-converter-python
+
+    convert an integer number n into a string of english words
+    can be used for numbers as large as 999 vigintillion
+    """
+    # break the number into groups of 3 digits using slicing
+    # each group representing hundred, thousand, million, billion, ...
+    n3 = []
+    r1 = ""
+    # create numeric string
+    ns = str(num2conv)
+    for k in range(3, 33, 3):
+        r = ns[-k:]
+        q = len(ns) - k
+        # break if end of ns has been reached
+        if q < -2:
+            break
+        else:
+            if q >= 0:
+                n3.append(int(r[:3]))
+            elif q >= -1:
+                n3.append(int(r[:2]))
+            elif q >= -2:
+                n3.append(int(r[:1]))
+        r1 = r
+
+    # print n3  # test
+
+    # break each group of 3 digits into
+    # ones, tens/twenties, hundreds
+    # and form a string
+    nw = ""
+    for i, x in enumerate(n3):
+        b1 = x % 10
+        b2 = (x % 100) // 10
+        b3 = (x % 1000) // 100
+        # print b1, b2, b3  # test
+        if x == 0:
+            continue  # skip
+        else:
+            t = thousands[i]
+        if b2 == 0:
+            nw = ones[b1] + t + nw
+        elif b2 == 1:
+            nw = tens[b1] + t + nw
+        elif b2 > 1:
+            nw = twenties[b2] + ones[b1] + t + nw
+        if b3 > 0:
+            nw = ones[b3] + "hundred " + nw
+    return nw
+
+
+############# globals ################
+ones = ["", "one ", "two ", "three ", "four ", "five ",
+        "six ", "seven ", "eight ", "nine "]
+tens = ["ten ", "eleven ", "twelve ", "thirteen ", "fourteen ",
+        "fifteen ", "sixteen ", "seventeen ", "eighteen ", "nineteen "]
+twenties = ["", "", "twenty ", "thirty ", "forty ",
+            "fifty ", "sixty ", "seventy ", "eighty ", "ninety "]
+thousands = ["", "thousand ", "million ", "billion ", "trillion ",
+             "quadrillion ", "quintillion ", "sextillion ", "septillion ", "octillion ",
+             "nonillion ", "decillion ", "undecillion ", "duodecillion ", "tredecillion ",
+             "quattuordecillion ", "quindecillion", "sexdecillion ", "septendecillion ",
+             "octodecillion ", "novemdecillion ", "vigintillion "]
+
+if __name__ == '__main__':
+    # select an integer number n for testing or get it from user input
+    nf = 73
+    print(int2word(nf))
 
 
 

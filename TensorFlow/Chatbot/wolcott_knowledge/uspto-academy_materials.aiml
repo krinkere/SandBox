@@ -1,0 +1,2643 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Elman V. Krinker"/>
+<meta name="language" content="en"/>
+
+<!-- The <category> tag: The basic knowledge blocks of AIML are called categories. Each category block consists -->
+<!--   of two sections. One is the user input in the form of a sentence and the other is a corresponding response -->
+<!--   to user input which comes from robot. The category tag is represented using the opening <category> tag and -->
+<!--   the closing tag is represented using the </category> tag. -->
+<!--   These categories must be inside the <aiml> and </aiml> tags. The category tags consist of two tags, namely, -->
+<!--   the <pattern> tag and the <template> tag. The input given by users is inside the <pattern> tag and the -->
+<!--   answers are in the <template> tag -->
+<category>
+    <pattern>INTELLECTUAL PROPERTY</pattern>
+    <template>
+        Intellectual property (IP) refers to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce.
+    </template>
+</category>
+<category>
+<pattern>_ INTELLECTUAL PROPERTY</pattern>
+<template>
+<srai>INTELLECTUAL PROPERTY</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTELLECTUAL PROPERTY *</pattern>
+<template>
+<srai>INTELLECTUAL PROPERTY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INTELLECTUAL PROPERTY TYPE</pattern>
+    <template>
+        There are four forms of Intellectual Properties: Copyrights, Trade Secrets, Trademark, and Patents.
+    </template>
+</category>
+<category>
+<pattern>_ INTELLECTUAL PROPERTY TYPE</pattern>
+<template>
+<srai>INTELLECTUAL PROPERTY TYPE</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTELLECTUAL PROPERTY TYPE *</pattern>
+<template>
+<srai>INTELLECTUAL PROPERTY TYPE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COPYRIGHT</pattern>
+    <template>
+        Protect original works of authorship such as writings, music, and works of art (The Library of Congress registers U.S. copyrights, which last for the life of the author plus 70 years, for works created after 1/1/78.)
+    </template>
+</category>
+<category>
+<pattern>_ COPYRIGHT</pattern>
+<template>
+<srai>COPYRIGHT</srai>
+</template>
+</category>
+<category>
+<pattern>_ COPYRIGHT *</pattern>
+<template>
+<srai>COPYRIGHT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TRADE SECRET</pattern>
+    <template>
+        Information that companies keep secret to give them an advantage over their competitors (can be discovered through reverse engineering, or can last forever if kept secret)
+    </template>
+</category>
+<category>
+<pattern>* * TRADE SECRET</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> TRADE SECRET</srai>
+</template>
+</category>
+<category>
+<pattern>* TRADE SECRET</pattern>
+<template>
+<srai>TRADE SECRET</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TRADEMARK</pattern>
+    <template>
+        Protects words, names, symbols, sounds, or colors that distinguish goods and services from those manufactured or sold by others and to indicate the source of the goods (can be renewed forever as long as they are being used in commerce)
+    </template>
+</category>
+<category>
+<pattern>* * TRADEMARK</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> TRADEMARK</srai>
+</template>
+</category>
+<category>
+    <pattern>* TRADEMARK</pattern>
+    <template>
+        <srai>TRADEMARK</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>TRADEMARK NAME</pattern>
+    <template>
+        A nonproprietary name by which an article or product is known and called among traders or workers in the art, although it may not be so known by the public, generally. Names used in trade do not point to the product of one producer, but they identify a single article or product irrespective of producer.
+    </template>
+</category>
+<category>
+<pattern>_ TRADEMARK NAME</pattern>
+<template>
+<srai>TRADEMARK NAME</srai>
+</template>
+</category>
+<category>
+<pattern>_ TRADEMARK NAME *</pattern>
+<template>
+<srai>TRADEMARK NAME</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT</pattern>
+    <template>
+        A property right granted by the government of a country to exclude others from making, using, selling, offering for sale, or importing the invention, for a limited time in exchange for public disclosure of the invention when the patent is granted.
+            - "Applicant" can include inventor(s), assignee(s), or an entity who shows a sufficient proprietary interest.
+            - Patent document describes how to make and use invention.
+            - Includes at least one "claim" setting forth the protected invention
+    </template>
+</category>
+<category>
+<pattern>* * PATENT</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> PATENT</srai>
+</template>
+</category>
+<category>
+    <pattern>* PATENT</pattern>
+    <template>
+        <srai>PATENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>PATENT OVER TRADE SECRET</pattern>
+    <template>
+        Quid Pro Quo
+        - In exchange for providing new knowledge/information to the public, the owner of the patent is granted an exclusive right to make, use, offer for sale, sell, or import into the U.S. the inventions covered by the patent claims
+        - Enables potential financial gain to the inventor(s) and patent owner(s), as well as any licensees
+        Public Gain
+        - Public has the ability to make, use, sell, and import the claimed invention after patent term expiration, unleashing free market competitive forces
+        - Promotes progress and development of new technologies
+    </template>
+</category>
+<category>
+<pattern>_ PATENT OVER TRADE SECRET</pattern>
+<template>
+<srai>PATENT OVER TRADE SECRET</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT OVER TRADE SECRET *</pattern>
+<template>
+<srai>PATENT OVER TRADE SECRET</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT TYPE</pattern>
+    <template>
+        Utility - any new and useful process, article of manufacture, machine, or composition, or improvement thereof
+        Design - a new original, and ornamental design for an article of manufacture
+        Plant - any distinct and new variety of plant that is invented or discovered and asexually produced
+    </template>
+</category>
+<category>
+<pattern>_ PATENT TYPE</pattern>
+<template>
+<srai>PATENT TYPE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT TYPE *</pattern>
+<template>
+<srai>PATENT TYPE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DESIGN PATENT</pattern>
+    <template>
+        Design patents granted to anyone who invents a new, original, and ornamental design. Only protects the appearance of an article. Only one claim permitted that refers to drawing(s).
+        Term lasts 15 years from date of patent grant if filed on or after May 13, 2015. Term lasts 14 years from date of patent grant if filed on or before May 12, 2015. No fees necessary to maintain a design patent in force
+
+        Refer to this guide for more details: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e150114.html">Design Patents</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ DESIGN PATENT</pattern>
+<template>
+<srai>DESIGN PATENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ DESIGN PATENT *</pattern>
+<template>
+<srai>DESIGN PATENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PLANT PATENT</pattern>
+    <template>
+        Granted to anyone who invents or discovers AND asexually reproduces any distinct and new variety of plant. Must be produced by means other than seeds. Only one claim permitted.
+        Drawings are for artistic, rather than mechanical, purposes, in order to disclose all the distinctive characteristics of the plant capable of visual representation. Plant patent term - 20 years from filing date.
+
+        Refer to this guide for more details: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e161282.html">Plant Patents</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PLANT PATENT</pattern>
+<template>
+<srai>PLANT PATENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ PLANT PATENT *</pattern>
+<template>
+<srai>PLANT PATENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>UTILITY PATENT</pattern>
+    <template>
+        Utility patent applications cover inventions, discoveries or improvements of:
+        - Any new and useful process. Example: method of recording video
+        - Machine. Example: video camera
+        - Article of manufacture. Example: case for a video camera
+        - Composition of matter. Example: material comprising a new type of camera lens
+        Patent term lasts 20 years from the effective filing date (for applications filed on or after June 8, 1995). Maintenance fee required to keep patent in force. Application requirements differ for provisional and nonprovisional applications (next section).
+    </template>
+</category>
+<category>
+<pattern>_ UTILITY PATENT</pattern>
+<template>
+<srai>UTILITY PATENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ UTILITY PATENT *</pattern>
+<template>
+<srai>UTILITY PATENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>APPLY FOR PATENT</pattern>
+    <template>
+        Anyone, from anywhere, may apply, with exception of officers and employees of the Patent and Trademark Office, during the period of their appointments and for one year thereafter
+    </template>
+</category>
+<category>
+<pattern>_ APPLY FOR PATENT</pattern>
+<template>
+<srai>APPLY FOR PATENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPLY FOR PATENT *</pattern>
+<template>
+<srai>APPLY FOR PATENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT PARTS</pattern>
+    <template>
+        Each patent must have the following parts:
+        - Title
+        - Abstract
+        - Drawings or pictures if necessary to describe the invention
+        - A specification, including a description of the invention, and
+        - At least one claim.
+        Other requirements vary by type of patent, and subject matter.
+    </template>
+</category>
+<category>
+<pattern>_ PATENT PARTS</pattern>
+<template>
+<srai>PATENT PARTS</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT PARTS *</pattern>
+<template>
+<srai>PATENT PARTS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>USPTO MISSION</pattern>
+    <template>
+        Fostering innovation, competitiveness and economic growth, domestically and abroad by delivering high quality and timely examination of patent and trademark applications, guiding domestic and international intellectual property (IP) policy, and delivering IP information and education worldwide, with a highly skilled, diverse workforce
+    </template>
+</category>
+<category>
+<pattern>_ USPTO MISSION</pattern>
+<template>
+<srai>USPTO MISSION</srai>
+</template>
+</category>
+<category>
+<pattern>_ USPTO MISSION *</pattern>
+<template>
+<srai>USPTO MISSION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>USPTO VISION</pattern>
+    <template>
+        Leading the nation and the world in IP protection and policy
+    </template>
+</category>
+<category>
+<pattern>_ USPTO VISION</pattern>
+<template>
+<srai>USPTO VISION</srai>
+</template>
+</category>
+<category>
+<pattern>_ USPTO VISION *</pattern>
+<template>
+<srai>USPTO VISION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>AMERICA INVENTS ACT</pattern>
+    <template>
+        The America Invents Act was enacted into law on September 16, 2011
+        - Effective September 16, 2012:
+            o Inventor's oath or declaration not required at filing, but an application data sheet (ADS) is required
+            o Third party prior art submissions may be submitted in another's patent application
+        - Effective March 16, 2013:
+            o Changed from "first to invent" to "first inventor to file"
+    </template>
+</category>
+<category>
+<pattern>_ AMERICA INVENTS ACT</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+<category>
+<pattern>_ AMERICA INVENTS ACT *</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+<category>
+    <pattern>AIA</pattern>
+    <template>
+        <srai>AMERICA INVENTS ACT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ AIA</pattern>
+<template>
+<srai>AIA</srai>
+</template>
+</category>
+<category>
+<pattern>_ AIA *</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+<category>
+    <pattern>LEAHY–SMITH</pattern>
+    <template>
+        <srai>AMERICA INVENTS ACT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ LEAHY–SMITH</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+<category>
+<pattern>_ LEAHY–SMITH *</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COURT OF APPEALS FEDERAL CIRCUIT</pattern>
+    <template>
+        Created in 1982 to provide for a single circuit court with jurisdiction over patent appeals from district courts and USPTO
+        - Before 1982, regional circuit courts heard patent appeals from district courts. the Court of Customs and Patent Appeals (CCPA) heard appeals from USPTO's Board of Patent Appeals and Interferences (now the Patent Trial and Appeal Board)
+        - The CAFC also hears appeals from other courts and boards, including Court of Federal Claims, Court of Veterans Appeals, Merit Systems Protection Board (MSPB), etc.
+        - A complete listing of recent opinions and orders is at <![CDATA[<a target="_new" href="http://www.cafc.uscourts.gov/opinions-orders">here</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ COURT OF APPEALS FEDERAL CIRCUIT</pattern>
+<template>
+<srai>COURT OF APPEALS FEDERAL CIRCUIT</srai>
+</template>
+</category>
+<category>
+<pattern>_ COURT OF APPEALS FEDERAL CIRCUIT *</pattern>
+<template>
+<srai>COURT OF APPEALS FEDERAL CIRCUIT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT APPEAL</pattern>
+    <template>
+        Patent appeals are heard by the Court of Appeals for the Federal Circuit before being heard of the U.S. Supreme Court, at its discretion. State courts have no jurisdiction regarding patent law. The lowest level court to hear a patent case is a district court.
+    </template>
+</category>
+<category>
+<pattern>_ PATENT APPEAL</pattern>
+<template>
+<srai>PATENT APPEAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT APPEAL *</pattern>
+<template>
+<srai>PATENT APPEAL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ALLOWED</pattern>
+    <template>
+        Patent application which has been indicated by an examiner as meeting all statutory (laws) and regulatory (rules) requirements –not patented yet; may or may not have been published
+    </template>
+</category>
+<category>
+<pattern>_ ALLOWED</pattern>
+<template>
+<srai>ALLOWED</srai>
+</template>
+</category>
+<category>
+<pattern>_ ALLOWED *</pattern>
+<template>
+<srai>ALLOWED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENTED</pattern>
+    <template>
+        Allowed patent application which has been issued (published) on the patent (issue) date
+    </template>
+</category>
+<category>
+<pattern>_ PATENTED</pattern>
+<template>
+<srai>PATENTED</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENTED *</pattern>
+<template>
+<srai>PATENTED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ABANDONED</pattern>
+    <template>
+        Application which is no longer pending and was not patented; may be expressly requested by applicant or be as a result of failing to respond within a set time period
+    </template>
+</category>
+<category>
+<pattern>_ ABANDONED</pattern>
+<template>
+<srai>ABANDONED</srai>
+</template>
+</category>
+<category>
+<pattern>_ ABANDONED *</pattern>
+<template>
+<srai>ABANDONED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>101</pattern>
+    <template>
+        It is type of rejection based on whether or not the claimed subject matter is subject matter eligible
+        35 U.S.C. $101
+        "Whoever invents or discovers any new and useful process, machine, manufacture, composition of matter, or any new and useful improvement thereof, may obtain a patent therefor,..."
+    </template>
+</category>
+<category>
+<pattern>* * 101</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> 101</srai>
+</template>
+</category>
+<category>
+    <pattern>* 101</pattern>
+    <template>
+        <srai>101</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>101 SIGNIFICANTLY MORE</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/result/d0e197244.html?q=significantly%20more&ccb=on&ncb=off&icb=off&fcb=off&ver=current&syn=adj&results=compact&sort=relevance&cnt=10&index=1">Reference</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ 101 SIGNIFICANTLY MORE</pattern>
+<template>
+<srai>101 SIGNIFICANTLY MORE</srai>
+</template>
+</category>
+<category>
+<pattern>_ 101 SIGNIFICANTLY MORE *</pattern>
+<template>
+<srai>101 SIGNIFICANTLY MORE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>102</pattern>
+    <template>
+        It is type of rejection based on whether or not the claimed subject matter is novel.
+    </template>
+</category>
+<category>
+<pattern>_ 102</pattern>
+<template>
+<srai>102</srai>
+</template>
+</category>
+<category>
+<pattern>_ 102 *</pattern>
+<template>
+<srai>102</srai>
+</template>
+</category>
+
+<category>
+    <pattern>102A1</pattern>
+    <template>
+        $ 102. Conditions for patentability; novelty (a) NOVELTY; PRIOR ART— a person shall be entitled to a patent unless— (1) the claimed invention was patented, described in a printed publication, or in public use, on sale, or otherwise available to the public before the effective filing date of the claimed invention. An essential part of the overall patent examination process is to determine whether those conditions are met for claims in an application. This determination is made after a complete search for the claimed invention is done. Conditions met: the claims lack "novelty"(unless an exception applies) and are therefore unpatentable (Result: Reject claims under 35 U.S.C. $102(a)(1)). Conditions not met: no rejection is made under 35 U.S.C. $102(a)(1) (Patent is not necessarily issued because rejections under other statutes may still apply 35 U.S.C. $101, 35 U.S.C. $102(a)(2), 35 U.S.C. $103, 35 U.S.C. $112)
+    </template>
+</category>
+<category>
+<pattern>_ 102A1</pattern>
+<template>
+<srai>102A1</srai>
+</template>
+</category>
+<category>
+<pattern>_ 102A1 *</pattern>
+<template>
+<srai>102A1</srai>
+</template>
+</category>
+<category>
+<pattern>_ 102 A 1</pattern>
+<template>
+<srai>102A1</srai>
+</template>
+</category>
+<category>
+<pattern>_ 102 A1</pattern>
+<template>
+<srai>102A1</srai>
+</template>
+</category>
+
+<category>
+    <pattern>102A2</pattern>
+    <template>
+        $ 102. Conditions for patentability; novelty (a) NOVELTY; PRIOR ART.—A person shall be entitled to a patent unless— . . . . (2) the claimed invention was described in a patent issued under section 151, or in an application for patent published or deemed published under section 122(b), in which the patent or application, as the case may be, names another inventor and was effectively filed before the effective filing date of the claimed invention.
+    </template>
+</category>
+<category>
+<pattern>_ 102A2</pattern>
+<template>
+<srai>102A2</srai>
+</template>
+</category>
+<category>
+<pattern>_ 102A2 *</pattern>
+<template>
+<srai>102A2</srai>
+</template>
+</category>
+<category>
+<pattern>_ 102 A 2</pattern>
+<template>
+<srai>102A2</srai>
+</template>
+</category>
+<category>
+<pattern>_ 102 A2</pattern>
+<template>
+<srai>102A2</srai>
+</template>
+</category>
+
+<category>
+    <pattern>IN PUBLIC USE</pattern>
+    <template>
+        Any "use" or "on sale" must be "public". This is different from pre-AIA law where "sales" did not have to be "public". The "use" or "on sale" does not have to enable someone to make and use the invention under 35 U.S.C. $112(a). The "use" or "on sale" can occur anywhere, i.e., they can occur outside the United States. This is different from pre-AIA law where the "use" or "on sale" could only be in the United States. Relevant date for public use or on sale activity being used as prior art under 102(a)(1) - the date the actual "use" or "on sale" activity took place.
+    </template>
+</category>
+<category>
+<pattern>_ IN PUBLIC USE</pattern>
+<template>
+<srai>IN PUBLIC USE</srai>
+</template>
+</category>
+<category>
+<pattern>_ IN PUBLIC USE *</pattern>
+<template>
+<srai>IN PUBLIC USE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>OTHERWISE AVAILABLE TO THE PUBLIC</pattern>
+    <template>
+        "Otherwise available to the public" is a catch-all provision of $102(a)(1) that has no counterpart in pre-AIA law. Examples: an oral presentation at a scientific meeting, a demonstration at a trade show, a lecture or speech, a statement made on a radio talk show, a YouTube video, Web site, or other on-line material (may also qualify as a "printed publication"). Relevant Date for otherwise available to the public disclosure being used as prior art under 102(a)(1). The date the actual disclosure took place.
+    </template>
+</category>
+<category>
+<pattern>_ OTHERWISE AVAILABLE TO THE PUBLIC</pattern>
+<template>
+<srai>OTHERWISE AVAILABLE TO THE PUBLIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ OTHERWISE AVAILABLE TO THE PUBLIC *</pattern>
+<template>
+<srai>OTHERWISE AVAILABLE TO THE PUBLIC</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REFERENCE</pattern>
+    <template>
+        - Any patent (U.S., Foreign)
+        - Any printed publication
+        - Any document or other evidence that can be used to establish an act of public use, on sale, or public availability
+    </template>
+</category>
+<category>
+<pattern>_ REFERENCE</pattern>
+<template>
+<srai>REFERENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ REFERENCE *</pattern>
+<template>
+<srai>REFERENCE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PRIOR ART</pattern>
+    <template>
+        The term "prior art" is usually qualified with a section of 35 U.S.C. $102 ("Prior art under 35 U.S.C. $102(a)(1)" and "Prior art under 35 U.S.C. $102(a)(2)"). Prior art under 35 U.S.C. $102(a)(1) is any "disclosure", as defined previously relative to 35 U.S.C. $102(a)(1), that meets the timing requirements for 35 U.S.C. $102(a)(1) and for which no exception applies
+        The most common type of prior art is a reference document, such as:
+        - Patents (foreign and domestic)
+        - Patent application publications (international, foreign, and domestic)
+        - Non-patent literature (NPL), e.g., books, journal articles, web-based publications, etc.
+        Another type of prior art is applicant admitted prior art (AAPA)
+    </template>
+</category>
+<category>
+<pattern>* * PRIOR ART</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> PRIOR ART</srai>
+</template>
+</category>
+<category>
+    <pattern>* PRIOR ART</pattern>
+    <template>
+        <srai>PRIOR ART</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>103</pattern>
+    <template>
+        It is type of rejection based on whether or not the claimed subject matter is obvious. A patent may not be obtained though the invention is not identically disclosed or described as set forth in section 102 of this title, if the differences between the subject matter sought to be patented and the prior art are such that the subject matter as a whole would have been obvious at the time the invention was made to a person having ordinary skill in the art to which said subject matter pertains. Patentability shall not be negatived by the manner in which the invention was made.
+    </template>
+</category>
+<category>
+<pattern>* * 103</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> 103</srai>
+</template>
+</category>
+<category>
+    <pattern>* 103</pattern>
+    <template>
+        <srai>103</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>PRIOR ART 103</pattern>
+    <template>
+        For both pre-AIA and AIA applications
+        - Prior art includes both the specialized understanding of one of ordinary skill in the art and the common understanding of the layman.
+        - Most 35 U.S.C. $103 rejections are made based on prior art available under 35 U.S.C. $102
+        - References that meet the "who," "when," and "where" criteria set forth in $102 to qualify as prior art are available as prior art to use in any appropriate rejection under $103
+        In addition to references available under 35 U.S.C. $102, examiners may rely on, for example, official notice, common sense, common ingenuity, and obvious matters of design choice, provided sufficient explanation is set forth to establish a prima facie case of obviousness.
+    </template>
+</category>
+<category>
+<pattern>_ PRIOR ART 103</pattern>
+<template>
+<srai>PRIOR ART 103</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRIOR ART 103 *</pattern>
+<template>
+<srai>PRIOR ART 103</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CITATION OF PRIOR ART</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e220689.html">Citation of Prior Art</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ CITATION OF PRIOR ART</pattern>
+<template>
+<srai>CITATION OF PRIOR ART</srai>
+</template>
+</category>
+<category>
+<pattern>_ CITATION OF PRIOR ART *</pattern>
+<template>
+<srai>CITATION OF PRIOR ART</srai>
+</template>
+</category>
+<category>
+    <pattern>EX PARTE REEXAMINATION OF PATENTS</pattern>
+    <template>
+        <srai>CITATION OF PRIOR ART</srai>
+    </template>
+</category>
+<category>
+<pattern>_ EX PARTE REEXAMINATION OF PATENTS</pattern>
+<template>
+<srai>CITATION OF PRIOR ART</srai>
+</template>
+</category>
+<category>
+<pattern>_ EX PARTE REEXAMINATION OF PATENTS *</pattern>
+<template>
+<srai>CITATION OF PRIOR ART</srai>
+</template>
+</category>
+
+<category>
+    <pattern>102 REJECTION</pattern>
+    <template>
+        For a particular claim, a rejection based alternatively under 35 USC $102 or 35 USC $103 is permissible under certain limited circumstances, e.g. rejections of product-by-process claims. Reliance on alternative grounds of rejection using 35 USC $102 and 35 USC $103 does not eliminate the need to explain both the anticipation and obviousness aspects of the rejections.
+    </template>
+</category>
+<category>
+<pattern>_ 102 REJECTION</pattern>
+<template>
+<srai>102 REJECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ 102 REJECTION *</pattern>
+<template>
+<srai>102 REJECTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>OFFICIAL NOTICE</pattern>
+    <template>
+        Official Notice is a tool that enables an Examiner to rely on common knowledge or incorporate facts not otherwise in the record, without documentary evidence (See MPEP 2144.03). In appropriate circumstances, Official Notice can provide facts to "fill in the gaps" to address small details that are being claimed and are known to exist in the relevant art, but which are not present in the prior art of record. Official Notice should only be taken by the Examiner where the facts asserted to be well-known, or to be common knowledge in the art, are capable of instant and unquestionable demonstration as being well-known so as to defy dispute. Taking Official Notice should be rare when an application is under final rejection or action. If Official Notice is taken, the basis for such reasoning must be set forth explicitly. The Examiner must provide specific factual findings predicated on sound technical and scientific reasoning to support his or her conclusion of common knowledge. It is never appropriate to rely solely on Official Notice as the principal evidence upon which a rejection was based.
+    </template>
+</category>
+<category>
+<pattern>_ OFFICIAL NOTICE</pattern>
+<template>
+<srai>OFFICIAL NOTICE</srai>
+</template>
+</category>
+<category>
+<pattern>_ OFFICIAL NOTICE *</pattern>
+<template>
+<srai>OFFICIAL NOTICE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112A FIRST REQUIREMENT</pattern>
+    <template>
+        Written Description - To satisfy the written description requirement, the specification must describe the claimed invention in sufficient detail that one skilled in the art can reasonably conclude that the applicant had possession of the claimed invention. Fundamental factual inquiry: whether the specification conveys with reasonable clarity to those skilled in the art that, as of the filing date sought, applicant was in possession of the invention as now claimed (MPEP $$ 2161.01, 2163(I), 2163.02). An original claim may lack written description when the claim defines the invention in functional language specifying a desired result but the specification does not sufficiently identify how the function is performed or result is achieved. For programmed computer functions, determine whether the specification discloses in adequate detail the computer and the algorithm (e.g., the necessary steps and/or flowcharts) that perform the claimed function. It is not enough that one skilled in the art could write a program to achieve the claimed function. Establish a clear prosecution record by setting forth reasons why the application disclosure fails to provide written description support under $ 112(a) and thus the claims that rely thereon are rejected
+    </template>
+</category>
+<category>
+<pattern>_ 112A FIRST REQUIREMENT</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ 112A FIRST REQUIREMENT *</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112A SECOND REQUIREMENT</pattern>
+    <template>
+        Enablement - For enablement, the critical inquiry is: Does the specification provide enough information so that one of ordinary skill in the art can make and/or use the full scope of the claimed invention without "undue experimentation"? The specification need not teach what is well-known in the art. However, applicant cannot rely on the knowledge of one skilled in the art to supply information that is required to enable the novel aspects of the claimed invention, when the enabling knowledge is in fact not known in the art. Enablement can be shown by disclosing at least one method for making and using the claimed invention that bears a reasonable correlation to the entire scope of the claim. Failure to disclose other methods by which the claimed invention may be made does not render a claim invalid for lack of enablement (MPEP2161.01(III), 2164, 2164.01(b)). The critical inquiry is whether the specification provides enough information so that one of ordinary skill in the art can make and/or use the full scope of the claimed invention without "undue experimentation". Analysis regarding whether a disclosure is enabling must be based on a consideration of all the evidence of record related to the pertinent Wands factors and the evidence as a whole. Enablement issues typically arise with computer-implemented inventions when the scope of the claim is not commensurate with the disclosure, such that the claim would cover all devices for/ways of performing a function. Establish a clear prosecution record by setting forth reasons related to the pertinent Wands factors as to why the application disclosure fails to enable the claim(s) under $ 112(a) and thus the claims that rely thereon are rejected.
+    </template>
+</category>
+<category>
+<pattern>_ 112A SECOND REQUIREMENT</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ 112A SECOND REQUIREMENT *</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112A THIRD REQUIREMENT</pattern>
+    <template>
+        Best Mode - The best mode requirement creates a statutory bargained for exchange. Patentee obtains the right to exclude others from practicing the claimed invention for a certain time period. The public receives knowledge of the preferred embodiments for practicing the claimed invention. (Eli Lilly v. Barr Laboratories, 58 USPQ2d 1869, 1874 (Fed. Cir. 2001)). It is the concealment of the best mode of practicing the claimed invention that $ 112(a), is designed to prohibit. A presumption best mode is disclosed exists, unless there is evidence to the contrary (MPEP 2165.03 I). Rejections under best mode are rare and any such rejection should be discussed with your SPE or Primary Examiner.
+    </template>
+</category>
+<category>
+<pattern>_ 112A THIRD REQUIREMENT</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ 112A THIRD REQUIREMENT *</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112B</pattern>
+    <template>
+        (b) CONCLUSION The specification shall conclude with one or more claims particularly pointing out and distinctly claiming the subject matter which the inventor or a joint inventor regards as the invention.
+
+        It is type of rejection based on whether the claims are sufficiently definite to understand the "metes and bounds" of what is being claimed. The specification shall conclude with one or more claims particularly pointing out and distinctly claiming the subject matter which the inventor or a joint inventor regards as the invention. Statutory requirement for the inventor or joint inventor to define precisely what the invention is. Claims define the invention for which protection is granted. 35 U.S.C. $112(b) requires definiteness of claim language. The primary purpose is to ensure that the scope of the claims is clear so that the public is informed of the boundaries of what constitutes infringement. A secondary purpose is to provide a clear measure of what applicants regard as the invention so that you can determine whether the claimed invention meets all of the criteria for patentability and whether the specification meets the criteria of 35 U.S.C. $112(a)with respect to the claimed invention. Ensuring that the boundaries of the claimed invention are clear to one of ordinary skill in the art enhances patent quality and clarity. Establishing a clear written prosecution record of how the claim boundaries were defined prior to issuance depends on both examiners and applicants. Clarifying the record establishes a foundation for claim interpretation throughout prosecution and the life of the patent, which benefits the examiner, the applicant, and the public.
+    </template>
+</category>
+<category>
+<pattern>_ 112B</pattern>
+<template>
+<srai>112B</srai>
+</template>
+</category>
+<category>
+<pattern>_ 112B *</pattern>
+<template>
+<srai>112B</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112C</pattern>
+    <template>
+        (c) FORM. A claim may be written in independent or, if the nature of the case admits, in dependent or multiple dependent form.
+    </template>
+</category>
+<category>
+<pattern>_ 112C</pattern>
+<template>
+<srai>112C</srai>
+</template>
+</category>
+<category>
+<pattern>_ 112C *</pattern>
+<template>
+<srai>112C</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112F</pattern>
+    <template>
+        "An element in a claim for a combination may be expressed as a means or step for performing a specified function without the recital of structure, material, or acts in support thereof, and such claim shall be construed to cover the corresponding structure, material, or acts described in the specification and equivalents thereof."
+
+        35 U.S.C. $112(f) allows applicants to use functional language in a claim. Commonly called means-plus-function claiming. The claim must be for a combination of elements cannot use 112(f) in a claim reciting only one element (a "single means claim"). The claim element must be expressed as a means or step for (or a substitute term for "means for" may be used) performing a specified function. The claim element must not recite structure, material or acts that perform the function. The structure, material, or acts that correspond to the recited function must be described in the specification.
+    </template>
+</category>
+<category>
+<pattern>* * 112F</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> 112F</srai>
+</template>
+</category>
+<category>
+<pattern>* 112F</pattern>
+<template>
+<srai>112F</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EQUIVALENT STRUCTURE</pattern>
+    <template>
+        1) Prior art element performs the function specified in the claim in substantially the same way, and produces substantially the same results as the corresponding element disclosed in the specification;
+        2) Whether one skilled in the art would recognize the interchangeability of the element shown in the prior art for the corresponding element disclosed in the specification; or
+        3) Whether there are insubstantial differences between the prior art element and the structure, material or acts disclosed in the specification.
+        Examples above are not intended to be an exhaustive list of indicia, and only one of the above noted factors (or other rationale) need exist to support a finding of equivalence.
+    </template>
+</category>
+<category>
+<pattern>_ EQUIVALENT STRUCTURE</pattern>
+<template>
+<srai>EQUIVALENT STRUCTURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ EQUIVALENT STRUCTURE *</pattern>
+<template>
+<srai>EQUIVALENT STRUCTURE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>131</pattern>
+    <template>
+        A Rule 131 affidavit or declaration allows an inventor of a pre-AIA (FTI) application or the owner of a pre-AIA (FTI) patent under reexamination to swear behind (i.e., antedate) a reference or activity which appears to be available as prior art under:
+        Pre-AIA 35 U.S.C. $102(a) and/or
+        Pre-AIA 35 U.S.C. $102(e)
+        Unless the reference or activity (1) is also a statutory bar or (2) is a U.S. patent or a publication of a pending U.S. application that claims "interfering subject matter."
+    </template>
+</category>
+<category>
+<pattern>_ 131</pattern>
+<template>
+<srai>131</srai>
+</template>
+</category>
+<category>
+<pattern>_ 131 *</pattern>
+<template>
+<srai>131</srai>
+</template>
+</category>
+
+<category>
+    <pattern>AFFIDAVIT</pattern>
+    <template>
+        Affidavits an affidavit is a statement in writing made under oath before a notary public, magistrate, or officer authorized to administer oaths.  See: MPEP $$ 604 through 604.06  and $$ 715 - 719 for details.
+    </template>
+</category>
+<category>
+<pattern>* * AFFIDAVIT</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> AFFIDAVIT</srai>
+</template>
+</category>
+<category>
+    <pattern>* AFFIDAVIT</pattern>
+    <template>
+        <srai>AFFIDAVIT</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>DECLARATION</pattern>
+    <template>
+        Declarations 37 CFR $1.68 permits a declaration to be filed in lieu of an oath/affidavit.  The declaration must include the warning that "willful false statements and the like are punishable by fine or imprisonment, or both (18 USC $1001), and may jeopardize the validity of the application or any patent issuing thereon." The declaration must also state that all statements made of the declarant's own knowledge are true and that all statements made on information and belief are believed to be true.
+    </template>
+</category>
+<category>
+<pattern>_ DECLARATION</pattern>
+<template>
+<srai>DECLARATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ DECLARATION *</pattern>
+<template>
+<srai>DECLARATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>STATUTORY BAR EXCLUSION</pattern>
+    <template>
+        The term "statutory bar" as used in Rule 131 refers to references and activities which are prior art under pre-AIA 35 USC $102(b), although that term is also sometimes used to describe the "loss of right" to a patent under pre-AIA $102(d).
+    </template>
+</category>
+<category>
+<pattern>_ STATUTORY BAR EXCLUSION</pattern>
+<template>
+<srai>STATUTORY BAR EXCLUSION</srai>
+</template>
+</category>
+<category>
+<pattern>_ STATUTORY BAR EXCLUSION *</pattern>
+<template>
+<srai>STATUTORY BAR EXCLUSION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CONCEPTION</pattern>
+    <template>
+        Conception is the formation in the mind of the inventor of a definite and permanent idea of the complete and operative invention as it is to be thereafter applied in practice.
+    </template>
+</category>
+<category>
+<pattern>_ CONCEPTION</pattern>
+<template>
+<srai>CONCEPTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONCEPTION *</pattern>
+<template>
+<srai>CONCEPTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ACTUAL REDUCTION TO PRACTICE</pattern>
+    <template>
+        An actual reduction to practice occurs when the claimed invention is actually made (e.g., an apparatus is assembled) or performed (e.g., for a method) and seen to be suitable for its intended purpose. Being perfected to be commercialized is not required. Requires recognition that an actual reduction to practice has occurred.
+    </template>
+</category>
+<category>
+<pattern>_ ACTUAL REDUCTION TO PRACTICE</pattern>
+<template>
+<srai>ACTUAL REDUCTION TO PRACTICE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ACTUAL REDUCTION TO PRACTICE *</pattern>
+<template>
+<srai>ACTUAL REDUCTION TO PRACTICE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CONSTRUCTIVE REDUCTION TO PRACTICE</pattern>
+    <template>
+        The term "constructive reduction to practice" (CRTP) is used to mean a filing of a US application meeting 35 USC $112(a), written description requirement. If an earlier effective filing date is accorded based upon earlier applications whose benefit has been obtained by satisfying all of the relevant requirements then that is the date of "CRTP". Furthermore, an applicant can obtain benefit of an earlier application under $$ 119, 120, 121, and/or 365 only if the earlier application provides section 112(a) support for the claim, which requires that the earlier application disclose every feature of the claim and the full scope of a generic claim. No decision has held that an applicant can obtain the benefit under $$ 119, 120, 121, or 365 of an earlier application which fails to satisfy all of the applicable statutory and regulatory requirements (including $ 112, paragraph (a), written description, support for every feature of the claim and for the entire scope of the claim). Nor has any decision treated an earlier-filed application which fails to qualify as a benefit application under $$ 119, 120, 121, or 365 as a constructive reduction to practice under Rule 131.
+    </template>
+</category>
+<category>
+<pattern>_ CONSTRUCTIVE REDUCTION TO PRACTICE</pattern>
+<template>
+<srai>CONSTRUCTIVE REDUCTION TO PRACTICE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONSTRUCTIVE REDUCTION TO PRACTICE *</pattern>
+<template>
+<srai>CONSTRUCTIVE REDUCTION TO PRACTICE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>132</pattern>
+    <template>
+        When any claim of an application or a patent under reexamination is rejected or objected to, any evidence submitted to traverse the rejection or objection on a basis not otherwise provided for must be by way of an oath or declaration under this section. The purpose of Rule 132 is to give applicants a way to provide evidence to overcome a ground of rejection or an objection.
+    </template>
+</category>
+<category>
+<pattern>_ 132</pattern>
+<template>
+<srai>132</srai>
+</template>
+</category>
+<category>
+<pattern>_ 132 *</pattern>
+<template>
+<srai>132</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DILIGENCE</pattern>
+    <template>
+        Diligence is the reasonable effort to reduce the invention to practice or to file a US application for it. Two types, which can be combined:
+        - Efforts to achieve an actual reduction to practice or to remove obstacles to its development, ("engineering diligence"); and
+        - Efforts to prepare and file a patent application, i.e., a constructive reduction to practice ("attorney diligence").
+        Proof of reasonable diligence does not require a party to work constantly on the invention or to drop all other work.
+    </template>
+</category>
+<category>
+<pattern>_ DILIGENCE</pattern>
+<template>
+<srai>DILIGENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DILIGENCE *</pattern>
+<template>
+<srai>DILIGENCE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>RESTRICTION</pattern>
+    <template>
+        Restriction is the practice of requiring an applicant to elect a single claimed invention for examination when two or more independent and/or two or more distinct inventions are claimed in an application.
+        See MPEP $802.02
+
+        Refer to these guides for more details:
+        <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/E9_R-11.2013/d0e97826.html">Chapter	800 - Restriction in Applications Filed Under 35 U.S.C. 111; Double Patenting</a>]]>
+
+        <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/E9_R-11.2013/d0e105812.html">808    Reasons for Insisting Upon Restriction [R-08.2012]</a>]]>
+
+        <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/E9_R-11.2013/d0e98006.html">802.02   Definition of Restriction [R-08.2012]</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ RESTRICTION</pattern>
+<template>
+<srai>RESTRICTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ RESTRICTION *</pattern>
+<template>
+<srai>RESTRICTION</srai>
+</template>
+</category>
+<category>
+    <pattern>ELECTION</pattern>
+    <template>
+        <srai>RESTRICTION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ELECTION</pattern>
+<template>
+<srai>RESTRICTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ ELECTION *</pattern>
+<template>
+<srai>RESTRICTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PROCESS</pattern>
+    <template>
+        Process means process, art, or method. Includes a new use for a known process, machine, manufacture, composition of matter, or material. A process is a series of steps
+    </template>
+</category>
+<category>
+<pattern>_ PROCESS</pattern>
+<template>
+<srai>PROCESS</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROCESS *</pattern>
+<template>
+<srai>PROCESS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MACHINE</pattern>
+    <template>
+        Parts of devices, Complete devices, or Combinations of Devices.
+    </template>
+</category>
+<category>
+<pattern>_ MACHINE</pattern>
+<template>
+<srai>MACHINE</srai>
+</template>
+</category>
+<category>
+<pattern>_ MACHINE *</pattern>
+<template>
+<srai>MACHINE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MANUFACTURE</pattern>
+    <template>
+        Produced Item, or Physical articles or objects.
+    </template>
+</category>
+<category>
+<pattern>_ MANUFACTURE</pattern>
+<template>
+<srai>MANUFACTURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ MANUFACTURE *</pattern>
+<template>
+<srai>MANUFACTURE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CLAIM</pattern>
+    <template>
+        A claim is one of the most important parts of the application because. It defines the scope of the protection that the applicant is granted. Every word in the claim MUST be considered, and no limitation, functional or otherwise, can be ignored. All limitations should be specifically addressed in the examination. Claims come in different forms: Apparatus claims, Method or process claims, including methods of making or methods of using, Product claims, and Composition claims.
+    </template>
+</category>
+<category>
+<pattern>* * CLAIM</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> CLAIM</srai>
+</template>
+</category>
+<category>
+    <pattern>* CLAIM</pattern>
+    <template>
+        <srai>CLAIM</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>APPARATUS CLAIM</pattern>
+    <template>
+        Patentability depends upon the parts or pieces (structure) of the apparatus, not on the way it is used or the material worked upon. See MPEP $ 2114
+    </template>
+</category>
+<category>
+<pattern>_ APPARATUS CLAIM</pattern>
+<template>
+<srai>APPARATUS CLAIM</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPARATUS CLAIM *</pattern>
+<template>
+<srai>APPARATUS CLAIM</srai>
+</template>
+</category>
+
+<category>
+    <pattern>METHOD CLAIM</pattern>
+    <template>
+        Includes methods of making and methods of using. Patentability depends on the specific steps listed as well as the materials used in the method or process. If the steps are not directly linked to the previous step, then the order of steps doesn't matter (MPEP $ 2111.01 II)
+    </template>
+</category>
+<category>
+<pattern>_ METHOD CLAIM</pattern>
+<template>
+<srai>METHOD CLAIM</srai>
+</template>
+</category>
+<category>
+<pattern>_ METHOD CLAIM *</pattern>
+<template>
+<srai>METHOD CLAIM</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PRODUCT CLAIM</pattern>
+    <template>
+        Patentability depends upon the components of the product, not the method or process of making or using the product
+    </template>
+</category>
+<category>
+<pattern>_ PRODUCT CLAIM</pattern>
+<template>
+<srai>PRODUCT CLAIM</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRODUCT CLAIM *</pattern>
+<template>
+<srai>PRODUCT CLAIM</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COMPOSITION CLAIM</pattern>
+    <template>
+        Patentability depends upon the materials of the composition, not the method or process of making or using the product (See MPEP $ 2112.01)
+    </template>
+</category>
+<category>
+<pattern>_ COMPOSITION CLAIM</pattern>
+<template>
+<srai>COMPOSITION CLAIM</srai>
+</template>
+</category>
+<category>
+<pattern>_ COMPOSITION CLAIM *</pattern>
+<template>
+<srai>COMPOSITION CLAIM</srai>
+</template>
+</category>
+
+<category>
+    <pattern>USE CLAIM</pattern>
+    <template>
+        "Use" claim should be rejected under alternative grounds based on 35 USC $$ 101 and 112(b).
+        - e.g. "The use of a high carbon austenitic iron alloy having a proportion of free carbon as a vehicle brake part subject to stress by sliding friction."
+        - MPEP 2173.05(q)
+    </template>
+</category>
+<category>
+<pattern>_ USE CLAIM</pattern>
+<template>
+<srai>USE CLAIM</srai>
+</template>
+</category>
+<category>
+<pattern>_ USE CLAIM *</pattern>
+<template>
+<srai>USE CLAIM</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TRADEMARK IN CLAIM</pattern>
+    <template>
+        Claim [1] contains the trademark/trade name [2]. Where a trademark or trade name is used in a claim as a limitation to identify or describe a particular material or product, the claim does not comply with the requirements of <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/current/d0e302824912.html%23%23al_d1d85b_2ae65_215">35 U.S.C. 112(b)</a>]]>
+  or <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/current/d0e302824.html">pre-AIA 35 U.S.C. 112</a>]]>, second paragraph. See Ex parte Simpson, 218 USPQ 1020 (Bd. App. 1982). The claim scope is uncertain since the trademark or trade name cannot be used properly to identify any particular material or product. A trademark or trade name is used to identify a source of goods, and not the goods themselves. Thus, a trademark or trade name does not identify or describe the goods associated with the trademark or trade name. In the present case, the trademark/trade name is used to identify/describe [3] and, accordingly, the identification/description is indefinite.
+        Trade names may be permissible in patent applications under certain limited conditions. Their meanings are established by an accompanying definition which is sufficiently precise and definite to be made a part of a claim, or In this country, their meanings are well-known and satisfactorily defined in the literature. See MPEP $608.01(v) for form paragraph and additional formatting and language guidelines. If proper identification of the product referred to only by trademark or trade name is omitted from the specification and such identification is deemed necessary, you should hold the disclosure insufficient and reject on the ground of insufficient disclosure any affected claims. If the product cannot be otherwise defined, an amendment defining the process of its manufacture may be permitted.
+    </template>
+</category>
+<category>
+<pattern>_ TRADEMARK IN CLAIM</pattern>
+<template>
+<srai>TRADEMARK IN CLAIM</srai>
+</template>
+</category>
+<category>
+<pattern>_ TRADEMARK IN CLAIM *</pattern>
+<template>
+<srai>TRADEMARK IN CLAIM</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CONTINUED EXAMINATION</pattern>
+    <template>
+        Section 4403 of the "American Inventors Protection Act of 1999" amends 35 U.S.C. $ 132 to provide, at the request of the applicant, for continued examination of an application for a fee (request for continued examination or RCE practice), without requiring the applicant to file a continuing application under 37 CFR 1.53(b) or a continued prosecution application (CPA) under 37 CFR 1.53(d).
+        To implement RCE practice, the Office has added 37 CFR 1.114 to provide a procedure under which an applicant may obtain continued examination of an application by filing a submission and paying a specified fee, even if the application is under a final rejection, appeal, or a notice of allowance.
+        RCE is a procedure under which an applicant may obtain continued examination of an application in which prosecution is closed, meaning the application is under:
+        - A final rejection or appeal
+        - A notice of allowance, or
+        - An action that otherwise closes prosecution in the application (such as Ex parte Quayle)
+        An RCE is not the filing of a new application
+        An applicant may obtain continued examination of an application by filing a request for continued examination (PTO/SB/30), a submission, and the fee set forth in 37 CFR 1.17(e) prior to the earliest of: a) Payment of the issue fee (unless a petition under 37 CFR 1.313 is granted); b) Abandonment of the application; or c)The filing of a notice of appeal to the U.S. Court of Appeals for the Federal Circuit (CAFC) or the commencement of a civil action (unless the appeal or civil action is terminated)
+    </template>
+</category>
+<category>
+<pattern>_ CONTINUED EXAMINATION</pattern>
+<template>
+<srai>CONTINUED EXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONTINUED EXAMINATION *</pattern>
+<template>
+<srai>CONTINUED EXAMINATION</srai>
+</template>
+</category>
+<category>
+    <pattern>RCE</pattern>
+    <template>
+    <srai>CONTINUED EXAMINATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ RCE</pattern>
+<template>
+<srai>CONTINUED EXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ RCE *</pattern>
+<template>
+<srai>CONTINUED EXAMINATION</srai>
+</template>
+</category>
+<category>
+    <pattern>REQUEST FOR CONTINUED EXAMINATION</pattern>
+    <template>
+    <srai>CONTINUED EXAMINATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REQUEST FOR CONTINUED EXAMINATION</pattern>
+<template>
+<srai>CONTINUED EXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REQUEST FOR CONTINUED EXAMINATION *</pattern>
+<template>
+<srai>CONTINUED EXAMINATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DERIVATION 101</pattern>
+    <template>
+        Statutory Categories of Invention, Utility Requirement, Eligible Subject Matter, and Double Patenting
+    </template>
+</category>
+<category>
+<pattern>_ DERIVATION 101</pattern>
+<template>
+<srai>DERIVATION 101</srai>
+</template>
+</category>
+<category>
+<pattern>_ DERIVATION 101 *</pattern>
+<template>
+<srai>DERIVATION 101</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FOUR REQUIREMENTS IN 101</pattern>
+    <template>
+        - "A" patent - means only one patent granted for each invention. Basis for statutory double patenting rejections.  See MPEP 804.
+        - "Useful" - the invention must have a specific, substantial, and credible utility. "Utility" requirement see MPEP 2107 for Utility Guidelines.
+        - "Process, Machine, Manufacture, Composition of Matter". "Subject matter eligibility" - these categories, as interpreted by the courts, limit the subject matter that is eligible for patenting.
+        - "Whoever invents or discovers". A patent may only be obtained by the person who engages in the act of inventing.
+    </template>
+</category>
+<category>
+<pattern>_ FOUR REQUIREMENTS IN 101</pattern>
+<template>
+<srai>FOUR REQUIREMENTS IN 101</srai>
+</template>
+</category>
+<category>
+<pattern>_ FOUR REQUIREMENTS IN 101 *</pattern>
+<template>
+<srai>FOUR REQUIREMENTS IN 101</srai>
+</template>
+</category>
+
+<category>
+    <pattern>101 ELIGIBILITY</pattern>
+    <template>
+    - A: 2014 Interim Eligibility Guidance (Issued Dec. 16, 2014, 79 FR 74618) :
+    - For examination of all claims
+        - Use the broadest reasonable interpretation (BRI) of the claim
+        - Analyze the claim as a whole
+        - Practice compact prosecution by fully examining under 35 U.S.C. $$ 102, 103, 112 and 101 (utility, inventorship, and double patenting) and non-statutory double patenting
+    - Comprehensive view of subject matter eligibility under 35 U.S.C. $ 101 that incorporates teachings from the full body of relevant case law
+    - Reflects recent Supreme Court developments, particularly:
+        - Alice Corp.:  Alice Corp. Pty. Ltd. v. CLS Bank Int'l (2014)
+        - Myriad:  Assoc. for Molecular Pathology v. Myriad Genetics, Inc. (2013)
+        - Mayo:  Mayo Collaborative Services v. Prometheus Labs. Inc. (2012)
+        - Bilski:  Bilski v. Kappos (2010)
+    - July 2015 Update on Subject Matter Eligibility (Issued July 30, 2015, 80 FR 45429).
+        - Provided examples, further explanation of the markedly different characteristics analysis, further information on identifying abstract ideas, discussed the requirements of a prima facie case, and discussed the role of preemption and the streamlined analysis.
+    - May 2016 Update on Formulating a Subject Matter Eligibility Rejection and Evaluating the Applicant's Response to a Subject Matter Eligibility Rejection (Issued May 4, 2016).
+        - Provided further discussion on the content of an eligibility rejection and evaluation of applicant's response.
+    - Memorandum: Recent Subject Matter Eligibility Decisions (Enfish, LLC v. Microsoft Corp. and TLI Communications LLC v. A.V. Automotive LLC), (Issued May 19, 2016).
+        - Discussed the decisions in Enfish (claims found eligible) and TLI (claims found ineligible) with respect to abstract ideas and software-related inventions.
+    - Memorandum: Recent Subject Matter Eligibility Rulings (Rapid Litigation Management v. CellzDirect and Sequenom v. Ariosa), (Issued July 14, 2016)
+        - Discussed the decision in Rapid Litigation Management (claims found eligible) and denial of petition for a writ of certiorari in Sequenom (claims found ineligible) with respect to method claims in the life sciences.
+    - Memorandum: Recent Subject Matter Eligibility Decisions (McRO, Inc. dba Planet Blue v. Bandai Namco Games America Inc. and BASCOM Global Internet Services v. ATT Mobility LLC), (Issued November 2, 2016)
+        - Discussed the decisions in McRo (claims found eligible) and BASCOM (claims found eligible) with respect to computer-related technology.
+    </template>
+</category>
+<category>
+<pattern>_ 101 ELIGIBILITY</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ 101 ELIGIBILITY *</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>STATUTORY CATEGORIES OF INVENTION</pattern>
+    <template>
+        Process, Machine, Manufacture, Composition of Matter
+    </template>
+</category>
+<category>
+<pattern>_ STATUTORY CATEGORIES OF INVENTION</pattern>
+<template>
+<srai>STATUTORY CATEGORIES OF INVENTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ STATUTORY CATEGORIES OF INVENTION *</pattern>
+<template>
+<srai>STATUTORY CATEGORIES OF INVENTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COMPOSITION OF MATTER</pattern>
+    <template>
+        Chemical Compound, Combinations of Compounds, Composition of substances, or Composite article.
+    </template>
+</category>
+<category>
+<pattern>_ COMPOSITION OF MATTER</pattern>
+<template>
+<srai>COMPOSITION OF MATTER</srai>
+</template>
+</category>
+<category>
+<pattern>_ COMPOSITION OF MATTER *</pattern>
+<template>
+<srai>COMPOSITION OF MATTER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>UTILITY REQUIREMENT</pattern>
+    <template>
+        The utility requirement serves to ensure that patents are granted on only those inventions that are "useful." This is determined using a 3-pronged test:
+        - Is there a specific utility
+        - Is there a substantial utility; and
+        - Is there a credible utility?
+        Rejections for lack of utility should not normally be based on a determination that the invention is frivolous, fraudulent, or against public policy. (Consult SPE if this applies)
+    </template>
+</category>
+<category>
+<pattern>_ UTILITY REQUIREMENT</pattern>
+<template>
+<srai>UTILITY REQUIREMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ UTILITY REQUIREMENT *</pattern>
+<template>
+<srai>UTILITY REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SPECIFIC UTILITY</pattern>
+    <template>
+        A utility is specific, if it is particular to the subject matter claimed. This contrasts with a general utility that would be applicable to the broad class of the invention.
+        For example:
+        - Providing a general statement of diagnostic utility, such as diagnosing an unspecified disease, would ordinarily be insufficient absent a disclosure of what condition can be diagnosed.
+        - Use of a protein as a "shampoo ingredient" would ordinarily be insufficient as proteins generally as a class can provide this utility.
+        - Providing a statement of a particular biological activity (e.g., sedative or paralytic activity) for a compound is a specific utility.
+    </template>
+</category>
+<category>
+<pattern>_ SPECIFIC UTILITY</pattern>
+<template>
+<srai>SPECIFIC UTILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SPECIFIC UTILITY *</pattern>
+<template>
+<srai>SPECIFIC UTILITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SUBSTANTIAL UTILITY</pattern>
+    <template>
+        A utility that defines a "real world" use
+        - Utilities that require or constitute carrying out further research to identify or reasonably confirm a "real world" context of use are not substantial utilities.
+    </template>
+</category>
+<category>
+<pattern>_ SUBSTANTIAL UTILITY</pattern>
+<template>
+<srai>SUBSTANTIAL UTILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUBSTANTIAL UTILITY *</pattern>
+<template>
+<srai>SUBSTANTIAL UTILITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CREDIBLE UTILITY</pattern>
+    <template>
+        An assertion is credible unless (A) the utility is unbelievable (incredible utility), or (B) the claimed invention is wholly inoperative. Incredible Utility: An assertion of utility is credible unless the logic underlying the assertion is seriously flawed, or the facts upon which the assertion is based are inconsistent with the logic underlying the assertion. A credible utility is assessed from the standpoint of whether a person of ordinary skill in the art would accept that the recited or disclosed invention is currently available for such use. For example, one skilled in the art would not accept that a device could be used to generate more energy than it consumes or that a device could be used with at least 100% efficiency.
+    </template>
+</category>
+<category>
+<pattern>_ CREDIBLE UTILITY</pattern>
+<template>
+<srai>CREDIBLE UTILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ CREDIBLE UTILITY *</pattern>
+<template>
+<srai>CREDIBLE UTILITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>WELL ESTABLISHED UTILITY</pattern>
+    <template>
+        A specific, substantial, and credible utility which is well known, immediately apparent, or implied by the specification's disclosure of the properties of a material, alone or taken with the knowledge of one skilled in the art. "Well established utility" does not encompass any "throw away" utility that one can dream up for an invention or a nonspecific utility that would apply to virtually every member of a general class of materials.
+    </template>
+</category>
+<category>
+<pattern>_ WELL ESTABLISHED UTILITY</pattern>
+<template>
+<srai>WELL ESTABLISHED UTILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ WELL ESTABLISHED UTILITY *</pattern>
+<template>
+<srai>WELL ESTABLISHED UTILITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>UTILITY REJECTION OVERVIEW</pattern>
+    <template>
+        If a well-established utility is apparent from the application, do not reject for lack of utility.
+        If no well-established utility is apparent, review the application for an asserted specific, substantial, and credible utility. If no specific and substantial utility is credible, then reject the claim(s) as lacking utility.
+        - Rejection shifts the burden to applicant to provide rebuttal arguments and/or supporting evidence.
+        - Rejection is made under both 35 U.S.C. 101 and 112(a), as lacking utility and lacking enablement. Rejection under both sections is required, because if there is no utility, the applicant has necessarily failed to enable the public to make and use the invention.
+        - The rejection should include enough explanation to provide a clear record of the examiner's determination.
+    </template>
+</category>
+<category>
+<pattern>_ UTILITY REJECTION OVERVIEW</pattern>
+<template>
+<srai>UTILITY REJECTION OVERVIEW</srai>
+</template>
+</category>
+<category>
+<pattern>_ UTILITY REJECTION OVERVIEW *</pattern>
+<template>
+<srai>UTILITY REJECTION OVERVIEW</srai>
+</template>
+</category>
+
+<category>
+    <pattern>UTILITY DECISION TREE</pattern>
+    <template>
+        Identify what applicant has claimed as the invention. Does the invention have a well-established utility?
+        - Yes -> No rejection; continue with examination
+        - No -> Proceed with analysis
+        Has the applicant made any assertion of utility for the claimed invention?
+        - Yes -> Proceed with analysis
+        - No -> Reject claimed invention under 35 U.S.C. $$101 and 112(a), for lack of enablement. "Applicant has not disclosed any specific and substantial utility for the claimed invention" (provide explanation)
+        Does the assertion identify a specific utility?
+        - Yes -> Continue with analysis
+        - No -> Reject claimed invention under 35 U.S.C. $$101 and 112(a), for lack of enablement. "Applicant has not disclosed any specific and substantial utility for the claimed invention" (provide explanation)
+        Does the assertion identify a substantial utility?
+        - Yes -> Continue with analysis
+        - No -> Reject claimed invention under 35 U.S.C. $$101 and 112(a), for lack of enablement. "Applicant has not disclosed any specific and substantial utility for the claimed invention" (provide explanation)
+        Is the assertion of specific and substantial utility credible?
+        - Yes -> No rejection; continue with examination
+        - No -> Reject claimed invention under 35 U.S.C. $$101 and 112(a), for lack of enablement. "Applicant has disclosed at least one specific and substantial utility for the claimed invention, but the assertion is not credible" (provide explanation)
+    </template>
+</category>
+<category>
+<pattern>_ UTILITY DECISION TREE</pattern>
+<template>
+<srai>UTILITY DECISION TREE</srai>
+</template>
+</category>
+<category>
+<pattern>_ UTILITY DECISION TREE *</pattern>
+<template>
+<srai>UTILITY DECISION TREE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DOUBLE PATENTING</pattern>
+    <template>
+        35 USC $101 states in the singular that an inventor "may obtain a patent therefor"
+        - Statutory Double Patenting Rejection - applies when the same invention is claimed in two pending applications, or in a pending application and a patent
+        - Non-Statutory type Double Patenting Rejection - applies when e.g. obvious variants are claimed in two pending applications, or in a pending application and a patent
+        See MPEP $804 et seq. for further information
+    </template>
+</category>
+<category>
+<pattern>_ DOUBLE PATENTING</pattern>
+<template>
+<srai>DOUBLE PATENTING</srai>
+</template>
+</category>
+<category>
+<pattern>_ DOUBLE PATENTING *</pattern>
+<template>
+<srai>DOUBLE PATENTING</srai>
+</template>
+</category>
+
+<category>
+    <pattern>UNEXPECTED RESULTS AFFIDAVIT</pattern>
+    <template>
+        37 CFR $1.132 affidavits are frequently submitted to rebut a rejection establishing a prima facie case of obviousness under 35 USC $103. A prima facie case of obviousness may be rebutted by evidence establishing that applicant's invention produces unexpected results. The affidavit should present a comparison with the closest prior art. The comparison must be under identical conditions except for the novel features of the invention. The unexpected property or result must actually be unexpected and of statistical and practical significance. The unexpected property or result must be disclosed or inherent in the specification. Unexpected properties do not necessarily have to be claimed to be considered. The scope of the showing must be commensurate with the scope of the claimed subject matter. Synergism is merely a property like any other property, it may be expected or unexpected depending on the particular art. "Unexpected results" is a secondary consideration with respect to obviousness. It is not relevant to anticipation under 35 USC $102.
+    </template>
+</category>
+<category>
+<pattern>_ UNEXPECTED RESULTS AFFIDAVIT</pattern>
+<template>
+<srai>UNEXPECTED RESULTS AFFIDAVIT</srai>
+</template>
+</category>
+<category>
+<pattern>_ UNEXPECTED RESULTS AFFIDAVIT *</pattern>
+<template>
+<srai>UNEXPECTED RESULTS AFFIDAVIT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COMMERCIAL SUCCESS AFFIDAVIT</pattern>
+    <template>
+        The affidavit must establish a nexus between the novel features of the claimed invention and the commercial success. The showing of commercial success must be commensurate with the scope of the claims. The best showing is that the invention has displaced competitor's product in the market place. "Commercial success" is a secondary consideration with respect to obviousness. It is not relevant to anticipation under 35 USC $102
+    </template>
+</category>
+<category>
+<pattern>_ COMMERCIAL SUCCESS AFFIDAVIT</pattern>
+<template>
+<srai>COMMERCIAL SUCCESS AFFIDAVIT</srai>
+</template>
+</category>
+<category>
+<pattern>_ COMMERCIAL SUCCESS AFFIDAVIT *</pattern>
+<template>
+<srai>COMMERCIAL SUCCESS AFFIDAVIT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>LONG FELT NEED AFFIDAVIT</pattern>
+    <template>
+        The evidence must establish an art recognized problem that has existed for a long period without solution. The evidence must show that the claimed invention actually solved the problem. The existence of a prior art reference showing a solution to the problem is evidence that there is no long felt need. "Long felt need" is a secondary consideration with respect to obviousness. It is not relevant to anticipation under 35 USC $102.
+    </template>
+</category>
+<category>
+<pattern>_ LONG FELT NEED AFFIDAVIT</pattern>
+<template>
+<srai>LONG FELT NEED AFFIDAVIT</srai>
+</template>
+</category>
+<category>
+<pattern>_ LONG FELT NEED AFFIDAVIT *</pattern>
+<template>
+<srai>LONG FELT NEED AFFIDAVIT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SHORTENED STATUTORY PERIOD</pattern>
+    <template>
+        3 months from the date the final rejection is mailed. Can be extended up to additional 3 months with a petition and appropriate fee (MPEP 706.07(f), III)
+    </template>
+</category>
+<category>
+<pattern>_ SHORTENED STATUTORY PERIOD</pattern>
+<template>
+<srai>SHORTENED STATUTORY PERIOD</srai>
+</template>
+</category>
+<category>
+<pattern>_ SHORTENED STATUTORY PERIOD *</pattern>
+<template>
+<srai>SHORTENED STATUTORY PERIOD</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EX PARTE QUAYLE ACTION</pattern>
+    <template>
+        An Ex parte Quayle action may be issued when the after final reply places the application in condition for allowance except for formal matters which: Are identified for the first time after a reply is made to a final Office action, AND require action by applicant to correct. Extension of time fees are not required. Consider an examiner's amendment to resolve formal matters when possible
+    </template>
+</category>
+<category>
+<pattern>_ EX PARTE QUAYLE ACTION</pattern>
+<template>
+<srai>EX PARTE QUAYLE ACTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ EX PARTE QUAYLE ACTION *</pattern>
+<template>
+<srai>EX PARTE QUAYLE ACTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>312 AMENDMENT</pattern>
+    <template>
+        Amendments after allowance are governed by 37 C.F.R. 1.312. Encompasses any amendment by applicant after allowance. Not made as a matter of right. Will show up on "Expedited" tab. Most common reasons for filing a 312 amendment are formal corrections such as typographical errors, grammatical mistakes.
+    </template>
+</category>
+<category>
+<pattern>_ 312 AMENDMENT</pattern>
+<template>
+<srai>312 AMENDMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ 312 AMENDMENT *</pattern>
+<template>
+<srai>312 AMENDMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>APPEAL BRIEF</pattern>
+    <template>
+        Appellant has 2 months following the filing of a notice of appeal to file an appeal brief. If appellant filed a pre-appeal brief conference request, the time of filing a signed appeal brief is one month from the date of the panel decision, or two months from the filing of the notice of appeal, whichever is longer. The time period may be extended an additional 5 months [37 CFR $1.136(a)]. The appeal brief must be signed. The Patent Appeal Center will: Check for timeliness (If the appeal brief is not timely filed, the Patent Appeal Center will process form PTOL-461 (Communication Regarding Appeal)) and Message PTAB for review and entry of the appeal brief
+    </template>
+</category>
+<category>
+<pattern>_ APPEAL BRIEF</pattern>
+<template>
+<srai>APPEAL BRIEF</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPEAL BRIEF *</pattern>
+<template>
+<srai>APPEAL BRIEF</srai>
+</template>
+</category>
+
+<category>
+    <pattern>APPEAL FORWARDING FEE</pattern>
+    <template>
+        Appellant must pay the appeal forwarding fee within the later of two months of the date of the examiner's answer or a decision refusing to grant a petition under 37 CFR $1.181 to designate a new ground of rejection in the examiner's answer [37 CFR $41.45(a)]. Failure to pay the fee set forth in 37 CFR $41.20(b)(4) will result in dismissal of the appeal. After dismissal, the Tech Center will determine whether any allowable claims remain in the application or determine that the application stands abandoned. The period set forth in $41.45(a) cannot be extended by paying for an extension of time under 37 CFR $1.136(a)
+    </template>
+</category>
+<category>
+<pattern>_ APPEAL FORWARDING FEE</pattern>
+<template>
+<srai>APPEAL FORWARDING FEE</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPEAL FORWARDING FEE *</pattern>
+<template>
+<srai>APPEAL FORWARDING FEE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ORAL HEARING</pattern>
+    <template>
+        If appellant desires an oral hearing, appellant must file a written request, as a separate paper captioned "REQUEST FOR ORAL HEARING". The request and must be accompanied by the fee required by $41.20(b)(3). Appellant must file the request within the earlier of two months from the date of the examiner's answer or on the date of filing the reply brief. The primary examiner may present an oral argument at the hearing. Request on a Form PTOL-90 using FP 12.279.03 (MPEP $1209 and 37 CFR $41.47)
+    </template>
+</category>
+<category>
+<pattern>_ ORAL HEARING</pattern>
+<template>
+<srai>ORAL HEARING</srai>
+</template>
+</category>
+<category>
+<pattern>_ ORAL HEARING *</pattern>
+<template>
+<srai>ORAL HEARING</srai>
+</template>
+</category>
+
+<category>
+    <pattern>BROADEST REASONABLE INTERPRETATION</pattern>
+    <template>
+        Claims must be given their broadest reasonable interpretation (BRI) consistent with the supporting description (specification). Broadest reasonable interpretation leads to consideration of the following:
+        - Plain meaning of claim terms
+        - Explicit definitions, if any, in the specification
+        - Functional language
+            o Intended use statements
+            o Wherein/whereby clauses
+            o Capability
+        Broadest reasonable interpretation by the examiner reduces the possibility that the claim, once issued, will be interpreted more broadly than is justified. Applicant has the opportunity to amend the claims during prosecution. The USPTO's interpretation of claims in applications differs from how a court interprets claims an infringement case of an issued patent.
+    </template>
+</category>
+<category>
+<pattern>_ BROADEST REASONABLE INTERPRETATION</pattern>
+<template>
+<srai>BROADEST REASONABLE INTERPRETATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ BROADEST REASONABLE INTERPRETATION *</pattern>
+<template>
+<srai>BROADEST REASONABLE INTERPRETATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PLAIN MEANING</pattern>
+    <template>
+        Words and phrases in claims must be given their "plain meaning" as understood by one having ordinary skill in the art unless such meaning is inconsistent with a clearly expressed redefinition stated in the specification. The ordinary and customary meaning of a claim term is the meaning that the term would have to a person of ordinary skill in the art in question at the time of the invention, i.e., as of the effective filing date of the patent application.
+    </template>
+</category>
+<category>
+<pattern>_ PLAIN MEANING</pattern>
+<template>
+<srai>PLAIN MEANING</srai>
+</template>
+</category>
+<category>
+<pattern>_ PLAIN MEANING *</pattern>
+<template>
+<srai>PLAIN MEANING</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FUNCTIONAL LIMITATION</pattern>
+    <template>
+        A functional limitation is an attempt to define something by what it does, rather than by what it is (e.g., as evidenced by its specific structure or specific ingredients). A functional limitation is often used in association with an element, ingredient, or step of a process to define a particular capability or purpose that is served by the recited element, ingredient or step (MPEP $2173.05(g))
+    </template>
+</category>
+<category>
+<pattern>_ FUNCTIONAL LIMITATION</pattern>
+<template>
+<srai>FUNCTIONAL LIMITATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ FUNCTIONAL LIMITATION *</pattern>
+<template>
+<srai>FUNCTIONAL LIMITATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INTENDED USE LIMITATION</pattern>
+    <template>
+        An intended use statement may be found within the body of the claim or in the preamble. An intended use limitation may impart a structural limitation that is otherwise not found in the claim language, i.e., the reference may meet all recited structural limitations but still might not be capable of performing the intended use (MPEP $ 2111.02 (II); and Metabolite Labs., Inc. v. Corp. of Am. Holdings, 370 F.3d 1354, 1358-62, 71 USPQ2d 1081, 1084-87 (Fed. Cir. 2004).)
+        Examples of Intended Use Phrases:
+        Claim limitations that employ phrases of the type:
+        - "ADAPTED TO"
+        - "CAPABLE OF"
+        - "SUFFICIENT TO"
+        - "FOR" doing something
+        are typical of claim limitations which may not distinguish over prior art according to the principle of intended use. It has been held that the recitation that an element is "ADAPTED TO" perform or is "CAPABLE OF" performing a function is not a positive limitation but only requires the ability to so perform
+    </template>
+</category>
+<category>
+<pattern>_ INTENDED USE LIMITATION</pattern>
+<template>
+<srai>INTENDED USE LIMITATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTENDED USE LIMITATION *</pattern>
+<template>
+<srai>INTENDED USE LIMITATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COMPACT PROSECUTION</pattern>
+    <template>
+        Compact Prosecution is:
+        - Conducting an initial search which is as complete as possible;
+        - Citing pertinent art on the record in keeping with the scope of the claims as well as significant aspects of the disclosed invention;
+        - Issuing a complete first Office action on the merits which clearly explains the examiner's position on each essential issue; and
+        - Identifying allowable subject matter in an effort to expedite prosecution
+    </template>
+</category>
+<category>
+<pattern>_ COMPACT PROSECUTION</pattern>
+<template>
+<srai>COMPACT PROSECUTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ COMPACT PROSECUTION *</pattern>
+<template>
+<srai>COMPACT PROSECUTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CLARITY</pattern>
+    <template>
+        Clarity means fully conveying the positions being taken. An Office action is written for a varied audience. An Examiner is responsible for creating a clear, understandable and factually correct record.
+    </template>
+</category>
+<category>
+<pattern>_ CLARITY</pattern>
+<template>
+<srai>CLARITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLARITY *</pattern>
+<template>
+<srai>CLARITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MANUAL OF PATENT EXAMINING PROCEDURE</pattern>
+    <template>
+        This Manual is published to provide U.S. Patent and Trademark Office (USPTO) patent examiners, applicants, attorneys, agents, and representatives of applicants with a reference work on the practices and procedures relative to the prosecution of patent applications before the USPTO. The MPEP outlines the current procedures that patent examiners are required or authorized to follow in the normal examination of a patent application. The MPEP itself does not have the force of law (U.S. Code) or rules (Code of Federal Regulations)
+    </template>
+</category>
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE</pattern>
+<template>
+<srai>MANUAL OF PATENT EXAMINING PROCEDURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE *</pattern>
+<template>
+<srai>MANUAL OF PATENT EXAMINING PROCEDURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>MPEP</pattern>
+<template>
+<srai>MANUAL OF PATENT EXAMINING PROCEDURE</srai>
+</template>
+</category>
+<category>
+<pattern>* * MPEP</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> MPEP</srai>
+</template>
+</category>
+<category>
+<pattern>MPEP * * </pattern>
+<template>
+<srai>MPEP <star index="1"/> <star index="2"/></srai>
+</template>
+</category>
+<category>
+    <pattern>* MPEP</pattern>
+    <template>
+        <srai>MPEP</srai>
+    </template>
+</category>
+<category>
+    <pattern>* MPEP *</pattern>
+    <template>
+        <srai>MPEP</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>MPEP STATUTES</pattern>
+    <template>
+        Patent Laws passed by Congress
+    </template>
+</category>
+<category>
+<pattern>_ MPEP STATUTES</pattern>
+<template>
+<srai>MPEP STATUTES</srai>
+</template>
+</category>
+<category>
+<pattern>_ MPEP STATUTES *</pattern>
+<template>
+<srai>MPEP STATUTES</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MPEP REGULATIONS</pattern>
+    <template>
+        Patent Rules the USPTO has established and must follow except in extraordinary situations
+    </template>
+</category>
+<category>
+<pattern>_ MPEP REGULATIONS</pattern>
+<template>
+<srai>MPEP REGULATIONS</srai>
+</template>
+</category>
+<category>
+<pattern>_ MPEP REGULATIONS *</pattern>
+<template>
+<srai>MPEP REGULATIONS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MPEP CASE LAW</pattern>
+    <template>
+        Decisions made by judicial bodies. The MPEP contains case law that is relevant to USPTO policy. Cases are discussed in the MPEP by relevant topics and in Appendix II, List of Decisions Cited. The MPEP is the best source of case law for examiners and should always be consulted first. But, the MPEP is just a summary; it may be necessary to go beyond the MPEP and read the actual case to fully understand it
+    </template>
+</category>
+<category>
+<pattern>_ MPEP CASE LAW</pattern>
+<template>
+<srai>MPEP CASE LAW</srai>
+</template>
+</category>
+<category>
+<pattern>_ MPEP CASE LAW *</pattern>
+<template>
+<srai>MPEP CASE LAW</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MPEP POLICY</pattern>
+    <template>
+        Detailed guidance regarding operations of the USPTO
+    </template>
+</category>
+<category>
+<pattern>_ MPEP POLICY</pattern>
+<template>
+<srai>MPEP POLICY</srai>
+</template>
+</category>
+<category>
+<pattern>_ MPEP POLICY *</pattern>
+<template>
+<srai>MPEP POLICY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MPEP GUIDELINES</pattern>
+    <template>
+        Comprehensive analyses of individual topics. Guidelines do not have the force of statutes, court opinions, or regulations, but represent the manner in which the USPTO has directed its staff to implement USPTO policy on the discrete topics.
+    </template>
+</category>
+<category>
+<pattern>_ MPEP GUIDELINES</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+<category>
+<pattern>_ MPEP GUIDELINES *</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MPEP FORM PARAGRAPHS</pattern>
+    <template>
+        Prewritten templates that examiners use to convey information to applicants and attorneys. Form paragraphs are templates addressing commonly occurring issues for use when communicating such issues to outside parties. Use of form paragraphs promotes: Efficiency (No reinventing the wheel), Consistency (Same situation handled same way), Completeness (Paragraphs identify all needed items). Form paragraphs are quoted in multiple locations in the MPEP (within chapters and also consolidated in Form Paragraph Book)
+    </template>
+</category>
+<category>
+<pattern>_ MPEP FORM PARAGRAPHS</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+<category>
+<pattern>_ MPEP FORM PARAGRAPHS *</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ANTICIPATION</pattern>
+    <template>
+        When a single prior art reference describes, either expressly or inherently, each and every limitation of a claim. A single prior art reference anticipates the claimed invention by describing every limitation in the claim. The limitations may either be set forth expressly or be inherently present in the prior art reference
+    </template>
+</category>
+<category>
+<pattern>_ ANTICIPATION</pattern>
+<template>
+<srai>ANTICIPATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ ANTICIPATION *</pattern>
+<template>
+<srai>ANTICIPATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EVIDENCE TYPE</pattern>
+    <template>
+        - References - Printed documents, including patents (domestic and foreign) and other printed publications (non-patent literature, known as NPL); see MPEP 2126-2128
+        - Admissions - Statements by applicants that certain information was prior art to the inventor; see MPEP 2129
+        - Affidavits and Declarations - Evidence may be provided of knowledge and activity that constitute prior art - i.e. "sworn evidentiary statements"
+        - Knowledge in the Art - which may be evidenced by logical reasoning or common knowledge; see MPEP 2144 (such evidence is often made "of record" by "taking official notice;" see MPEP 2144.03)
+    </template>
+</category>
+<category>
+<pattern>_ EVIDENCE TYPE</pattern>
+<template>
+<srai>EVIDENCE TYPE</srai>
+</template>
+</category>
+<category>
+<pattern>_ EVIDENCE TYPE *</pattern>
+<template>
+<srai>EVIDENCE TYPE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ACTUAL FILING DATE</pattern>
+    <template>
+        The date upon which the application is filed with the USPTO
+    </template>
+</category>
+<category>
+<pattern>_ ACTUAL FILING DATE</pattern>
+<template>
+<srai>ACTUAL FILING DATE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ACTUAL FILING DATE *</pattern>
+<template>
+<srai>ACTUAL FILING DATE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EFFECTIVE FILING DATE</pattern>
+    <template>
+        The filing date of the earliest prior-filed U.S. application or international (PCT) application designating the U.S. that is identified in a valid domestic benefit claim
+    </template>
+</category>
+<category>
+<pattern>_ EFFECTIVE FILING DATE</pattern>
+<template>
+<srai>EFFECTIVE FILING DATE</srai>
+</template>
+</category>
+<category>
+<pattern>_ EFFECTIVE FILING DATE *</pattern>
+<template>
+<srai>EFFECTIVE FILING DATE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PRIORITY DATE</pattern>
+    <template>
+        The application may be entitled to the benefit of the filing date of an earlier foreign application if certain conditions are met
+    </template>
+</category>
+<category>
+<pattern>_ PRIORITY DATE</pattern>
+<template>
+<srai>PRIORITY DATE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRIORITY DATE *</pattern>
+<template>
+<srai>PRIORITY DATE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DOMESTIC BENEFIT</pattern>
+    <template>
+        An application for patent, provided certain conditions are met, is entitled to the benefit of the filing date of: a prior non-provisional application under 35 U.S.C. $120 or $121, a provisional application under 35 U.S.C. $119(e), or an international (PCT) application designating the U.S. under 35 U.S.C. $365(c). See MPEP $211 for conditions required for the benefit claim
+    </template>
+</category>
+<category>
+<pattern>_ DOMESTIC BENEFIT</pattern>
+<template>
+<srai>DOMESTIC BENEFIT</srai>
+</template>
+</category>
+<category>
+<pattern>_ DOMESTIC BENEFIT *</pattern>
+<template>
+<srai>DOMESTIC BENEFIT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DOMESTIC BENEFIT CLAIMED</pattern>
+    <template>
+        A reference to the prior non-provisional or provisional application must be made in the Application Data Sheet (ADS) filed by the applicant. Note: For applications filed before September 16, 2012, domestic benefit claims are permitted to be made in the first sentence(s) of the specification following the title, or in an ADS. There must be a continuous chain of copendency to the earliest claimed filing date (See MPEP $211.01(b)). Consecutive applications must have at least one common inventor. Claimed subject matter must have support continuously all the way back to the earliest claimed filing date to get benefit of that date.
+    </template>
+</category>
+<category>
+<pattern>_ DOMESTIC BENEFIT CLAIMED</pattern>
+<template>
+<srai>DOMESTIC BENEFIT CLAIMED</srai>
+</template>
+</category>
+<category>
+<pattern>_ DOMESTIC BENEFIT CLAIMED *</pattern>
+<template>
+<srai>DOMESTIC BENEFIT CLAIMED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>NONPROVISIONAL APPLICATION</pattern>
+    <template>
+        Initiates examination process. Establishes filing date. If granted, carries legal rights to exclude others from making, using, offering for sale, selling, or importing the claimed invention, for a limited time. Must include: Specification including at least one claim, Drawings (if necessary), Oath or declaration, and The appropriate fees
+    </template>
+</category>
+<category>
+<pattern>_ NONPROVISIONAL APPLICATION</pattern>
+<template>
+<srai>NONPROVISIONAL APPLICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ NONPROVISIONAL APPLICATION *</pattern>
+<template>
+<srai>NONPROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PROVISIONAL APPLICATION</pattern>
+    <template>
+        Low-cost submission to establish filing date. Provisional applications are not examined. Automatic abandonment after one year. Inventor given time to investigate market potential and/or make improvements. The term patent pending can be applied. Inventors may use this term during the time period after the patent application (provisional, nonprovisional, design, or plant) has been filed, but before the patent has been issued.
+    </template>
+</category>
+<category>
+<pattern>_ PROVISIONAL APPLICATION</pattern>
+<template>
+<srai>PROVISIONAL APPLICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROVISIONAL APPLICATION *</pattern>
+<template>
+<srai>PROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT COOPERATION TREATY</pattern>
+    <template>
+        The PCT is an international treaty that simplifies the process of filing foreign patent applications. Applicants file an international application, usually in their home country's patent office. The international application may include a priority claim to a corresponding application filed:
+        - Within the previous 12 months, or
+        - Within 14 months if a request for restoration has been granted to restore the priority right in the international phase
+        A single international application has the effect of a regular national application in all contracting states to the PCT, as of the international filing date. Applicant receives an early indication of pertinent prior art and a written opinion as to the novelty, inventive step, and industrial applicability of the claimed invention.
+    </template>
+</category>
+<category>
+<pattern>_ PATENT COOPERATION TREATY</pattern>
+<template>
+<srai>PATENT COOPERATION TREATY</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT COOPERATION TREATY *</pattern>
+<template>
+<srai>PATENT COOPERATION TREATY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REISSUE APPLICATION</pattern>
+    <template>
+        Special type of application in which a granted patent is offered for surrender for additional examination. Filed to correct an error in the patent that was made without any deceptive intent and where, as a result of the error, the patent is deemed wholly or partly inoperative or invalid (See MPEP 1402, 1416)
+    </template>
+</category>
+<category>
+<pattern>_ REISSUE APPLICATION</pattern>
+<template>
+<srai>REISSUE APPLICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REISSUE APPLICATION *</pattern>
+<template>
+<srai>REISSUE APPLICATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REISSUE PATENT</pattern>
+    <template>
+        Reissued patent may result in newly defined patent rights, for example by amendments to the claims. Reissue permitted for only the unexpired portion of the term of the original patent.
+    </template>
+</category>
+<category>
+<pattern>_ REISSUE PATENT</pattern>
+<template>
+<srai>REISSUE PATENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ REISSUE PATENT *</pattern>
+<template>
+<srai>REISSUE PATENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112</pattern>
+    <template>
+        It is type of rejection based on whether or not the claimed subject matter (under 112(a) written description - is supported by the specification to show the inventor had possession of the claimed subject matter) or (112(a) - is sufficiently enabled such that one of ordinary skill in the art could make and use without undue experimentation) or 112(b) - whether the claims are sufficiently definite to understand the "metes and bounds" of what is being claimed
+    </template>
+</category>
+<category>
+<pattern>_ 112</pattern>
+<template>
+<srai>112</srai>
+</template>
+</category>
+<category>
+<pattern>_ 112 *</pattern>
+<template>
+<srai>112</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112A</pattern>
+    <template>
+        (a) IN GENERAL The specification shall contain a written description of the invention, and of the manner and process of making and using it, in such full, clear, concise, and exact terms as to enable any person skilled in the art to which it pertains, or with which it is most nearly connected, to make and use the same, and shall set forth the best mode contemplated by the inventor or joint inventor of carrying out the invention.
+
+        It is type of rejection based on whether or not the claimed subject is sufficiently enabled such that one of ordinary skill in the art could make and use without undue experimentation.
+        The specification shall contain a written description of the invention, and of the manner and process of making and using it, in such full, clear, concise, and exact terms as to enable any person skilled in the art to which it pertains, or with which it is most nearly connected, to make and use the same, and shall set forth the best mode contemplated by the inventor or joint inventor of carrying out the invention.
+    </template>
+</category>
+<category>
+<pattern>_ 112A</pattern>
+<template>
+<srai>112A</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112D</pattern>
+    <template>
+        (d) REFERENCE IN DEPENDENT FORMS.—Subject to subsection (e), a claim in dependent form shall contain a reference to a claim previously set forth and then specify a further limitation of the subject matter claimed. A claim in dependent form shall be construed to incorporate by reference all the limitations of the claim to which it refers.
+
+        35 U.S.C. $112(d) states in pertinent part: [A] claim in dependent form shall contain a reference to a claim previously set forth and then specify a further limitation of the subject matter claimed. A claim in dependent form shall be construed to incorporate by reference all the limitations of the claim to which it refers. For example: Claim 1. A product comprising [recites limitations A, B, C, and D]. Claim 2. The product of claim 1 which further comprises [E].
+        Under 35 U.S.C. $112(d), a dependent claim is required to: Contain a reference to a previous claim, and Specify a further limitation of the subject matter claimed. If it does not satisfy these requirements, the claim should be rejected under 35 U.S.C. $112(d), rather than being objected to, and then examined on the merits. (MPEP $608.01(n)(II and III))
+    </template>
+</category>
+<category>
+<pattern>_ 112D</pattern>
+<template>
+<srai>112D</srai>
+</template>
+</category>
+<category>
+<pattern>_ 112D *</pattern>
+<template>
+<srai>112D</srai>
+</template>
+</category>
+
+<category>
+    <pattern>112E</pattern>
+    <template>
+        (e) REFERENCE IN MULTIPLE DEPENDENT FORM.—A claim in multiple dependent form shall contain a reference, in the alternative only, to more than one claim previously set forth and then specify a further limitation of the subject matter claimed. A multiple dependent claim shall not serve as a basis for any other multiple dependent claim. A multiple dependent claim shall be construed to incorporate by reference all the limitations of the particular claim in relation to which it is being considered.
+    </template>
+</category>
+<category>
+<pattern>_ 112E</pattern>
+<template>
+<srai>112E</srai>
+</template>
+</category>
+<category>
+<pattern>_ 112E *</pattern>
+<template>
+<srai>112E</srai>
+</template>
+</category>
+
+<category>
+    <pattern>BILSKI</pattern>
+    <template>
+        Bilski v. Kappos, 561 U.S. 593 (2010), was a case decided by the Supreme Court of the United States holding that the machine-or-transformation test is not the sole test for determining the patent eligibility of a process, but rather "a useful and important clue, an investigative tool, for determining whether some claimed inventions are processes under § 101."[1] In so doing, the Supreme Court affirmed the rejection of an application for a patent on a method of hedging losses in one segment of the energy industry by making investments in other segments of that industry, on the basis that the abstract investment strategy set forth in the application was not patentable subject matter.
+    </template>
+</category>
+<category>
+<pattern>_ BILSKI</pattern>
+<template>
+<srai>BILSKI</srai>
+</template>
+</category>
+<category>
+<pattern>_ BILSKI *</pattern>
+<template>
+<srai>BILSKI</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INFORMATION DISCLOSURE STATEMENT</pattern>
+    <template>
+        An information disclosure statement (often abbreviated as IDS) refers to a submission of relevant background art or information to the United States Patent and Trademark Office (USPTO) by an applicant for a patent during the patent prosecution process. There is a duty on all patent applicants to disclose prior art or background information that may be relevant to the patentability of the applicant's invention, as established by the United States Code title 35 and related sections of 37 CFR and the Manual of Patent Examining Procedure (MPEP). If a patent applicant knowingly or intentionally fails to submit prior art to the USPTO, then any patent that later issues from the patent application may be declared unenforceable. Furthermore, the duty to submit such relevant information to the USPTO lies not only on the applicant or inventor, but also on any patent attorney or other legal staff employed by the applicant.
+    </template>
+</category>
+<category>
+<pattern>_ INFORMATION DISCLOSURE STATEMENT</pattern>
+<template>
+<srai>INFORMATION DISCLOSURE STATEMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ INFORMATION DISCLOSURE STATEMENT *</pattern>
+<template>
+<srai>INFORMATION DISCLOSURE STATEMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>IDS</pattern>
+<template>
+<srai>INFORMATION DISCLOSURE STATEMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ IDS</pattern>
+<template>
+<srai>INFORMATION DISCLOSURE STATEMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ IDS *</pattern>
+<template>
+<srai>INFORMATION DISCLOSURE STATEMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PTO 892</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s707.html">PTO-892</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PTO 892</pattern>
+<template>
+<srai>PTO 892</srai>
+</template>
+</category>
+<category>
+<pattern>_ PTO 892 *</pattern>
+<template>
+<srai>PTO 892</srai>
+</template>
+</category>
+
+<category>
+    <pattern>APPLICATION DATA SHEET</pattern>
+    <template>
+        You can find it here: <![CDATA[<a target="_new" href="https://www.uspto.gov/patents-application-process/applying-online/form-fillable-pdfs-available">APPLICATION DATA SHEET</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ APPLICATION DATA SHEET</pattern>
+<template>
+<srai>APPLICATION DATA SHEET</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPLICATION DATA SHEET *</pattern>
+<template>
+<srai>APPLICATION DATA SHEET</srai>
+</template>
+</category>
+
+<category>
+    <pattern>METES AND BOUNDS</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s2173.html">METES AND BOUNDS</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ METES AND BOUNDS</pattern>
+<template>
+<srai>METES AND BOUNDS</srai>
+</template>
+</category>
+<category>
+<pattern>_ METES AND BOUNDS *</pattern>
+<template>
+<srai>METES AND BOUNDS</srai>
+</template>
+</category>
+
+</aiml>

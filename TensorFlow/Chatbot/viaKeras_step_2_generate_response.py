@@ -1,11 +1,36 @@
-from TensorFlow.Chatbot.viaKeras_utils import bow, classify, response, get_context
+from TensorFlow.Chatbot.viaKeras_model_utils import bow, classify, response, get_context
 
-print(classify('what we need to do for 101?'))
-print(classify('what we need to do for 101 that deals with significantly more for patents?'))
-print(classify('what about 102(a)(1)?'))
-print(classify('public use? what the hell does that mean?'))
-print(classify('now, i am confused. what"s 102(a)(2) then?'))
-print(classify('what do they mean when they say it is available to the public?'))
+test_sentences = ["what's \"101\" means when it comes to the world of the patents",
+                  "tell me about \"101 significantly more\"",
+                  "explain 102(a)(1) to me",
+                  "what's the definition of public use",
+                  "what's the definition of \"public use\"",
+                  "i am confused about 102(a)(2)",
+                  "what do they mean when they say that it is \"available to public\"?",
+                  "what's 112b?",
+                  "what's 112a second requirement?",
+                  "what's 112a third requirement?",
+                  "how do you define a prior art?",
+                  "how about some misspelling in externsion of time fee",
+                  "what can you tell me about trademarks",
+                  "what is rule 1.105?",
+                  "duty to disclose",
+                  "I need a LINK TO MANUAL OF PATENT EXAMINING PROCEDURE",
+                  "what can you tell me about TRADEMARK IN CLAIMS",
+                  "COURT OF APPEALS FEDERAL CIRCUIT",
+                  "Scott loves to ask about Rule 105",
+                  "What does it mean to \"First to invent\"",
+                  "tell me about prior art 103",
+                  "restriction?",
+                  "quayle - what is it"
+                  ]
+
+for test_sentence in test_sentences:
+    print("****************************")
+    print("sentence '%s'" % test_sentence)
+    print("classified as %r'" % classify(test_sentence))
+    print("responce given '%s'" % response(test_sentence))
+    print("****************************")
 
 
 '''
