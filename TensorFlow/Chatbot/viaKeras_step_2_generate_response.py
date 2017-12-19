@@ -29,7 +29,7 @@ for test_sentence in test_sentences:
     print("****************************")
     print("sentence '%s'" % test_sentence)
     print("classified as %r'" % classify(test_sentence))
-    print("responce given '%s'" % response(test_sentence))
+    print("response given '%s'" % response(test_sentence))
     print("****************************")
 
 

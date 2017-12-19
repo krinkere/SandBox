@@ -97,14 +97,13 @@ train_y = list(training[:, 1])
 
 # build model
 model = Sequential()
-tmp_test = len(train_x[0])
-model.add(Dense(50, input_shape=(tmp_test,), activation='relu', name='Input_Layer'))
+model.add(Dense(50, input_shape=(len(train_x[0]),), activation='relu', name='Input_Layer'))
 model.add(Dense(100, activation='relu', name="Hidden_Layer_1"))
 model.add(Dense(50, activation='relu', name="Hidden_Layer_2"))
 model.add(Dense(len(train_y[0]), activation='softmax', name="Output_Layer"))
 print(model.summary())
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-# Train the model3
+# Train the model
 # model.fit(train_x, train_y, epochs=1000, batch_size=8, verbose=1, callbacks=[tensorboard])
 model.fit(train_x, train_y, epochs=1000, batch_size=8, verbose=1)
 # Save the model to disk
